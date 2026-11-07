@@ -54,6 +54,9 @@ a { color: var(--gold); }
 }
 .small { font-family: var(--sans); font-size: 12px; letter-spacing: 0.08em; color: var(--muted); }
 h1, h2, h3 { font-family: var(--serif-display); font-weight: 600; margin: 0; line-height: 1.12; }
+/* Cormorant Garamond defaults to old-style figures; use lining figures for day and room numbers.
+   The attribute selector catches inline styles (fontFamily: 'var(--serif-display)'). */
+h1, h2, h3, [style*="--serif-display"] { font-variant-numeric: lining-nums; }
 
 .prose { display: flex; flex-direction: column; gap: 14px; font-size: 18px; line-height: 1.62; text-wrap: pretty; hyphens: auto; }
 .prose p { margin: 0; }
