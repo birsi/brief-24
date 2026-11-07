@@ -1,8 +1,9 @@
 import { useEffect } from 'react';
 import { Link, Navigate, useParams } from 'react-router-dom';
 import { Ornament, Snow, Sparks } from '../components/Decor';
+import NotebookNews from '../components/NotebookNews';
 import { AudioPlayer, Media, StampCard, StoryText, TopBar, mediaPath } from '../components/ui';
-import { DAYS } from '../game/crypto';
+import { DAYS } from '../game/content';
 import { useGame } from '../game/store';
 
 const ROMAN = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'];
@@ -79,6 +80,8 @@ export default function Delivered() {
           ))}
         </div>
       ) : null}
+
+      <NotebookNews />
 
       <div style={{ margin: '28px 16px 48px', display: 'flex', flexDirection: 'column', gap: 10 }}>
         <Link to="/" className="btn btn-outline-gold">Zum Kalender</Link>

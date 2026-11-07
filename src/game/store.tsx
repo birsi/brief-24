@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
-import { checkDevSecret, devSolve, openPayload, tryAnswer, type TryResult } from './crypto';
+import { checkAnswer, DAYS, type TryResult } from './content';
 import { notebookState, type NotebookState, type NotebookTab } from './notebook';
 import type { NotebookEntry, Payload } from './types';
 
@@ -21,12 +21,13 @@ function loadSeen(): Set<string> {
 }
 
 type Progress = {
-  solved: Record<number, string>;
+  /** Day → time it was solved. */
+  solved: Record<number, number>;
   opened: Record<number, number>;
   hints: Record<number, number>;
 };
 
-type DevState = { secret: string | null; ignoreDate: boolean; ignoreOrder: boolean; simDate: string | null; showSolutions: boolean };
+type DevState = { on: boolean; ignoreDate: boolean; ignoreOrder: boolean; simDate: string | null; showSolutions: boolean };
 
 function load<T>(key: string, fallback: T): T {
   try {
@@ -60,7 +61,7 @@ type Ctx = {
   isDev: boolean;
   isUnlocked: (num: number) => boolean;
   isSolved: (num: number) => boolean;
-  submit: (num: number, input: string) => Promise<TryResult>;
+  submit: (num: number, input: string) => TryResult;
   markOpened: (num: number) => void;
   revealHint: (num: number) => void;
   notebook: Set<NotebookEntry>;
@@ -69,12 +70,9 @@ type Ctx = {
   /** Unseen notebook items per tab, and all of them. */
   unseen: Record<NotebookTab, string[]> & { all: string[] };
   markSeen: (keys: string[]) => void;
-  /** True once the payloads of solved days are decrypted after loading. */
-  ready: boolean;
   // Dev mode
-  enableDev: (secret: string) => Promise<boolean>;
   setDev: (patch: Partial<DevState>) => void;
-  devSolveDay: (num: number) => Promise<boolean>;
+  devSolveDay: (num: number) => void;
   resetDay: (num: number) => void;
   resetAll: () => void;
 };
@@ -83,9 +81,7 @@ const GameCtx = createContext<Ctx | null>(null);
 
 export function GameProvider({ children }: { children: ReactNode }) {
   const [progress, setProgress] = useState<Progress>(() => load(KEY, { solved: {}, opened: {}, hints: {} }));
-  const [dev, setDevState] = useState<DevState>(() => load(DEV_KEY, { secret: null, ignoreDate: false, ignoreOrder: false, simDate: null, showSolutions: false }));
-  const [payloads, setPayloads] = useState<Record<number, Payload>>({});
-  const [ready, setReady] = useState(false);
+  const [dev, setDevState] = useState<DevState>(() => load(DEV_KEY, { on: false, ignoreDate: false, ignoreOrder: false, simDate: null, showSolutions: false }));
   const [seen, setSeen] = useState<Set<string>>(loadSeen);
   const [now, setNow] = useState(viennaToday());
 
@@ -106,46 +102,16 @@ export function GameProvider({ children }: { children: ReactNode }) {
     return () => clearInterval(t);
   }, []);
 
-  // Decrypt the content of already solved days.
+  // ?dev in the URL turns on dev mode.
   useEffect(() => {
-    let alive = true;
-    (async () => {
-      const next: Record<number, Payload> = {};
-      for (const [num, key] of Object.entries(progress.solved)) {
-        const p = await openPayload(Number(num), key);
-        if (p) next[Number(num)] = p;
-      }
-      if (!alive) return;
-      setPayloads(next);
-      setReady(true);
-      // Drop saved solutions that no longer decrypt (e.g. progress from an older build).
-      const stale = Object.keys(progress.solved).filter((nr) => !next[Number(nr)]);
-      if (stale.length) {
-        setProgress((p) => {
-          const solved = { ...p.solved };
-          for (const nr of stale) delete solved[Number(nr)];
-          return { ...p, solved };
-        });
-      }
-    })();
-    return () => {
-      alive = false;
-    };
-  }, [progress.solved]);
-
-  // ?dev=secret in the URL unlocks dev mode.
-  useEffect(() => {
-    const p = new URLSearchParams(window.location.search).get('dev');
-    if (!p) return;
-    checkDevSecret(p).then((ok) => {
-      if (ok) setDevState((d) => ({ ...d, secret: p }));
-      const url = new URL(window.location.href);
-      url.searchParams.delete('dev');
-      window.history.replaceState(null, '', url.toString());
-    });
+    const url = new URL(window.location.href);
+    if (!url.searchParams.has('dev')) return;
+    setDevState((d) => ({ ...d, on: true }));
+    url.searchParams.delete('dev');
+    window.history.replaceState(null, '', url.toString());
   }, []);
 
-  const isDev = !!dev.secret;
+  const isDev = dev.on;
   const today = isDev && dev.simDate ? dev.simDate : now;
 
   // A day opens once its date has come and the previous day is solved.
@@ -160,12 +126,9 @@ export function GameProvider({ children }: { children: ReactNode }) {
   );
   const isSolved = useCallback((num: number) => !!progress.solved[num], [progress.solved]);
 
-  const submit = useCallback(async (num: number, input: string) => {
-    const res = await tryAnswer(num, input);
-    if (res.ok) {
-      setPayloads((p) => ({ ...p, [num]: res.payload }));
-      setProgress((p) => ({ ...p, solved: { ...p.solved, [num]: res.key } }));
-    }
+  const submit = useCallback((num: number, input: string) => {
+    const res = checkAnswer(num, input);
+    if (res.ok) setProgress((p) => ({ ...p, solved: { ...p.solved, [num]: Date.now() } }));
     return res;
   }, []);
 
@@ -176,6 +139,13 @@ export function GameProvider({ children }: { children: ReactNode }) {
   const revealHint = useCallback((num: number) => {
     setProgress((p) => ({ ...p, hints: { ...p.hints, [num]: Math.min(3, (p.hints[num] ?? 0) + 1) } }));
   }, []);
+
+  // The revealed content of solved days.
+  const payloads = useMemo(() => {
+    const out: Record<number, Payload> = {};
+    for (const num of Object.keys(progress.solved)) if (DAYS[Number(num) - 1]) out[Number(num)] = DAYS[Number(num) - 1];
+    return out;
+  }, [progress.solved]);
 
   const book = useMemo(() => notebookState(progress, payloads), [progress, payloads]);
   const notebook = book.entries;
@@ -189,25 +159,11 @@ export function GameProvider({ children }: { children: ReactNode }) {
     setSeen((s) => (keys.every((k) => s.has(k)) ? s : new Set([...s, ...keys])));
   }, []);
 
-  const enableDev = useCallback(async (secret: string) => {
-    const ok = await checkDevSecret(secret);
-    if (ok) setDevState((d) => ({ ...d, secret }));
-    return ok;
-  }, []);
   const setDev = useCallback((patch: Partial<DevState>) => setDevState((d) => ({ ...d, ...patch })), []);
 
-  const devSolveDay = useCallback(
-    async (num: number) => {
-      if (!dev.secret) return false;
-      const res = await devSolve(num, dev.secret);
-      if (res.ok) {
-        setPayloads((p) => ({ ...p, [num]: res.payload }));
-        setProgress((p) => ({ ...p, solved: { ...p.solved, [num]: res.key }, opened: { ...p.opened, [num]: p.opened[num] ?? Date.now() } }));
-      }
-      return res.ok;
-    },
-    [dev.secret],
-  );
+  const devSolveDay = useCallback((num: number) => {
+    setProgress((p) => (p.solved[num] ? p : { ...p, solved: { ...p.solved, [num]: Date.now() }, opened: { ...p.opened, [num]: p.opened[num] ?? Date.now() } }));
+  }, []);
 
   const resetDay = useCallback((num: number) => {
     setProgress((p) => {
@@ -240,8 +196,6 @@ export function GameProvider({ children }: { children: ReactNode }) {
     book,
     unseen,
     markSeen,
-    ready,
-    enableDev,
     setDev,
     devSolveDay,
     resetDay,

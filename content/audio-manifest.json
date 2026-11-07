@@ -1,6 +1,6 @@
 {
   "day-02/narration": {
-    "hash": "022bdee86ec6060c",
+    "hash": "ad3969eed2fd0901",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -12,7 +12,8 @@
       "speed": 0.95
     },
     "chars": 1255,
-    "generated": "2026-11-07T18:58:15.027Z"
+    "generated": "2026-11-07T18:58:15.027Z",
+    "textNote": "Kept on purpose (2026-11-07): sounds fine, not regenerated for Fanni/digits"
   },
   "day-02/continuation": {
     "hash": "37291c69678dd5f1",
@@ -21,7 +22,8 @@
     "chars": 501,
     "generated": "2026-11-07T17:55:38.196Z",
     "seed": null,
-    "note": "Generated before the fixed seed; kept on purpose"
+    "note": "Generated before the fixed seed; kept on purpose",
+    "textNote": "Kept on purpose (2026-11-07): sounds fine, not regenerated for Fanni/digits"
   },
   "day-03/narration": {
     "hash": "c141bb92463c2421",
@@ -66,10 +68,11 @@
       "speed": 0.95
     },
     "chars": 1434,
-    "generated": "2026-11-07T18:17:14.298Z"
+    "generated": "2026-11-07T18:17:14.298Z",
+    "textNote": "Spoken text identical to the recording (numbers spelled out via pronunciations)"
   },
   "day-04/continuation": {
-    "hash": "55f35c3b0d3ecb10",
+    "hash": "bf116a5f61ab2e5a",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -81,10 +84,10 @@
       "speed": 0.95
     },
     "chars": 463,
-    "generated": "2026-11-07T18:17:16.650Z"
+    "generated": "2026-11-07T21:01:12.369Z"
   },
   "day-05/narration": {
-    "hash": "0046f50fe8ef1c22",
+    "hash": "b769fcb2e5cbbb38",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -96,10 +99,10 @@
       "speed": 0.95
     },
     "chars": 828,
-    "generated": "2026-11-07T18:58:18.956Z"
+    "generated": "2026-11-07T21:01:16.354Z"
   },
   "day-05/continuation": {
-    "hash": "be93a2cffeecce16",
+    "hash": "edcffa07b44f7375",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -111,10 +114,10 @@
       "speed": 0.95
     },
     "chars": 428,
-    "generated": "2026-11-07T18:17:21.869Z"
+    "generated": "2026-11-07T21:01:18.314Z"
   },
   "day-06/narration": {
-    "hash": "5645b4c5929f77e9",
+    "hash": "b139d4e034156888",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -126,7 +129,7 @@
       "speed": 0.95
     },
     "chars": 841,
-    "generated": "2026-11-07T18:17:25.507Z"
+    "generated": "2026-11-07T21:01:22.023Z"
   },
   "day-06/continuation": {
     "hash": "f1f0dce9bdcdf117",
@@ -144,7 +147,7 @@
     "generated": "2026-11-07T18:17:28.040Z"
   },
   "day-07/narration": {
-    "hash": "35540d6b4b185d2e",
+    "hash": "671e8668c98a5334",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -156,10 +159,10 @@
       "speed": 0.95
     },
     "chars": 926,
-    "generated": "2026-11-07T18:17:32.503Z"
+    "generated": "2026-11-07T21:01:26.313Z"
   },
   "day-07/continuation": {
-    "hash": "f0d7aaaa4e26fe0f",
+    "hash": "4c340f3a13d0c22e",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -171,10 +174,10 @@
       "speed": 0.95
     },
     "chars": 675,
-    "generated": "2026-11-07T18:58:22.038Z"
+    "generated": "2026-11-07T21:01:29.535Z"
   },
   "day-08/narration": {
-    "hash": "68e8ed75ae833e08",
+    "hash": "651fcf8f84411462",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -186,10 +189,10 @@
       "speed": 0.95
     },
     "chars": 1127,
-    "generated": "2026-11-07T18:58:27.009Z"
+    "generated": "2026-11-07T21:01:34.424Z"
   },
   "day-08/continuation": {
-    "hash": "93d1186b8b21b1f1",
+    "hash": "61cd05c24df1a340",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -201,7 +204,7 @@
       "speed": 0.95
     },
     "chars": 422,
-    "generated": "2026-11-07T18:17:41.662Z"
+    "generated": "2026-11-07T21:01:36.556Z"
   },
   "day-09/narration": {
     "hash": "b59bb3887775b312",
@@ -216,7 +219,8 @@
       "speed": 0.95
     },
     "chars": 912,
-    "generated": "2026-11-07T18:17:45.666Z"
+    "generated": "2026-11-07T18:17:45.666Z",
+    "textNote": "Spoken text identical to the recording (numbers spelled out via pronunciations)"
   },
   "day-09/continuation": {
     "hash": "196224993061ccd3",
@@ -231,10 +235,11 @@
       "speed": 0.95
     },
     "chars": 378,
-    "generated": "2026-11-07T18:17:47.400Z"
+    "generated": "2026-11-07T18:17:47.400Z",
+    "textNote": "Spoken text identical to the recording (numbers spelled out via pronunciations)"
   },
   "day-10/narration": {
-    "hash": "66dc44fc39b59768",
+    "hash": "b6c40daa4d57111e",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -246,10 +251,10 @@
       "speed": 0.95
     },
     "chars": 928,
-    "generated": "2026-11-07T18:17:51.663Z"
+    "generated": "2026-11-07T21:01:40.791Z"
   },
   "day-10/continuation": {
-    "hash": "573c7b9125e766a8",
+    "hash": "6794d5dfcd37067b",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -261,10 +266,10 @@
       "speed": 0.95
     },
     "chars": 559,
-    "generated": "2026-11-07T18:17:54.447Z"
+    "generated": "2026-11-07T21:01:43.580Z"
   },
   "day-11/narration": {
-    "hash": "a5fff9a2f765cd22",
+    "hash": "3f6bd3b6e46b605d",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -276,7 +281,7 @@
       "speed": 0.95
     },
     "chars": 934,
-    "generated": "2026-11-07T18:17:58.477Z"
+    "generated": "2026-11-07T21:01:47.690Z"
   },
   "day-11/continuation": {
     "hash": "187faec3d937b615",
@@ -294,7 +299,7 @@
     "generated": "2026-11-07T18:18:01.199Z"
   },
   "day-12/narration": {
-    "hash": "a4d8bd48b61c0828",
+    "hash": "7f69222011a55754",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -306,10 +311,10 @@
       "speed": 0.95
     },
     "chars": 642,
-    "generated": "2026-11-07T18:18:04.215Z"
+    "generated": "2026-11-07T21:01:50.864Z"
   },
   "day-12/continuation": {
-    "hash": "f9da316b4d9d68b4",
+    "hash": "3b90f7ea8b415138",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -321,10 +326,10 @@
       "speed": 0.95
     },
     "chars": 877,
-    "generated": "2026-11-07T18:18:08.140Z"
+    "generated": "2026-11-07T21:01:54.714Z"
   },
   "day-13/narration": {
-    "hash": "32ce4d32a4e23ff5",
+    "hash": "5c624ec4409c7c31",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -336,7 +341,7 @@
       "speed": 0.95
     },
     "chars": 925,
-    "generated": "2026-11-07T18:18:12.395Z"
+    "generated": "2026-11-07T21:01:58.941Z"
   },
   "day-13/continuation": {
     "hash": "cbecd08319a67649",
@@ -354,7 +359,7 @@
     "generated": "2026-11-07T18:18:15.059Z"
   },
   "day-14/narration": {
-    "hash": "8b00c20934d93d35",
+    "hash": "84f589c669f88635",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -366,10 +371,10 @@
       "speed": 0.95
     },
     "chars": 960,
-    "generated": "2026-11-07T18:18:19.414Z"
+    "generated": "2026-11-07T21:02:03.481Z"
   },
   "day-14/continuation": {
-    "hash": "6ef25210a66f8efd",
+    "hash": "bc29f7936d15640f",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -381,10 +386,10 @@
       "speed": 0.95
     },
     "chars": 937,
-    "generated": "2026-11-07T18:18:23.795Z"
+    "generated": "2026-11-07T21:02:07.879Z"
   },
   "day-15/narration": {
-    "hash": "45e1682fb64fc8b2",
+    "hash": "03774ae55786df01",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -396,7 +401,7 @@
       "speed": 0.95
     },
     "chars": 988,
-    "generated": "2026-11-07T18:18:28.434Z"
+    "generated": "2026-11-07T21:02:12.431Z"
   },
   "day-15/continuation": {
     "hash": "8487e47e10ba8d0b",
@@ -414,7 +419,7 @@
     "generated": "2026-11-07T18:18:30.778Z"
   },
   "day-16/narration": {
-    "hash": "91e043e930a90055",
+    "hash": "7c5a9b8db36adffe",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -426,10 +431,10 @@
       "speed": 0.95
     },
     "chars": 786,
-    "generated": "2026-11-07T18:18:34.618Z"
+    "generated": "2026-11-07T21:02:16.402Z"
   },
   "day-16/continuation": {
-    "hash": "5cb85eed84a81710",
+    "hash": "6cf15f93d841d8c8",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -441,10 +446,10 @@
       "speed": 0.95
     },
     "chars": 732,
-    "generated": "2026-11-07T18:18:38.115Z"
+    "generated": "2026-11-07T21:02:19.797Z"
   },
   "day-17/narration": {
-    "hash": "ade10a0b4c49cf29",
+    "hash": "6c812eb0eef690bb",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -456,7 +461,7 @@
       "speed": 0.95
     },
     "chars": 940,
-    "generated": "2026-11-07T18:18:42.407Z"
+    "generated": "2026-11-07T21:02:24.000Z"
   },
   "day-17/continuation": {
     "hash": "f9adb6100a788a35",
@@ -474,7 +479,7 @@
     "generated": "2026-11-07T18:18:45.447Z"
   },
   "day-18/narration": {
-    "hash": "c4d3b6ee7e96cb0b",
+    "hash": "eea9520fe7bee64c",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -486,7 +491,7 @@
       "speed": 0.95
     },
     "chars": 1162,
-    "generated": "2026-11-07T18:18:50.622Z"
+    "generated": "2026-11-07T21:02:29.300Z"
   },
   "day-18/continuation": {
     "hash": "b33934ad906b5be7",
@@ -504,7 +509,7 @@
     "generated": "2026-11-07T18:18:53.617Z"
   },
   "day-19/narration": {
-    "hash": "3394b14c5b62ffd6",
+    "hash": "57b5fe0aa82b79aa",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -516,10 +521,10 @@
       "speed": 0.95
     },
     "chars": 1099,
-    "generated": "2026-11-07T18:58:32.250Z"
+    "generated": "2026-11-07T21:02:34.442Z"
   },
   "day-19/continuation": {
-    "hash": "bddfdcea9f0eb1dc",
+    "hash": "9833ebdeb23be595",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -531,7 +536,7 @@
       "speed": 0.95
     },
     "chars": 612,
-    "generated": "2026-11-07T18:19:01.206Z"
+    "generated": "2026-11-07T21:02:37.550Z"
   },
   "day-20/narration": {
     "hash": "617de1eafea570ad",
@@ -546,10 +551,11 @@
       "speed": 0.95
     },
     "chars": 870,
-    "generated": "2026-11-07T18:19:05.197Z"
+    "generated": "2026-11-07T18:19:05.197Z",
+    "textNote": "Spoken text identical to the recording (numbers spelled out via pronunciations)"
   },
   "day-20/continuation": {
-    "hash": "da4fc01c8eeb7f1d",
+    "hash": "0f20db1502542513",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -561,7 +567,7 @@
       "speed": 0.95
     },
     "chars": 1015,
-    "generated": "2026-11-07T18:19:09.833Z"
+    "generated": "2026-11-07T21:02:42.092Z"
   },
   "day-21/narration": {
     "hash": "08e8447ec46f37b1",
@@ -576,7 +582,8 @@
       "speed": 0.95
     },
     "chars": 975,
-    "generated": "2026-11-07T18:19:14.371Z"
+    "generated": "2026-11-07T18:19:14.371Z",
+    "textNote": "Spoken text identical to the recording (numbers spelled out via pronunciations)"
   },
   "day-21/continuation": {
     "hash": "0cd0aee92504abdf",
@@ -594,7 +601,7 @@
     "generated": "2026-11-07T18:19:17.175Z"
   },
   "day-22/narration": {
-    "hash": "3e29d041cbaf5904",
+    "hash": "c322dec1025bc373",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -606,10 +613,10 @@
       "speed": 0.95
     },
     "chars": 761,
-    "generated": "2026-11-07T18:19:20.759Z"
+    "generated": "2026-11-07T21:02:45.949Z"
   },
   "day-22/continuation": {
-    "hash": "2f96c667ae4ecddc",
+    "hash": "9c2a9066d0e09882",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -621,7 +628,7 @@
       "speed": 0.95
     },
     "chars": 523,
-    "generated": "2026-11-07T18:19:22.980Z"
+    "generated": "2026-11-07T21:02:48.255Z"
   },
   "day-23/narration": {
     "hash": "94130e36e515f283",
@@ -636,10 +643,11 @@
       "speed": 0.95
     },
     "chars": 584,
-    "generated": "2026-11-07T18:19:25.692Z"
+    "generated": "2026-11-07T18:19:25.692Z",
+    "textNote": "Spoken text identical to the recording (numbers spelled out via pronunciations)"
   },
   "day-23/continuation": {
-    "hash": "e15b230aa9ef35b0",
+    "hash": "bdb298f659fd97fc",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -651,10 +659,10 @@
       "speed": 0.95
     },
     "chars": 651,
-    "generated": "2026-11-07T18:19:28.704Z"
+    "generated": "2026-11-07T21:02:51.170Z"
   },
   "day-24/narration": {
-    "hash": "dcf23c4e17b9dc82",
+    "hash": "3099d101991ba58f",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -666,10 +674,10 @@
       "speed": 0.95
     },
     "chars": 735,
-    "generated": "2026-11-07T18:19:32.102Z"
+    "generated": "2026-11-07T21:02:54.634Z"
   },
   "day-24/continuation": {
-    "hash": "3001b55357f60106",
+    "hash": "0de82ec3cb8cc80a",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -681,6 +689,102 @@
       "speed": 0.95
     },
     "chars": 1407,
-    "generated": "2026-11-07T18:19:38.429Z"
+    "generated": "2026-11-07T21:03:00.778Z"
+  },
+  "day-05/voice-1": {
+    "hash": "b65fb5b6def2979b",
+    "voice": "x5q1BXyLc7tegNqnOvnx",
+    "voiceName": "Alexandra – Austrian German, warm, natural",
+    "model": "eleven_multilingual_v2",
+    "seed": 24,
+    "voiceSettings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.15,
+      "use_speaker_boost": true,
+      "speed": 0.95
+    },
+    "chars": 80,
+    "generated": "2026-11-07T20:51:02.565Z"
+  },
+  "day-05/voice-2": {
+    "hash": "a5fc607220cb80f3",
+    "voice": "bVOjN7kZvgHpaTG6B3zK",
+    "voiceName": "Markus – friendly Austrian",
+    "model": "eleven_multilingual_v2",
+    "seed": 24,
+    "voiceSettings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.15,
+      "use_speaker_boost": true,
+      "speed": 0.95
+    },
+    "chars": 94,
+    "generated": "2026-11-07T20:46:29.888Z"
+  },
+  "day-05/voice-3": {
+    "hash": "b4e33d275f1abd14",
+    "voice": "Yu7munSFUN8hbRW63pno",
+    "voiceName": "Mats Winter – warm, natural, early 30s",
+    "model": "eleven_multilingual_v2",
+    "seed": 24,
+    "voiceSettings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.15,
+      "use_speaker_boost": true,
+      "speed": 0.95
+    },
+    "chars": 60,
+    "generated": "2026-11-07T20:51:17.771Z"
+  },
+  "day-05/voice-4": {
+    "hash": "6093c3d7bc391ba3",
+    "voice": "JKkwPJB4NDgjYe2oNtLX",
+    "voiceName": "Frau Lenz – Brief 24 (Voice Design: very old Viennese woman, saved to the account)",
+    "model": "eleven_multilingual_v2",
+    "seed": 24,
+    "voiceSettings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.15,
+      "use_speaker_boost": true,
+      "speed": 0.95
+    },
+    "chars": 27,
+    "generated": "2026-11-07T20:53:38.175Z"
+  },
+  "day-05/voice-5": {
+    "hash": "f30e5b5281880e81",
+    "voice": "AnvlJBAqSLDzEevYr9Ap",
+    "voiceName": "Ava – youthful, authentic",
+    "model": "eleven_multilingual_v2",
+    "seed": 24,
+    "voiceSettings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.15,
+      "use_speaker_boost": true,
+      "speed": 0.95
+    },
+    "chars": 70,
+    "generated": "2026-11-07T20:47:00.967Z"
+  },
+  "day-05/voice-6": {
+    "hash": "3fc70f60239d4d51",
+    "voice": "b0JqlN5qkeuPi5BoQiHn",
+    "voiceName": "Hermann – Austrian German, deep, sonorous",
+    "model": "eleven_multilingual_v2",
+    "seed": 24,
+    "voiceSettings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.15,
+      "use_speaker_boost": true,
+      "speed": 0.95
+    },
+    "chars": 51,
+    "generated": "2026-11-07T20:51:27.426Z"
   }
 }

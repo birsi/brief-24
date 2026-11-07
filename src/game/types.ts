@@ -1,5 +1,3 @@
-export type Wrap = { salt: string; iv: string; ct: string };
-
 export type Stamp = {
   num: number;
   letter: string;
@@ -8,42 +6,37 @@ export type Stamp = {
   year: number;
 };
 
-export type DayData = {
-  num: number;
-  title: string;
-  meta: string;
-  card: string[];
-  narration: string[];
-  hints: string[];
-  hint3: string | null;
-  video: boolean;
-  sealed: { iv: string; ct: string; wraps: Wrap[]; devWrap: Wrap };
-  special: Record<string, string>;
-};
-
-export type GeneratedContent = {
-  iterations: number;
-  devCheck: Wrap;
-  days: DayData[];
-  /** Figures with at least one 'open' note. Figures with only 'solve' notes come from the payloads. */
-  figures: PublicFigure[];
-};
-
-/** A note in the notebook's figures section. `i` is its position in content/figures.json. */
-export type FigureNote = { day: number; i: number; text: string };
-/** Position in content/figures.json (`pos`) keeps the file's order. */
-export type PublicFigure = { id: string; pos: number; name: string; role: string; notes: FigureNote[] };
-/** A 'solve' note inside a day's encrypted payload. */
-export type SealedFigureNote = FigureNote & { figure: string; pos: number; name: string; role: string };
-
-/** What is decrypted after the correct solution. */
+/** What a day reveals once it is solved. */
 export type Payload = {
   continuation: string[];
   solution: string;
   stamp: Stamp | null;
   record: string | null;
   epilogue: string[] | null;
-  figureNotes?: SealedFigureNote[];
+};
+
+export type DayData = Payload & {
+  num: number;
+  title: string;
+  meta: string;
+  card: string[];
+  narration: string[];
+  hints: string[];
+  video: boolean;
+  /** Accepted answers, normalized. */
+  answers: string[];
+  /** Normalized wrong answer → special reply. */
+  special: Record<string, string>;
+};
+
+/** A note in the notebook's figures section. `i` is its position in content/figures.json. */
+export type FigureNote = { day: number; i: number; when: 'open' | 'solve'; text: string };
+/** Position in content/figures.json (`pos`) keeps the file's order. */
+export type Figure = { id: string; pos: number; name: string; role: string; notes: FigureNote[] };
+
+export type GeneratedContent = {
+  days: DayData[];
+  figures: Figure[];
 };
 
 export type NotebookEntry = 'room' | 'morse' | 'fraktur';

@@ -1,32 +1,15 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import FigureList from '../components/Figures';
-import { DAYS, devSolve } from '../game/crypto';
+import { DAYS } from '../game/content';
 import { collectFigures } from '../game/figures';
 import { dayDate, useGame } from '../game/store';
-import type { Payload } from '../game/types';
 
-/** All figures with all notes up to a chosen day, decrypted with the dev secret, for proofreading. */
-function DevFigures({ secret }: { secret: string }) {
+/** All figures with all notes up to a chosen day, for proofreading. */
+function DevFigures() {
   const [open, setOpen] = useState(false);
   const [maxDay, setMaxDay] = useState(24);
-  const [payloads, setPayloads] = useState<Record<number, Payload> | null>(null);
-  useEffect(() => {
-    if (!open || payloads) return;
-    let alive = true;
-    (async () => {
-      const out: Record<number, Payload> = {};
-      for (const d of DAYS) {
-        const r = await devSolve(d.num, secret);
-        if (r.ok) out[d.num] = r.payload;
-      }
-      if (alive) setPayloads(out);
-    })();
-    return () => {
-      alive = false;
-    };
-  }, [open, payloads, secret]);
-  const figures = useMemo(() => (payloads ? collectFigures(() => true, payloads, maxDay) : []), [payloads, maxDay]);
+  const figures = useMemo(() => (open ? collectFigures(() => true, () => true, maxDay) : []), [open, maxDay]);
   const noteCount = figures.reduce((s, f) => s + f.notes.length, 0);
 
   return (
@@ -45,14 +28,8 @@ function DevFigures({ secret }: { secret: string }) {
               ))}
             </select>
           </label>
-          {payloads ? (
-            <>
-              <div className="small">{figures.length} Figuren · {noteCount} Notizen</div>
-              <FigureList figures={figures} showWhen />
-            </>
-          ) : (
-            <div className="small">Entschlüssele …</div>
-          )}
+          <div className="small">{figures.length} Figuren · {noteCount} Notizen</div>
+          <FigureList figures={figures} showWhen />
         </>
       ) : null}
     </div>
@@ -62,46 +39,13 @@ function DevFigures({ secret }: { secret: string }) {
 export default function Dev() {
   const g = useGame();
   const nav = useNavigate();
-  const [secret, setSecret] = useState('');
-  const [err, setErr] = useState(false);
-  const [solutions, setSolutions] = useState<Record<number, string>>({});
-  const [busy, setBusy] = useState(false);
-
-  useEffect(() => {
-    if (!g.isDev || !g.dev.showSolutions || !g.dev.secret) return;
-    let alive = true;
-    (async () => {
-      const out: Record<number, string> = {};
-      for (const d of DAYS) {
-        const r = await devSolve(d.num, g.dev.secret!);
-        if (r.ok) out[d.num] = r.payload.solution;
-      }
-      if (alive) setSolutions(out);
-    })();
-    return () => {
-      alive = false;
-    };
-  }, [g.isDev, g.dev.showSolutions, g.dev.secret]);
-
   const wrap: React.CSSProperties = { background: '#0B1522', fontFamily: 'var(--sans)' };
 
   if (!g.isDev) {
     return (
       <div className="app" style={{ ...wrap, padding: '60px 20px', gap: 16 }}>
         <h1 style={{ fontFamily: 'var(--sans)', fontSize: 22 }}>Testmodus</h1>
-        <form
-          onSubmit={async (e) => {
-            e.preventDefault();
-            const ok = await g.enableDev(secret);
-            setErr(!ok);
-          }}
-          style={{ display: 'flex', flexDirection: 'column', gap: 12 }}
-        >
-          <label htmlFor="devsecret" className="small">Dev-Geheimnis</label>
-          <input id="devsecret" className="input" type="password" value={secret} onChange={(e) => setSecret(e.target.value)} style={{ textTransform: 'none', letterSpacing: 0 }} />
-          {err ? <p role="status" style={{ margin: 0, color: '#E8A15A' }}>Falsch.</p> : null}
-          <button className="btn" type="submit">Freischalten</button>
-        </form>
+        <button className="btn" onClick={() => g.setDev({ on: true })}>Freischalten</button>
         <Link to="/" className="small">Zurück</Link>
       </div>
     );
@@ -153,7 +97,7 @@ export default function Dev() {
                 <span style={{ fontSize: 12, letterSpacing: '0.1em', color: c }}>{s}</span>
               </div>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 10 }}>
-                <code style={{ fontFamily: 'var(--mono)', fontSize: 13, color: '#E8A15A' }}>{g.dev.showSolutions ? solutions[d.num] ?? '…' : dayDate(d.num)}</code>
+                <code style={{ fontFamily: 'var(--mono)', fontSize: 13, color: '#E8A15A' }}>{g.dev.showSolutions ? d.solution : dayDate(d.num)}</code>
                 <div style={{ display: 'flex', gap: 6 }}>
                   <button style={smallBtn} onClick={() => nav(`/day/${d.num}`)}>ÖFFNEN</button>
                   <button style={smallBtn} onClick={() => g.devSolveDay(d.num)} disabled={g.isSolved(d.num)}>LÖSEN</button>
@@ -165,24 +109,16 @@ export default function Dev() {
         })}
       </div>
 
-      <DevFigures secret={g.dev.secret!} />
+      <DevFigures />
 
       <div style={{ padding: '14px 20px 28px', borderTop: '1px solid #22344E', display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 10 }}>
-        <button
-          style={{ ...smallBtn, minHeight: 48 }}
-          disabled={busy}
-          onClick={async () => {
-            setBusy(true);
-            for (const d of DAYS) if (!g.isSolved(d.num)) await g.devSolveDay(d.num);
-            setBusy(false);
-          }}
-        >
-          {busy ? '…' : 'ALLE LÖSEN'}
+        <button style={{ ...smallBtn, minHeight: 48 }} onClick={() => DAYS.forEach((d) => g.devSolveDay(d.num))}>
+          ALLE LÖSEN
         </button>
         <button style={{ ...smallBtn, minHeight: 48, background: '#7A2E2E', borderColor: '#A84444', color: '#fff' }} onClick={() => confirm('Gesamten Fortschritt löschen?') && g.resetAll()}>
           ALLES ZURÜCKSETZEN
         </button>
-        <button style={{ ...smallBtn, minHeight: 48, gridColumn: '1 / -1' }} onClick={() => g.setDev({ secret: null, ignoreDate: false, ignoreOrder: false, simDate: null, showSolutions: false })}>
+        <button style={{ ...smallBtn, minHeight: 48, gridColumn: '1 / -1' }} onClick={() => g.setDev({ on: false, ignoreDate: false, ignoreOrder: false, simDate: null, showSolutions: false })}>
           TESTMODUS BEENDEN
         </button>
       </div>

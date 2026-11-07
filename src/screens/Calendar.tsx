@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { Garland, GoldDust, Snow, SnowBank, StarIcon } from '../components/Decor';
 import { BottomNav } from '../components/ui';
-import { DAYS } from '../game/crypto';
+import { DAYS } from '../game/content';
 import { GAME_YEAR, dayDate, useGame } from '../game/store';
 
 export default function Calendar() {

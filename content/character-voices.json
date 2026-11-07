@@ -1,0 +1,29 @@
+{
+  "_comment": "ElevenLabs voices for the spoken statements (widget type 'voices', e.g. day 5). Keyed by the name in src/game/config.ts. voiceSettings overrides content/tts-settings.json per character. Run: npm run tts:voices",
+  "characters": {
+    "Constanze Morgenstern": {
+      "voiceId": "x5q1BXyLc7tegNqnOvnx",
+      "voice": "Alexandra – Austrian German, warm, natural"
+    },
+    "Dr. Felix Hartl": {
+      "voiceId": "bVOjN7kZvgHpaTG6B3zK",
+      "voice": "Markus – friendly Austrian"
+    },
+    "Jonas Reiter": {
+      "voiceId": "Yu7munSFUN8hbRW63pno",
+      "voice": "Mats Winter – warm, natural, early 30s"
+    },
+    "Frau Elisabeth Lenz": {
+      "voiceId": "JKkwPJB4NDgjYe2oNtLX",
+      "voice": "Frau Lenz – Brief 24 (Voice Design: very old Viennese woman, saved to the account)"
+    },
+    "Mira Novak": {
+      "voiceId": "AnvlJBAqSLDzEevYr9Ap",
+      "voice": "Ava – youthful, authentic"
+    },
+    "Bruno Kessler": {
+      "voiceId": "b0JqlN5qkeuPi5BoQiHn",
+      "voice": "Hermann – Austrian German, deep, sonorous"
+    }
+  }
+}

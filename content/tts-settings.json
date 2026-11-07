@@ -8,5 +8,26 @@
     "style": 0.15,
     "use_speaker_boost": true,
     "speed": 0.95
+  },
+  "pronunciations": {
+    "_comment": "Replacements applied only to the text sent to ElevenLabs (the app shows the original). Longer entries are applied first. Changing an entry regenerates the files that contain it.",
+    "Fanny": "Fanni",
+    "vom 2. auf den 3. Dezember": "vom zweiten auf den dritten Dezember",
+    "Datum 24. Dezember": "Datum vierundzwanzigster Dezember",
+    "24. Dezember": "vierundzwanzigsten Dezember",
+    "30. November": "dreißigsten November",
+    "19. Jahrhundert": "neunzehnten Jahrhundert",
+    "Aufnahme 1224": "Aufnahme zwölf vierundzwanzig",
+    "Zimmer 24": "Zimmer vierundzwanzig",
+    "„24“": "„Vierundzwanzig“",
+    "103 sei sie": "Hundertdrei sei sie",
+    "Gruppe 13": "Gruppe dreizehn",
+    "1926": "neunzehnhundertsechsundzwanzig",
+    "1998": "neunzehnhundertachtundneunzig",
+    "1873": "achtzehnhundertdreiundsiebzig",
+    "2026": "zweitausendsechsundzwanzig",
+    "2090": "zweitausendneunzig",
+    "150": "hundertfünfzig",
+    "120": "hundertzwanzig"
   }
 }

@@ -1,7 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
-import NotebookToast from './components/NotebookToast';
 import { GameProvider } from './game/store';
 import Calendar from './screens/Calendar';
 import Day from './screens/Day';
@@ -22,7 +21,6 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/dev" element={<Dev />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
-        <NotebookToast />
       </GameProvider>
     </BrowserRouter>
   </StrictMode>,

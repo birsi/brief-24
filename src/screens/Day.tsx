@@ -2,7 +2,8 @@ import { useEffect, useState, type FormEvent } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { AudioPlayer, Media, mediaPath, StoryText, TopBar } from '../components/ui';
 import { FairyLights, Ornament, Snow } from '../components/Decor';
-import { DAYS, decodeHint3 } from '../game/crypto';
+import NotebookNews from '../components/NotebookNews';
+import { DAYS } from '../game/content';
 import { CONFIG } from '../game/config';
 import { dayDate, HINT_MINUTES, useGame } from '../game/store';
 import Widget from '../puzzles/Widget';
@@ -16,7 +17,6 @@ export default function Day() {
   const g = useGame();
   const nav = useNavigate();
   const [value, setValue] = useState('');
-  const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
   const [shake, setShake] = useState(0);
   const [gate, setGate] = useState(true);
@@ -56,19 +56,17 @@ export default function Day() {
 
   const opened = g.progress.opened[num] ?? Date.now();
   const shown = g.progress.hints[num] ?? 0;
-  const allHints = [...day.hints, decodeHint3(day.hint3)].filter(Boolean) as string[];
+  const allHints = day.hints;
   const minutesOpen = (Date.now() - opened) / 60000;
   const nextHintAt = HINT_MINUTES[shown];
   const nextHintReady = g.isDev || (nextHintAt !== undefined && minutesOpen >= nextHintAt);
   const waitMin = nextHintAt !== undefined ? Math.max(1, Math.ceil(nextHintAt - minutesOpen)) : 0;
 
-  const onSubmit = async (e?: FormEvent) => {
+  const onSubmit = (e?: FormEvent) => {
     e?.preventDefault();
-    if (!value.trim() || busy) return;
-    setBusy(true);
+    if (!value.trim()) return;
     setMsg(null);
-    const res = await g.submit(num, value);
-    setBusy(false);
+    const res = g.submit(num, value);
     if (res.ok) {
       nav(`/day/${num}/delivered`);
     } else {
@@ -77,11 +75,9 @@ export default function Day() {
     }
   };
 
-  const submitValue = async (v: string) => {
+  const submitValue = (v: string) => {
     setValue(v);
-    setBusy(true);
-    const res = await g.submit(num, v);
-    setBusy(false);
+    const res = g.submit(num, v);
     if (res.ok) nav(`/day/${num}/delivered`);
     else {
       setMsg(res.special ?? 'Der Tresor bleibt zu.');
@@ -138,7 +134,7 @@ export default function Day() {
                 enterKeyHint="send"
               />
               {msg ? <p role="status" style={{ margin: 0, fontStyle: 'italic', color: 'var(--gold-soft)', fontSize: 17 }}>{msg}</p> : null}
-              <button type="submit" className="btn btn-gold" disabled={busy || !value.trim()}>{busy ? 'Wird geprüft …' : 'Auflösen'}</button>
+              <button type="submit" className="btn btn-gold" disabled={!value.trim()}>Auflösen</button>
             </form>
           ) : null}
 
@@ -160,6 +156,7 @@ export default function Day() {
           </div>
         </section>
       )}
+      <NotebookNews />
       <div style={{ height: 48 }} />
     </div>
   );

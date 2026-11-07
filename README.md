@@ -13,22 +13,19 @@ npm test             # checks that all 24 answers open their days
 npm run build        # production build into dist/
 ```
 
-Dev mode locally: `http://localhost:5173/?dev=dev`, then `/dev`.
+Dev mode locally: `http://localhost:5173/?dev`, then `/dev`.
 
 ## 🚀 Deploying to Vercel
 
 1. Import the repo into Vercel (framework: Vite, settings come from `vercel.json`).
-2. Under **Settings → Environment Variables** set `DEV_SECRET`, e.g. a long random word. Without this variable the secret is `dev`.
-3. Deploy. Dev mode: `https://<your-domain>/?dev=<DEV_SECRET>`, then `/dev`.
+2. Deploy. Dev mode: `https://<your-domain>/?dev`, then `/dev`.
 
 Keep the repo **private** 🤫: `content/solutions.json` contains every solution.
 
-## 🔐 How the solutions are protected
+## 💾 Answers and progress
 
-- `content/solutions.json` is only read at build time and never shipped.
-- The continuation, the stamp and everything that gives away the solution are encrypted per day with AES-GCM. The key is derived via PBKDF2 from the normalized answer (case, umlauts and spaces don't matter). The solution never appears in plain text in the bundle.
-- Hint 3 (= the solution) is only lightly obfuscated.
-- Dev mode has its own key derived from `DEV_SECRET`.
+- Answers, continuations, stamps and hints are plain JSON in the bundle (`src/generated/days.json`). There is no encryption; anyone who opens the dev tools can read them.
+- Answers are compared normalized: case, umlauts and spaces don't matter.
 - Progress lives in the device's `localStorage`. If Larissa switches devices, use "Solve" in dev mode to set the days retroactively.
 
 ## 🗓️ Unlocking
@@ -44,7 +41,7 @@ The texts come from the Claude doc "Der Brief vom 24. Dezember – Texte".
 
 Taken per day: title, date line, "App – Erzählung" (plain paragraphs only, up to the first bold label), "App – Fortsetzung" (all plain paragraphs) and the three hints. Questions, puzzle widgets and special texts live in `src/game/config.ts`; answers and stamps in `content/solutions.json`.
 
-The notebook's "Figuren" section comes from `content/figures.json`. `open` notes appear once their day is opened, `solve` notes only after the day's answer. Solve notes (and figures that only have solve notes) are encrypted into that day's payload; `npm test` checks they decrypt and never appear in plain text in `src/generated/` or `dist/`. In dev mode, `/dev` → "Figuren prüfen" shows all notes up to a chosen day.
+The notebook's "Figuren" section comes from `content/figures.json`. `open` notes appear once their day is opened, `solve` notes only after the day's answer. `npm test` checks that every note ends up in `src/generated/days.json`. In dev mode, `/dev` → "Figuren prüfen" shows all notes up to a chosen day.
 
 ## 🖼️ Media
 
@@ -86,6 +83,10 @@ public/media/day-01/continuation.mp3    Continuation read aloud
 
 Changing any of them regenerates all script-made files on the next `npm run tts`.
 
+`pronunciations` in the same file replaces words only in the text sent to ElevenLabs; the app keeps showing the original. It turns "Fanny" into "Fanni", so the name is said with a German "a", and spells numbers out ("1926" → "neunzehnhundertsechsundzwanzig"). Changing an entry regenerates only the files that contain it.
+
+The day-5 alibi statements have one voice per character: `content/character-voices.json`, generated with `npm run tts:voices`.
+
 Additional audio:
 
 | File | Content |
@@ -111,8 +112,8 @@ Generates `qr/day-01.svg` … `day-24.svg` and PNGs (gold #8A6A2F, transparent b
 
 ```
 content/            Texts (doc export), solutions, image prompts
-scripts/            Build and encrypt content, QR codes, answer test
-src/game/           Configuration, encryption, game state
+scripts/            Build content, QR codes, answer test
+src/game/           Configuration, content, game state
 src/screens/        Calendar, Day, Delivered, Notebook, Dev mode
 src/puzzles/        Puzzle components (Safe, Album, Footprints, Differences, Flashlight …)
 src/components/     Snow, garland, audio, media, stamps

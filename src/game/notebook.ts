@@ -14,7 +14,7 @@ export const TAB_LABELS: Record<NotebookTab, string> = {
   finds: 'Funde',
 };
 
-type Progress = { opened: Record<number, number>; solved: Record<number, string> };
+type Progress = { opened: Record<number, number>; solved: Record<number, number> };
 
 export type NotebookState = {
   /** Unlocked notebook entries (room, morse, fraktur). */
@@ -36,7 +36,7 @@ export function notebookState(progress: Progress, payloads: Record<number, Paylo
     if (progress.solved[num]) c.unlocksOnSolve?.forEach((e) => entries.add(e));
   }
   // 'open' notes: same rule as unlocksOnOpen (day opened or solved).
-  const figures = collectFigures(dayIsOpen(progress), payloads);
+  const figures = collectFigures(dayIsOpen(progress), (d) => !!progress.solved[d]);
   const stamps = STAMP_DAYS.filter((d) => payloads[d]?.stamp).map((d) => `stamp:${d}`);
   const anyOpened = Object.keys(progress.opened).length > 0 || Object.keys(progress.solved).length > 0;
 

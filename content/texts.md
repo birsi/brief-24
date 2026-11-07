@@ -75,7 +75,7 @@ Fanny schnupperte am Papier und wedelte, als würde sie den Geruch kennen. Er ro
 
 Auf der Rückseite des Umschlags saß eine Prägung, kaum zu sehen, nur unter den Fingerspitzen zu fühlen. Ein verzierter Bogen, ein paar Buchstaben. Dann endete sie am Rand des Papiers, als hätte jemand den Stempel zu weit außen angesetzt.
 
-Und unter dem letzten Satz stand ein Datum. Wien, am vierundzwanzigsten Dezember neunzehnhundertsechsundzwanzig. Hundert Jahre. Fast auf den Tag.
+Und unter dem letzten Satz stand ein Datum. Wien, am 24. Dezember 1926. Hundert Jahre. Fast auf den Tag.
 
 Jemand erlaubte sich einen Scherz, dachte Larissa. Einen sehr guten Scherz. Aber wer wusste von Fanny?
 
@@ -119,7 +119,7 @@ Niemand kam mehr hinein. Und niemand mehr hinaus.
 
 **Bild Erzählung**: Grand hotel lobby during a snowstorm, an old concierge in front of a wooden key board with five brass hooks, a man with a scarf and notebook holding a wet coat, a woman with a brown brindle boxer with a long, natural, undocked tail seen from behind
 
-Der alte Portier hieß Albin Kranz. Seit fünfzig Jahren stehe er hinter diesem Empfang, sagte er, als wäre das eine Antwort auf alles. Den Brief habe er selbst zustellen lassen. So stehe es im Register der Zeitpost, eingetragen am vierundzwanzigsten Dezember neunzehnhundertsechsundzwanzig. Mehr wisse er nicht.
+Der alte Portier hieß Albin Kranz. Seit fünfzig Jahren stehe er hinter diesem Empfang, sagte er, als wäre das eine Antwort auf alles. Den Brief habe er selbst zustellen lassen. So stehe es im Register der Zeitpost, eingetragen am 24. Dezember 1926. Mehr wisse er nicht.
 
 Larissa glaubte ihm kein Wort. Und gleichzeitig jedes.
 
@@ -151,7 +151,7 @@ Die App merkt sich die Belegung im Notizbuch: Lenz 7, Baustelle 12, Reiter 19, L
 
 **Video Auflösung** (Vorschlag): Startbild: an antique snow globe with a miniature grand hotel inside, in a glass display case in a dark hotel lobby at night, faint gold glow. Bewegung: im Inneren beginnt es langsam zu schneien, obwohl niemand die Kugel berührt. Kamera steht still.
 
-„Vierundzwanzig“, sagte Albin leise und legte einen schweren Messingschlüssel auf den Tresen.
+„24“, sagte Albin leise und legte einen schweren Messingschlüssel auf den Tresen.
 
 Constanze runzelte die Stirn. „Das vergeben wir doch nicht.“
 
@@ -257,11 +257,11 @@ Kleingedruckt unten:
 
 **Bild Erzählung**: Wall of small brass post compartments engraved with dates, an open ledger with a torn-out page, a small lamp casting violet light
 
-Der Raum roch nach Papier, Siegellack und kaltem Messing. Die ältesten Fächer trugen Daten aus dem neunzehnten Jahrhundert, die jüngsten reichten bis ins Jahr zweitausendneunzig. Hinter jedem Türchen wartete ein Brief auf seinen Tag.
+Der Raum roch nach Papier, Siegellack und kaltem Messing. Die ältesten Fächer trugen Daten aus dem 19. Jahrhundert, die jüngsten reichten bis ins Jahr 2090. Hinter jedem Türchen wartete ein Brief auf seinen Tag.
 
 Larissa strich mit dem Finger über die Gravuren. Einige Fächer standen offen und waren leer. Andere waren so lange verschlossen, dass sich Grünspan in die Schlitze gefressen hatte.
 
-Albins Register lag aufgeschlagen beim Jahr neunzehnhundertsechsundzwanzig. Genau die Seite, auf der ihr Brief verzeichnet sein musste, fehlte. Jemand hatte sie herausgerissen, hastig und schief. Nur ein schmaler Rand war geblieben, mit halben Wörtern, die nichts mehr verrieten.
+Albins Register lag aufgeschlagen beim Jahr 1926. Genau die Seite, auf der ihr Brief verzeichnet sein musste, fehlte. Jemand hatte sie herausgerissen, hastig und schief. Nur ein schmaler Rand war geblieben, mit halben Wörtern, die nichts mehr verrieten.
 
 Larissa wollte das Buch schon schließen, als ihr etwas auffiel. Die Seite davor glänzte an einer Stelle, als hätte jemand mit einer Tinte geschrieben, die man nicht sehen sollte.
 
@@ -327,7 +327,7 @@ Auf vergilbtem Papier, Handschrift-Font, mit Hotel-Briefkopf:
 
 Die Bibliothek roch nach Leder und kaltem Kaminrauch. Larissa ging die Regale entlang, Fanny dicht an ihrer Seite, bis sie das Zeichen fand. Dasselbe, das Albin unten auf seinen Zettel gemalt hatte.
 
-Zwischen den Seiten steckte ein gefaltetes Blatt. Albins Nachtbuch. Jeder Nachtportier im Morgenstern führte eines, seit achtzehnhundertdreiundsiebzig. Albin hatte die letzte Nacht vor seinem Verschwinden genau notiert, als hätte er geahnt, dass jemand es lesen würde.
+Zwischen den Seiten steckte ein gefaltetes Blatt. Albins Nachtbuch. Jeder Nachtportier im Morgenstern führte eines, seit 1873. Albin hatte die letzte Nacht vor seinem Verschwinden genau notiert, als hätte er geahnt, dass jemand es lesen würde.
 
 Am Nachmittag bat Constanze alle in den Salon. Draußen schneite es noch immer. Im Kamin knackte das Holz, und niemand setzte sich bequem hin.
 
@@ -407,7 +407,7 @@ Hinter dem Schreibtisch stand ein alter Tresor. Drei Rädchen.
 
 **Bild Erzählung**: Elegant office desk with stacks of bills and a wine list covered in pencil notes, an old steel safe with three brass dials behind it, snow outside the window
 
-Das Hotel gehöre ihrer Familie seit achtzehnhundertdreiundsiebzig, sagte Constanze. Und der Bank seit drei Jahren.
+Das Hotel gehöre ihrer Familie seit 1873, sagte Constanze. Und der Bank seit drei Jahren.
 
 Sie erzählte vom Weinkeller, den ihr Urgroßvater angelegt hatte. Von Flaschen, die älter waren als die Republik. Und davon, dass sie im Herbst die ersten verkaufen musste, eine nach der anderen, still, damit niemand es merkte. Sie sprach ruhig. Zu ruhig für jemanden, dem gerade das Wertvollste im ganzen Haus gestohlen worden war.
 
@@ -471,7 +471,7 @@ Am Morgen kam Fanny zurück. Mit etwas im Maul.
 
 In Fannys Maul lag eine Perle. Eine einzige, matt und warm, als hätte sie lange auf einer Haut gelegen.
 
-Larissa folgte ihr in den Dienstbotengang. Hinter der unscheinbaren Tür begann eine andere Welt. Schmale Stufen, nackte Glühbirnen, der Geruch von Bohnerwachs und Bügelstärke. Hier liefen die Zimmermädchen und Pagen seit hundertfünfzig Jahren, unsichtbar für die Gäste.
+Larissa folgte ihr in den Dienstbotengang. Hinter der unscheinbaren Tür begann eine andere Welt. Schmale Stufen, nackte Glühbirnen, der Geruch von Bohnerwachs und Bügelstärke. Hier liefen die Zimmermädchen und Pagen seit 150 Jahren, unsichtbar für die Gäste.
 
 Auf der dritten Stufe lag die nächste Perle. Dann noch eine. Dann ein ganzer Faden, gerissen, die Perlen verstreut. Doch nicht zufällig. Jemand hatte sie hingelegt, in kleinen Gruppen, große und kleine, mit goldenen Knoten dazwischen.
 
@@ -533,9 +533,9 @@ Larissa setzte sich zu ihr. Die alte Dame musterte sie lange, mit Augen, die vie
 
 Fanny legte ihr ohne Umschweife den Kopf auf den Schoß. Frau Lenz kraulte sie hinter den Ohren und schob ihr den Keks von der Untertasse zu. Der Tee bleibe ja ohnehin stehen, sagte sie.
 
-Hundertdrei sei sie, sagte Frau Lenz. Und jedes Jahr zu Weihnachten im Morgenstern. Schon als kleines Mädchen, mit ihren Eltern, in den Jahren, als Wien noch nach Kohle und Maronen roch.
+103 sei sie, sagte Frau Lenz. Und jedes Jahr zu Weihnachten im Morgenstern. Schon als kleines Mädchen, mit ihren Eltern, in den Jahren, als Wien noch nach Kohle und Maronen roch.
 
-Einmal, in einem sehr kalten Winter, habe in Zimmer vierundzwanzig eine Dame gewohnt. Eine Dame mit einem Hund, der genauso schnaufte wie dieser hier. Die Dame habe ihr eine Orange geschenkt und ihr gezeigt, wie man im Schnee Engel macht. Und dann, am Heiligen Abend, sei sie fort gewesen. Einfach fort. Niemand habe je wieder von ihr gesprochen.
+Einmal, in einem sehr kalten Winter, habe in Zimmer 24 eine Dame gewohnt. Eine Dame mit einem Hund, der genauso schnaufte wie dieser hier. Die Dame habe ihr eine Orange geschenkt und ihr gezeigt, wie man im Schnee Engel macht. Und dann, am Heiligen Abend, sei sie fort gewesen. Einfach fort. Niemand habe je wieder von ihr gesprochen.
 
 Frau Lenz legte das Album auf den Tisch und schlug es auf. Alte Fotografien, gezackte Ränder, Gesichter, die längst niemand mehr kannte.
 
@@ -587,7 +587,7 @@ Sie war seltsam verdreht.
 
 **Bild Erzählung**: Small cluttered porter's lodge with a brass key board, an old desk drawer pulled open, a faded photograph of a snow globe base seen from below, a man in an expensive tweed coat leaning in the doorway
 
-Die Portierloge war kaum größer als ein Kleiderschrank. Ein Stuhl, ein Pult, ein Heizkörper, der nicht mehr heizte. An der Wand hing ein Kalender von neunzehnhundertachtundneunzig, nie abgenommen.
+Die Portierloge war kaum größer als ein Kleiderschrank. Ein Stuhl, ein Pult, ein Heizkörper, der nicht mehr heizte. An der Wand hing ein Kalender von 1998, nie abgenommen.
 
 In der untersten Schublade, unter Quittungen und Bleistiftstummeln, lag die Fotografie. Larissa drehte sie im Licht. Die Schrift am Sockel war alt, geschwungen und eng, wie in den Briefen von Urgroßeltern. Und sie lief in die falsche Richtung.
 
@@ -607,9 +607,9 @@ Larissa sah ihm nach. Dann wieder auf die Fotografie. Was auch immer da stand, e
 
 **Bild Auflösung**: An old Austrian postage stamp showing a grand hotel facade in falling snow, lying on a photograph of a snow globe, a magnifying glass beside it
 
-Hernals. Eine Glashütte in der Vorstadt, neunzehnhundertsechsundzwanzig.
+Hernals. Eine Glashütte in der Vorstadt, 1926.
 
-Als Larissa die Fotografie umdrehte, um sie zurückzulegen, löste sich etwas von der Rückseite. Eine Briefmarke, die jemand sorgfältig daraufgeklebt hatte. Sie zeigte das Morgenstern im Schnee. Gestempelt am Heiligen Abend neunzehnhundertsechsundzwanzig.
+Als Larissa die Fotografie umdrehte, um sie zurückzulegen, löste sich etwas von der Rückseite. Eine Briefmarke, die jemand sorgfältig daraufgeklebt hatte. Sie zeigte das Morgenstern im Schnee. Gestempelt am Heiligen Abend 1926.
 
 Dem Tag, an dem ihr Brief geschrieben worden war.
 
@@ -781,7 +781,7 @@ Jemand sei schneller gewesen.
 
 Larissa glaubte ihm. Das war das Schlimmste daran. Der Dieb, den sie gejagt hatte, war nur ein kleiner Betrüger, der zu spät gekommen war. Und die echte Kugel war noch immer verschwunden.
 
-Als sie zurück in Zimmer vierundzwanzig kam, lag etwas auf dem Boden. Jemand hatte einen Umschlag unter der Tür durchgeschoben. Braunes Papier, ein Stempel, verblasst. Polizeidirektion Wien. Neunzehnhundertsechsundzwanzig.
+Als sie zurück in Zimmer 24 kam, lag etwas auf dem Boden. Jemand hatte einen Umschlag unter der Tür durchgeschoben. Braunes Papier, ein Stempel, verblasst. Polizeidirektion Wien. 1926.
 
 Fanny schnupperte daran und wedelte.
 
@@ -892,13 +892,13 @@ Die Glashütte lag in einem Hinterhof, zwischen einer Tischlerei und einem Kohle
 
 Der Glasbläser war alt, hatte Brandnarben an den Händen und erzählte, ohne gefragt zu werden. Sein Großvater habe die Werkstatt gegründet. Schneekugeln, Christbaumschmuck, Lampenschirme für die halbe Ringstraße.
 
-Als Larissa nach dem Jahr neunzehnhundertsechsundzwanzig fragte, holte er ein Buch aus dem Schrank, so schwer, dass er es mit beiden Händen tragen musste. Jede Bestellung hatte eine Nummer, sauber eingetragen, mit Tinte, die braun geworden war.
+Als Larissa nach dem Jahr 1926 fragte, holte er ein Buch aus dem Schrank, so schwer, dass er es mit beiden Händen tragen musste. Jede Bestellung hatte eine Nummer, sauber eingetragen, mit Tinte, die braun geworden war.
 
 Die Seiten waren voll. Hunderte Nummern. Larissa wusste nicht, welche sie suchen sollte.
 
 Dann fiel ihr Blick auf Fanny, die an der Tür saß und die Hitze des Ofens misstrauisch beäugte. Und auf ihren eigenen Zimmerschlüssel, den sie noch immer in der Manteltasche trug.
 
-Eine Dame in Zimmer vierundzwanzig. Mit einem Hund.
+Eine Dame in Zimmer 24. Mit einem Hund.
 
 **Rätsel (nur Bildschirm)**: Eine Doppelseite des Bestellbuchs mit vielen Bestellnummern, Kunden und Waren. Die richtige Zeile wird nach Eingabe hervorgehoben.
 
@@ -908,15 +908,15 @@ Eine Dame in Zimmer vierundzwanzig. Mit einem Hund.
 
 **Bild Auflösung**: Close-up of an old order book entry in faded brown ink, order number 120, a pencil sketch of two identical snow globes, one with a small hollow drawn in its base
 
-Nummer hundertzwanzig. Hotel Morgenstern. Zwei Schneekugeln, identisch, nach Fotografie des Hauses. Eine davon mit Hohlraum im Sockel, Verschluss nach Angabe der Bestellerin.
+Nummer 120. Hotel Morgenstern. Zwei Schneekugeln, identisch, nach Fotografie des Hauses. Eine davon mit Hohlraum im Sockel, Verschluss nach Angabe der Bestellerin.
 
 Statt einer Unterschrift trug die Zeile nur einen kleinen Abdruck, blind ins Papier gedrückt. Zu schwach, um ihn zu lesen. Aber Larissa kannte das Gefühl unter den Fingerspitzen. Genau so fühlte sich die Rückseite ihres Umschlags an.
 
 Larissa merkte, dass sie die Luft anhielt.
 
-Die Zahl hatte gestimmt. Zimmer vierundzwanzig, mal fünf. Fanny war fünf. Aber der Hund der Dame von neunzehnhundertsechsundzwanzig? Woher sollte Larissa wissen, wie alt er gewesen war? Sie hatte einfach gerechnet, ohne nachzudenken. Und es hatte gestimmt.
+Die Zahl hatte gestimmt. Zimmer 24, mal fünf. Fanny war fünf. Aber der Hund der Dame von 1926? Woher sollte Larissa wissen, wie alt er gewesen war? Sie hatte einfach gerechnet, ohne nachzudenken. Und es hatte gestimmt.
 
-Der Glasbläser klappte das Buch zu. Komisch, sagte er. Sie seien schon die Zweite diese Woche, die nach Nummer hundertzwanzig frage. Vor ein paar Tagen sei ein Herr da gewesen. Sehr höflich. Er habe sich alles genau notiert.
+Der Glasbläser klappte das Buch zu. Komisch, sagte er. Sie seien schon die Zweite diese Woche, die nach Nummer 120 frage. Vor ein paar Tagen sei ein Herr da gewesen. Sehr höflich. Er habe sich alles genau notiert.
 
 ### Hinweise
 
@@ -950,11 +950,11 @@ Der Prunksaal war so still, dass Larissa ihren eigenen Atem hörte. Unter der Ku
 
 Fanny hatte draußen warten müssen, beim Portier, der sie mit Keksen bestach.
 
-Die Chronik des Morgenstern war ein schmaler Band, kaum benutzt. Larissa blätterte durch Bälle, Hochzeiten, Kaiserbesuche. Dann, bei Seite hundertzwanzig, fiel ihr etwas in den Schoß.
+Die Chronik des Morgenstern war ein schmaler Band, kaum benutzt. Larissa blätterte durch Bälle, Hochzeiten, Kaiserbesuche. Dann, bei Seite 120, fiel ihr etwas in den Schoß.
 
 Ein Blatt aus dünnem Karton, mit kleinen rechteckigen Fenstern, wie eine Maske für Buchstaben. Und in der Ecke dasselbe goldene Zeichen, das sie aus Albins Schrift kannte.
 
-Seite hundertzwanzig. Dieselbe Zahl wie die Bestellung.
+Seite 120. Dieselbe Zahl wie die Bestellung.
 
 Larissa las den Absatz über die Zeitpost. Ein Archiv, das nur der Oberportier kannte. Ein Schlüssel im Sockel der Kugel. Das passte zu allem, was sie wusste. Aber es verriet nicht, wo der Weg begann.
 
@@ -1014,7 +1014,7 @@ Jonas hob sein Häferl. Und während er redete, spürte Larissa, dass irgendetwa
 
 **Jonas spricht (Audio, eigene Stimme)**: Die App spielt vier Sätze nacheinander ab, jeder erscheint als Karte zum Antippen:
 
-1. Das Morgenstern wurde achtzehnhundertdreiundsiebzig eröffnet, zur Weltausstellung. Steht in jedem Reiseführer.
+1. Das Morgenstern wurde 1873 eröffnet, zur Weltausstellung. Steht in jedem Reiseführer.
 2. Hartl ist ein Aufschneider. Murano, Dornbach, der verkauft seiner eigenen Großmutter eine Replik.
 3. Frau Lenz erzählt jedem von der Dame mit dem Hund. Die arme Frau lebt in ihrer eigenen Zeit.
 4. Wer die Kugel hat, hat noch lange nicht, was in ihrem Sockel steckt.
@@ -1065,7 +1065,7 @@ Larissa fuhr hinaus, an Schönbrunn vorbei. Der Grabstein war alt, verwittert, o
 
 Der Hietzinger Friedhof lag still unter dem Schnee. Krähen saßen auf den Kreuzen, und irgendwo hinter der Mauer läutete eine Glocke.
 
-Gruppe dreizehn war ein vergessener Winkel. Die Gräber dort waren alt, die Namen kaum noch lesbar, die Wege nicht geräumt. Nur zu einem Stein führten Spuren. Frische Spuren, mit dem breiten Abdruck von Männerschuhen.
+Gruppe 13 war ein vergessener Winkel. Die Gräber dort waren alt, die Namen kaum noch lesbar, die Wege nicht geräumt. Nur zu einem Stein führten Spuren. Frische Spuren, mit dem breiten Abdruck von Männerschuhen.
 
 Vor dem Stein brannte eine rote Grabkerze. Jemand hatte sie heute angezündet.
 
@@ -1123,7 +1123,7 @@ Oben stand die Tür von Zimmer 24 offen.
 
 Im Treppenhaus war es so dunkel, dass Larissa die Hand vor Augen nicht sah. Irgendwo unten rief Constanze nach Kerzen. Fanny drückte sich an ihr Bein.
 
-Zimmer vierundzwanzig war durchwühlt. Die Schubladen herausgerissen, die Matratze verschoben, der Inhalt ihrer Tasche über den Teppich verstreut. Wer auch immer hier gewesen war, hatte etwas Bestimmtes gesucht.
+Zimmer 24 war durchwühlt. Die Schubladen herausgerissen, die Matratze verschoben, der Inhalt ihrer Tasche über den Teppich verstreut. Wer auch immer hier gewesen war, hatte etwas Bestimmtes gesucht.
 
 Und gefunden. Der Umschlag war fort. Der vergilbte Umschlag mit der Prägung, in dem ihr Brief gekommen war. Den Brief selbst trug Larissa seit Tagen in der Manteltasche. Aber der Umschlag, mit dem Zustelldatum und dem Vermerk der Zeitpost, war verschwunden.
 
@@ -1203,7 +1203,7 @@ Keine Platte. Kein Schalter. Nur Verschlüsse, Fugen, kleine Hebel. Albins Gramm
 
 **Bild Auflösung**: Antique wooden gramophone with a brass horn in a candle-lit stone wine cellar, a shellac record spinning, label reading recording number 1224, wine barrels in the shadows
 
-Im Grammophon lag eine Schellackplatte. Auf dem Etikett nur eine Nummer, mit Tinte geschrieben. Aufnahme zwölf vierundzwanzig.
+Im Grammophon lag eine Schellackplatte. Auf dem Etikett nur eine Nummer, mit Tinte geschrieben. Aufnahme 1224.
 
 Larissa setzte die Nadel auf. Erst Rauschen, Knistern, das Geräusch von hundert Jahren. Dann eine Stimme. Eine Frauenstimme, leise und klar, so nah, als stünde jemand direkt hinter ihr.
 
@@ -1257,7 +1257,7 @@ Larissa wusste, dass man fremde Notizbücher nicht öffnet. Sie öffnete es trot
 
 Auf dem Rücken das goldene Wappen, der Turm zwischen zwei Sternen. Dasselbe Wappen wie auf Hartls Zettel in der Stiefelkammer. Sie hatte es für Hartls Wappen gehalten. Für das von Dornbach.
 
-Die Seiten waren voll. Skizzen des Uhrturms. Der Grundriss der Zeitpost. Eine Notiz über eine Bestellung in Hernals, Nummer hundertzwanzig, Hohlraum im Sockel. Und eine lange Liste mit Namen. Berühmte Wiener Namen, Komponisten, Ärzte, Fürstinnen. Hinter jedem eine Zahl. Hinter manchen sehr hohe Zahlen.
+Die Seiten waren voll. Skizzen des Uhrturms. Der Grundriss der Zeitpost. Eine Notiz über eine Bestellung in Hernals, Nummer 120, Hohlraum im Sockel. Und eine lange Liste mit Namen. Berühmte Wiener Namen, Komponisten, Ärzte, Fürstinnen. Hinter jedem eine Zahl. Hinter manchen sehr hohe Zahlen.
 
 Es waren keine Leser. Es waren Preise.
 
@@ -1271,7 +1271,7 @@ Larissa kannte diesen Riss. Sie hatte die andere Hälfte gesehen, an ihrem viert
 
 **Video Auflösung** (Vorschlag): Startbild: the two halves of a torn ledger page joined on a library table, the line about Reiter now readable, a man's silhouette reflected in the dark window behind. Bewegung: Kamera hebt sich langsam vom Papier zum Fenster, die Spiegelung bekommt Schärfe.
 
-Eingesehen am dreißigsten November. Einen Tag bevor der Page an ihrer Tür geklingelt hatte.
+Eingesehen am 30. November. Einen Tag bevor der Page an ihrer Tür geklingelt hatte.
 
 Jonas hatte den Brief nicht gefunden. Er hatte auf ihn gewartet.
 
@@ -1279,7 +1279,7 @@ Im Fenster spiegelte sich eine Gestalt. Larissa drehte sich nicht um. Sie wusste
 
 Sie hätten das nicht lesen sollen, sagte Jonas. Seine Stimme war freundlich wie immer. Das war das Schlimmste daran.
 
-Er nahm ihr das Notizbuch aus der Hand. Hartl sei nützlich gewesen, sagte er, aber gierig und ungeschickt. Die Kugel sei ihm egal. Was zähle, sei das Archiv. Hundertfünfzig Jahre Briefe, die nie jemand lesen durfte. Liebesbriefe, Geständnisse, Testamente. Dornbach habe Käufer für jeden einzelnen.
+Er nahm ihr das Notizbuch aus der Hand. Hartl sei nützlich gewesen, sagte er, aber gierig und ungeschickt. Die Kugel sei ihm egal. Was zähle, sei das Archiv. 150 Jahre Briefe, die nie jemand lesen durfte. Liebesbriefe, Geständnisse, Testamente. Dornbach habe Käufer für jeden einzelnen.
 
 Ohne den Schlüssel sei das Archiv nur eine Wand, sagte er. Und Sie werden ihn für mich finden.
 
@@ -1321,7 +1321,7 @@ Wo waren Sie, fragte Larissa. Ihre Stimme klang schärfer, als sie wollte.
 
 In Sievering, sagte Albin. Bei meinem Bruder. Im Keller, bei der Kugel.
 
-Er erzählte es ruhig, wie man eine alte Geschichte erzählt. Seit fünfzig Jahren führe er das Register der Zeitpost. Und seit fünfzig Jahren stehe darin, auf der letzten Seite, eine Anweisung in einer Handschrift, die er nicht kannte. In der Nacht vom zweiten auf den dritten Dezember zweitausendsechsundzwanzig: Nimm die Kugel aus der Vitrine, noch vor eins. Jemand wird kommen, um sie zu holen.
+Er erzählte es ruhig, wie man eine alte Geschichte erzählt. Seit fünfzig Jahren führe er das Register der Zeitpost. Und seit fünfzig Jahren stehe darin, auf der letzten Seite, eine Anweisung in einer Handschrift, die er nicht kannte. In der Nacht vom 2. auf den 3. Dezember 2026: Nimm die Kugel aus der Vitrine, noch vor eins. Jemand wird kommen, um sie zu holen.
 
 Er habe es lange für einen Scherz gehalten, sagte Albin. Bis in diesem Herbst ein höflicher Herr mit grünem Notizbuch nach der Zeitpost gefragt habe.
 
@@ -1441,7 +1441,7 @@ Sie war nicht allein.
 
 Jonas trat aus dem Schatten zwischen den Regalen. Keine Eile, kein Lächeln mehr.
 
-Er habe lange gewartet, sagte er. Länger als sie denke. Sein Urgroßvater habe neunzehnhundertsechsundzwanzig die Akte geführt. Inspektor Anton Reiter. Er habe die Dame aus Zimmer vierundzwanzig nie gefunden, und er habe nie aufgehört, nach ihr zu suchen. Das Archiv sei die einzige Antwort, die die Familie Reiter nie bekommen habe. Und die einzige, die sich bezahlt mache.
+Er habe lange gewartet, sagte er. Länger als sie denke. Sein Urgroßvater habe 1926 die Akte geführt. Inspektor Anton Reiter. Er habe die Dame aus Zimmer 24 nie gefunden, und er habe nie aufgehört, nach ihr zu suchen. Das Archiv sei die einzige Antwort, die die Familie Reiter nie bekommen habe. Und die einzige, die sich bezahlt mache.
 
 Oben im Turm schlug die Uhr. Eins. Zwei. Bei zwölf ging ein Ruck durch das Haus, und das vierte Regal schwang auf wie eine Tür.
 
@@ -1537,7 +1537,7 @@ Als sie den Stempel auf den Umschlag drückte, stupste Fanny ihren Arm an. Die P
 
 Larissa lachte. Natürlich.
 
-Albin nahm den Brief, trug ihn in das Register ein und legte ihn in das Fach mit dem Datum vierundzwanzigster Dezember neunzehnhundertsechsundzwanzig. Dann schloss er es.
+Albin nahm den Brief, trug ihn in das Register ein und legte ihn in das Fach mit dem Datum 24. Dezember 1926. Dann schloss er es.
 
 In der Lobby stand Frau Lenz am Fenster und sah hinaus in den Schnee. Als Larissa zu ihr trat, nahm sie ihre Hand.
 

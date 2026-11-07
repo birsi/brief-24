@@ -14,6 +14,7 @@
 import { existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { parseTexts } from './parse-texts.mjs';
+import { speakable } from './speech.mjs';
 
 const args = process.argv.slice(2);
 const flag = (name) => args.includes(`--${name}`);
@@ -53,7 +54,7 @@ for (let num = dayRange[0]; num <= dayRange[1]; num++) {
   for (const kind of ['narration', 'continuation']) {
     if (only && kind !== only) continue;
     // Paragraph breaks become pauses in the reading.
-    const text = d[kind].join('\n\n');
+    const text = speakable(d[kind].join('\n\n'), settings.pronunciations);
     if (!text) { console.warn(`Day ${num}: no ${kind} text, skipped`); continue; }
     const key = `day-${String(num).padStart(2, '0')}/${kind}`;
     const file = new URL(`../public/media/${key}.mp3`, import.meta.url);

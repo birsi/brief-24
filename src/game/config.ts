@@ -1,8 +1,7 @@
 import type { DayConfig } from './types';
 
 /**
- * Puzzle configuration per day. No solutions here – those live only in
- * content/solutions.json and are used for encryption at build time.
+ * Puzzle configuration per day. Answers live in content/solutions.json.
  */
 export const CONFIG: Record<number, DayConfig> = {
   1: { question: 'Wohin führt dich der Brief?' },
