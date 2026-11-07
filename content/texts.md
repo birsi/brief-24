@@ -191,13 +191,13 @@ Und mit ihr Albin.
 
 **Bild Erzählung**: Empty glass display case in an opulent hotel lobby, a circle in the dust where a snow globe stood, a folded porter's cap on the reception desk, crystal chandelier
 
-Auf dem Samtkissen lag nur noch ein Kreis aus Staub, wo die Kugel gestanden hatte. Hundert Jahre lang, sagte Constanze, und ihre Stimme zitterte. Eine Schneekugel aus Wiener Glas, darin das Hotel als Miniatur, so fein, dass man die Fenster zählen konnte.
+Auf dem Samtkissen lag nur noch ein Kreis aus Staub, wo die Kugel gestanden hatte. „Hundert Jahre lang“, sagte Constanze, und ihre Stimme zitterte. Eine Schneekugel aus Wiener Glas, darin das Hotel als Miniatur, so fein, dass man die Fenster zählen konnte.
 
 Albins Mütze lag auf dem Empfang, ordentlich gefaltet, als hätte er nur kurz hinausgehen wollen. Sein Mantel hing noch am Haken. Draußen lag der Schnee kniehoch, und vor der Tür gab es keine einzige Spur.
 
 Die Polizei versprach zu kommen, sobald der Ring geräumt war. Niemand wusste, wann das sein würde.
 
-Constanze sah Larissa an. Er hat Ihnen einen Brief geschickt, sagte sie. Es war keine Frage. Dann sind Sie die Einzige, der er etwas hinterlassen hat.
+Constanze sah Larissa an. „Er hat Ihnen einen Brief geschickt“, sagte sie. Es war keine Frage. „Dann sind Sie die Einzige, der er etwas hinterlassen hat.“
 
 Unter der Mütze lag ein Zettel. Die Buchstaben ergaben keinen Sinn.
 
@@ -519,7 +519,7 @@ Frau Lenz saß jeden Nachmittag im Wintergarten, eine Tasse Tee vor sich, die si
 
 Als Larissa vorbeiging, sah sie auf.
 
-Sie sind wieder da, sagte sie. Und Sie haben den Hund mitgebracht.
+„Sie sind wieder da“, sagte sie. „Und Sie haben den Hund mitgebracht.“
 
 ### Karte – Rätsel
 
@@ -539,7 +539,7 @@ Einmal, in einem sehr kalten Winter, habe in Zimmer 24 eine Dame gewohnt. Eine D
 
 Frau Lenz legte das Album auf den Tisch und schlug es auf. Alte Fotografien, gezackte Ränder, Gesichter, die längst niemand mehr kannte.
 
-Ich habe es aufgehoben, sagte sie. Für den Fall, dass Sie wiederkommen.
+„Ich habe es aufgehoben“, sagte sie. „Für den Fall, dass Sie wiederkommen.“
 
 Larissa wollte sagen, dass sie nie hier gewesen war. Aber sie sagte nichts.
 
@@ -555,7 +555,7 @@ Lisl. So hatte man sie gerufen, damals.
 
 Frau Lenz strich mit dem Daumen über das Foto, über den Hund, über die Hand am Bildrand.
 
-Sie hieß wie Sie, sagte sie. Und sie hat so gelacht wie Sie. Ich habe es nie vergessen.
+„Sie hieß wie Sie“, sagte sie. „Und sie hat so gelacht wie Sie. Ich habe es nie vergessen.“
 
 Dann schloss sie die Augen und schlief ein, mitten im Satz, so plötzlich, wie nur sehr alte Menschen einschlafen können.
 
@@ -593,7 +593,7 @@ In der untersten Schublade, unter Quittungen und Bleistiftstummeln, lag die Foto
 
 Ein Räuspern in der Tür. Dr. Hartl lehnte im Rahmen, den teuren Mantel über dem Arm.
 
-Ein schönes Stück, sagte er und nickte zum Foto. Wiener Glas, zwanziger Jahre. So etwas könne man heute übrigens nachbauen lassen. Täuschend echt. Wenn man die richtigen Leute kenne.
+„Ein schönes Stück“, sagte er und nickte zum Foto. „Wiener Glas, zwanziger Jahre.“ So etwas könne man heute übrigens nachbauen lassen. Täuschend echt. Wenn man die richtigen Leute kenne.
 
 Er lächelte, als hätte er nur übers Wetter gesprochen, und ging.
 
@@ -667,7 +667,7 @@ Hinter ihm, im Halbdunkel, sah Larissa den Rand des Bettes. Darunter ein Paar St
 
 Auf dem Nachttisch lag eine halb gerauchte Zigarre.
 
-Nein, sagte Larissa. Nichts passiert. Gute Nacht.
+„Nein“, sagte Larissa. „Nichts passiert. Gute Nacht.“
 
 Als die Tür sich schloss, knurrte Fanny. Leise, tief in der Brust. Es war das erste Mal, dass Larissa sie so hörte.
 
@@ -773,7 +773,7 @@ Sie sah genauer hin.
 
 Hartl setzte sich auf die Stufen und lachte, ohne Freude.
 
-Ja, sagte er. Eine Replik. Er habe sie in Murano anfertigen lassen, nach Fotografien. In der Nacht, in der die Kugel verschwand, sei er hinuntergegangen, um sie auszutauschen. Kurz nach eins. Das Original hätte über Dornbach einen Käufer gefunden, der keine Fragen stellt.
+„Ja“, sagte er. „Eine Replik.“ Er habe sie in Murano anfertigen lassen, nach Fotografien. In der Nacht, in der die Kugel verschwand, sei er hinuntergegangen, um sie auszutauschen. Kurz nach eins. Das Original hätte über Dornbach einen Käufer gefunden, der keine Fragen stellt.
 
 Aber als er vor der Vitrine stand, sei sie schon leer gewesen.
 
@@ -916,7 +916,7 @@ Larissa merkte, dass sie die Luft anhielt.
 
 Die Zahl hatte gestimmt. Zimmer 24, mal fünf. Fanny war fünf. Aber der Hund der Dame von 1926? Woher sollte Larissa wissen, wie alt er gewesen war? Sie hatte einfach gerechnet, ohne nachzudenken. Und es hatte gestimmt.
 
-Der Glasbläser klappte das Buch zu. Komisch, sagte er. Sie seien schon die Zweite diese Woche, die nach Nummer 120 frage. Vor ein paar Tagen sei ein Herr da gewesen. Sehr höflich. Er habe sich alles genau notiert.
+Der Glasbläser klappte das Buch zu. „Komisch“, sagte er. Sie seien schon die Zweite diese Woche, die nach Nummer 120 frage. Vor ein paar Tagen sei ein Herr da gewesen. Sehr höflich. Er habe sich alles genau notiert.
 
 ### Hinweise
 
@@ -1277,11 +1277,11 @@ Jonas hatte den Brief nicht gefunden. Er hatte auf ihn gewartet.
 
 Im Fenster spiegelte sich eine Gestalt. Larissa drehte sich nicht um. Sie wusste, wer hinter ihr stand.
 
-Sie hätten das nicht lesen sollen, sagte Jonas. Seine Stimme war freundlich wie immer. Das war das Schlimmste daran.
+„Sie hätten das nicht lesen sollen“, sagte Jonas. Seine Stimme war freundlich wie immer. Das war das Schlimmste daran.
 
 Er nahm ihr das Notizbuch aus der Hand. Hartl sei nützlich gewesen, sagte er, aber gierig und ungeschickt. Die Kugel sei ihm egal. Was zähle, sei das Archiv. 150 Jahre Briefe, die nie jemand lesen durfte. Liebesbriefe, Geständnisse, Testamente. Dornbach habe Käufer für jeden einzelnen.
 
-Ohne den Schlüssel sei das Archiv nur eine Wand, sagte er. Und Sie werden ihn für mich finden.
+Ohne den Schlüssel sei das Archiv nur eine Wand, sagte er. „Und Sie werden ihn für mich finden.“
 
 Als er ging, knurrte Fanny nicht. Sie bellte. Laut, einmal, wie in jener Nacht, als die nassen Spuren auf dem Marmor glänzten.
 
@@ -1317,9 +1317,9 @@ Vor ihm auf dem Tresen lag ein Zylinder aus Messing, mit sechs Ringen voller Buc
 
 **Bild Erzählung**: Elderly hotel concierge in an immaculate 1920s-style uniform standing behind a brass reception desk in morning light, a brass cryptex cylinder with letter rings lying in front of him, a woman with a brown brindle boxer with a long, natural, undocked tail approaching
 
-Wo waren Sie, fragte Larissa. Ihre Stimme klang schärfer, als sie wollte.
+„Wo waren Sie?“, fragte Larissa. Ihre Stimme klang schärfer, als sie wollte.
 
-In Sievering, sagte Albin. Bei meinem Bruder. Im Keller, bei der Kugel.
+„In Sievering“, sagte Albin. „Bei meinem Bruder. Im Keller, bei der Kugel.“
 
 Er erzählte es ruhig, wie man eine alte Geschichte erzählt. Seit fünfzig Jahren führe er das Register der Zeitpost. Und seit fünfzig Jahren stehe darin, auf der letzten Seite, eine Anweisung in einer Handschrift, die er nicht kannte. In der Nacht vom 2. auf den 3. Dezember 2026: Nimm die Kugel aus der Vitrine, noch vor eins. Jemand wird kommen, um sie zu holen.
 
@@ -1327,7 +1327,7 @@ Er habe es lange für einen Scherz gehalten, sagte Albin. Bis in diesem Herbst e
 
 Also habe er getan, was im Register stand. Die Kugel mitgenommen. Und seither Spuren gelegt. Briefmarken, Zettel, eine Kerze am Friedhof. Für sie.
 
-Dann schob er ihr den Messingzylinder hin. Sie haben die Marken gesammelt, sagte er. Jetzt bringen Sie sie in die richtige Ordnung.
+Dann schob er ihr den Messingzylinder hin. „Sie haben die Marken gesammelt“, sagte er. „Jetzt bringen Sie sie in die richtige Ordnung.“
 
 **Notizbuch**: Die sechs Briefmarken mit Motiv, Poststempel und Buchstabe.
 
@@ -1345,7 +1345,7 @@ Die Morgenstern-Kugel. Die echte.
 
 Er drehte den Sockel, bis es leise klickte. Ein schmales Fach glitt heraus. Darin lag ein Schlüssel, nicht länger als ein Fingerglied, verziert wie ein Schmuckstück.
 
-Der Weg ins Archiv, sagte Albin. Aber nicht heute. Und nicht ohne Sie.
+„Der Weg ins Archiv“, sagte Albin. „Aber nicht heute. Und nicht ohne Sie.“
 
 ### Hinweise
 
@@ -1385,7 +1385,7 @@ Albin nickte. Larissa steckte den Schlüssel hinein und drehte.
 
 Zuerst geschah nichts. Dann ein Ruck, ein Seufzen von altem Metall. Und das Uhrwerk begann zu ticken. Nicht gleichmäßig, wie eine Uhr tickt. Kurze und lange Schläge, mit Pausen dazwischen, immer wieder dieselbe Folge.
 
-Es spricht, sagte Albin leise. Hören Sie zu.
+„Es spricht“, sagte Albin leise. „Hören Sie zu.“
 
 **Audio (Uhrwerk)**: Ticken in Morse, mit deutlichen Pausen zwischen den Buchstaben, dreimal wiederholt: ...- / .. / . / .-.
 
@@ -1469,11 +1469,11 @@ Larissa hatte den Satz für eine Laune gehalten, an jenem ersten Morgen. Aber Fa
 
 Und jetzt saß sie vor dem Fach, als hätte sie es schon immer gekannt.
 
-Die Zahl kennen Sie, sagte Albin. Aber nicht heute. Morgen, am Abend. So steht es geschrieben.
+„Die Zahl kennen Sie“, sagte Albin. „Aber nicht heute. Morgen, am Abend. So steht es geschrieben.“
 
 In der Tür stand Frau Lenz, im Morgenmantel, eine Kerze in der Hand. Niemand wusste, wie sie die Treppe heruntergekommen war.
 
-Morgen, sagte sie, und lächelte wie ein kleines Mädchen. Morgen schreiben Sie ihn.
+„Morgen“, sagte sie und lächelte wie ein kleines Mädchen. „Morgen schreiben Sie ihn.“
 
 ### Hinweise
 
@@ -1503,7 +1503,7 @@ Am Abend war das Morgenstern still wie ein Atemzug. Constanze hatte den Christba
 
 Albin begleitete Larissa bis zum vierten Regal. Dann blieb er stehen.
 
-Den Rest, sagte er, müssen Sie allein gehen. Mit Fanny.
+„Den Rest“, sagte er, „müssen Sie allein gehen. Mit Fanny.“
 
 Im Archiv war es warm, obwohl es keinen Ofen gab. Die Kerze vor dem Fach brannte ruhig. Das Schloss war klein, alt, mit drei Ringen voller Ziffern.
 
@@ -1529,7 +1529,7 @@ Der Stempel passte. Der Bogen, die Buchstaben, die Stelle, an der die Prägung a
 
 Neben dem Stempel lagen ein leerer Umschlag und eine Feder. Aber kein Brief.
 
-Albin stand plötzlich hinter ihr. Der Brief, sagte er leise, muss noch geschrieben werden.
+Albin stand plötzlich hinter ihr. „Der Brief“, sagte er leise, „muss noch geschrieben werden.“
 
 Larissa setzte sich an das kleine Pult im Archiv und schrieb. Sie musste nicht nachdenken. Die Sätze waren schon da, Zeile für Zeile, als würde sie sich an etwas erinnern, statt es zu erfinden. Mach dir keine Sorgen um mich. Nimm Fanny mit. Trau nicht dem, der dir zuerst hilft.
 
@@ -1541,7 +1541,7 @@ Albin nahm den Brief, trug ihn in das Register ein und legte ihn in das Fach mit
 
 In der Lobby stand Frau Lenz am Fenster und sah hinaus in den Schnee. Als Larissa zu ihr trat, nahm sie ihre Hand.
 
-Sie haben sich gar nicht verändert, sagte sie.
+„Sie haben sich gar nicht verändert“, sagte sie.
 
 In der Vitrine stand die Morgenstern-Kugel wieder an ihrem Platz. Und es schneite darin, obwohl niemand sie berührt hatte.
 
