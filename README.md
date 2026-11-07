@@ -1,0 +1,91 @@
+# 🎄 The Letter of December 24th ✉️
+
+> *Twenty-four doors, twenty-four riddles, one letter that arrives just in time for Christmas Eve.* ❄️
+
+A web app for the 2026 Advent calendar puzzle. Vite, React, TypeScript, no backend. Deployed on Vercel. 🎁
+
+## 🕯️ Quick start
+
+```bash
+npm install
+npm run dev          # http://localhost:5173
+npm test             # checks that all 24 answers open their days
+npm run build        # production build into dist/
+```
+
+Dev mode locally: `http://localhost:5173/?dev=dev`, then `/dev`.
+
+## 🚀 Deploying to Vercel
+
+1. Import the repo into Vercel (framework: Vite, settings come from `vercel.json`).
+2. Under **Settings → Environment Variables** set `DEV_SECRET`, e.g. a long random word. Without this variable the secret is `dev`.
+3. Deploy. Dev mode: `https://<your-domain>/?dev=<DEV_SECRET>`, then `/dev`.
+
+Keep the repo **private** 🤫: `content/solutions.json` contains every solution.
+
+## 🔐 How the solutions are protected
+
+- `content/solutions.json` is only read at build time and never shipped.
+- The continuation, the stamp and everything that gives away the solution are encrypted per day with AES-GCM. The key is derived via PBKDF2 from the normalized answer (case, umlauts and spaces don't matter). The solution never appears in plain text in the bundle.
+- Hint 3 (= the solution) is only lightly obfuscated.
+- Dev mode has its own key derived from `DEV_SECRET`.
+- Progress lives in the device's `localStorage`. If Larissa switches devices, use "Solve" in dev mode to set the days retroactively.
+
+## 🗓️ Unlocking
+
+Day N opens on December N, 2026 at 0:00 Vienna time (`GAME_YEAR` in `src/game/store.tsx`). Hints become available after 3, 8 and 15 minutes (`HINT_MINUTES`). In dev mode they are available immediately.
+
+## ✍️ Changing the texts
+
+The texts come from the Claude doc "Der Brief vom 24. Dezember – Texte".
+
+1. Export the doc as Markdown and save it as `content/texts.md`.
+2. Run `npm run content` (this also runs automatically on `dev`/`build`).
+
+Taken per day: title, date line, "App – Erzählung" (plain paragraphs only, up to the first bold label), "App – Fortsetzung" (all plain paragraphs) and the three hints. Questions, puzzle widgets and special texts live in `src/game/config.ts`; answers and stamps in `content/solutions.json`.
+
+## 🖼️ Media
+
+Everything goes under `public/media/`. If a file is missing, the app shows a placeholder; if audio is missing, the browser voice reads the text aloud. That way everything can be tested before the images and ElevenLabs recordings are ready. 🔔
+
+```
+public/media/day-01/narration.jpg       Narration image (3:2, also .webp or .png)
+public/media/day-01/resolution.jpg      Resolution image
+public/media/day-02/resolution.mp4      Resolution video (days 2, 12, 20, 22, 24), muted, looping
+public/media/day-01/narration.mp3       Narration read aloud
+public/media/day-01/continuation.mp3    Continuation read aloud
+```
+
+Additional audio:
+
+| File | Content |
+|---|---|
+| `day-05/voice-1.mp3` … `voice-6.mp3` | The six alibis: Constanze, Hartl, Jonas, Frau Lenz, Mira, Bruno |
+| `day-16/sentence-1.mp3` … `sentence-4.mp3` | Jonas' four sentences at the Heuriger |
+| `day-19/record.mp3` | The gramophone record of 1926: "Trau nicht dem, der dir zuerst hilft." (with crackle) |
+| `day-08/photo-1.jpg` … `photo-6.jpg` | Optional: photos in Frau Lenz's album (photo 4 = girl with dog) |
+
+Generated in the browser, no file needed: the Fraktur table in the notebook (UnifrakturMaguntia, from day 9), bell strikes (day 3), the clockwork's morse ticking (day 22). 🕰️
+
+The image prompts for all days are written to `content/image-prompts.txt` after `npm run content`.
+
+## 🎅 QR codes for the cards
+
+```bash
+npm run qr -- https://<your-domain>
+```
+
+Generates `qr/day-01.svg` … `day-24.svg` and PNGs (gold #8A6A2F, transparent background) linking to `/day/1` … `/day/24`.
+
+## 🎄 Structure
+
+```
+content/            Texts (doc export), solutions, image prompts
+scripts/            Build and encrypt content, QR codes, answer test
+src/game/           Configuration, encryption, game state
+src/screens/        Calendar, Day, Delivered, Notebook, Dev mode
+src/puzzles/        Puzzle components (Safe, Album, Footprints, Differences, Flashlight …)
+src/components/     Snow, garland, audio, media, stamps
+```
+
+Frohe Weihnachten! 🌟

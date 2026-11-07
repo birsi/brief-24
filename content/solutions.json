@@ -1,0 +1,29 @@
+{
+  "_note": "This file is only read at build time. Answers are normalized (case, umlauts and spaces do not matter). Each day's continuation is encrypted with its answer and never ends up in the bundle as plain text.",
+  "days": {
+    "1": { "answers": ["MORGENSTERN"] },
+    "2": { "answers": ["24", "VIERUNDZWANZIG"], "video": true },
+    "3": { "answers": ["ZEITPOST"], "stamp": { "num": 1, "letter": "H", "motif": "Lobbyuhr", "postmark": "WIEN 1 · 12. XII. 1908", "year": 1908 } },
+    "4": { "answers": ["BIBLIOTHEK"] },
+    "5": { "answers": ["MIRA", "MIRANOVAK"], "special": { "BRUNO": "Er schweigt. Aber er war nicht allein in der Küche." } },
+    "6": { "answers": ["418"], "stamp": { "num": 2, "letter": "A", "motif": "Rotunde", "postmark": "WIEN · 1. V. 1873", "year": 1873 } },
+    "7": { "answers": ["LIEBE"] },
+    "8": { "answers": ["LISL"] },
+    "9": { "answers": ["HERNALS"], "stamp": { "num": 3, "letter": "V", "motif": "Morgenstern im Schnee", "postmark": "WIEN 1 · 24. XII. 1926", "year": 1926 } },
+    "10": { "answers": ["HARTL", "DRHARTL", "FELIXHARTL", "31"] },
+    "11": { "answers": ["REPLIK", "EINEREPLIK"] },
+    "12": { "answers": ["FALSCH"], "video": true, "stamp": { "num": 4, "letter": "C", "motif": "Riesenrad", "postmark": "WIEN 2 · 3. VI. 1898", "year": 1898 } },
+    "13": { "answers": ["KUGELN"] },
+    "14": { "answers": ["120", "HUNDERTZWANZIG"] },
+    "15": { "answers": ["UHRWERK"], "stamp": { "num": 5, "letter": "R", "motif": "Burgtheater", "postmark": "WIEN 1 · 14. X. 1888", "year": 1888 } },
+    "16": { "answers": ["SCHLUESSEL", "EINSCHLUESSEL", "DERSCHLUESSEL"] },
+    "17": { "answers": ["ZURUECK"] },
+    "18": { "answers": ["WEINKELLER"], "stamp": { "num": 6, "letter": "I", "motif": "Stephansdom", "postmark": "WIEN 1 · 21. XI. 1916", "year": 1916 } },
+    "19": { "answers": ["1224"], "record": "Trau nicht dem, der dir zuerst hilft." },
+    "20": { "answers": ["REITER", "JONAS", "JONASREITER", "JREITER"], "video": true },
+    "21": { "answers": ["ARCHIV"] },
+    "22": { "answers": ["VIER", "4"], "video": true },
+    "23": { "answers": ["FANNY"], "special": { "ALBIN": "Ich habe nur einen Brief zugestellt.", "BRIEF": "Der Brief hat dir gesagt, wen du mitnehmen sollst." } },
+    "24": { "answers": ["BIRSAK", "LARISSABIRSAK"], "video": true, "epilogue": ["Jeder Brief in der Zeitpost wartet auf seinen Tag.", "Schreib deinen eigenen. Zuzustellen am 1. Dezember 2027."] }
+  }
+}
