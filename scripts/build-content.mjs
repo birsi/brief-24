@@ -20,6 +20,28 @@ if (!process.env.DEV_SECRET) {
 const solutions = JSON.parse(readFileSync(new URL('../content/solutions.json', import.meta.url), 'utf8')).days;
 const days = parseTexts();
 
+// ---------- Figures (notebook) ----------
+// 'open' notes are public in days.json. 'solve' notes go into the encrypted payload of their day,
+// together with the figure's name and role, so a figure that only has solve notes stays hidden too.
+const figuresSrc = JSON.parse(readFileSync(new URL('../content/figures.json', import.meta.url), 'utf8')).figures;
+const figuresPublic = [];
+const solveNotesByDay = {};
+const figureIds = new Set();
+figuresSrc.forEach((f, pos) => {
+  if (!f.id || !f.name || !f.role || !Array.isArray(f.notes)) throw new Error(`figures.json: figure ${pos + 1} needs id, name, role and notes`);
+  if (figureIds.has(f.id)) throw new Error(`figures.json: duplicate id ${f.id}`);
+  figureIds.add(f.id);
+  const open = [];
+  f.notes.forEach((n, i) => {
+    if (!Number.isInteger(n.day) || n.day < 1 || n.day > 24) throw new Error(`figures.json: ${f.id} note ${i + 1} has invalid day ${n.day}`);
+    if (n.when !== 'open' && n.when !== 'solve') throw new Error(`figures.json: ${f.id} note ${i + 1} has invalid when "${n.when}"`);
+    if (!n.text) throw new Error(`figures.json: ${f.id} note ${i + 1} has no text`);
+    if (n.when === 'open') open.push({ day: n.day, i, text: n.text });
+    else (solveNotesByDay[n.day] ??= []).push({ figure: f.id, pos, name: f.name, role: f.role, day: n.day, i, text: n.text });
+  });
+  if (open.length) figuresPublic.push({ id: f.id, pos, name: f.name, role: f.role, notes: open });
+});
+
 // ---------- Encryption ----------
 async function deriveKey(secret, salt) {
   const base = await crypto.subtle.importKey('raw', enc.encode(secret), 'PBKDF2', false, ['deriveKey']);
@@ -39,7 +61,7 @@ async function deriveContentKey(num) {
   return new Uint8Array(await crypto.subtle.sign('HMAC', k, enc.encode(`content-key:${num}`)));
 }
 
-const out = { iterations: ITER, devCheck: null, days: [] };
+const out = { iterations: ITER, devCheck: null, days: [], figures: figuresPublic };
 for (let num = 1; num <= 24; num++) {
   const d = days[num];
   const l = solutions[String(num)];
@@ -54,6 +76,7 @@ for (let num = 1; num <= 24; num++) {
     stamp: l.stamp || null,
     record: l.record || null,
     epilogue: l.epilogue || null,
+    figureNotes: solveNotesByDay[num] ?? [],
   };
   // Deterministic per day (HMAC of DEV_SECRET), so progress saved on a device survives rebuilds.
   const rawKey = await deriveContentKey(num);

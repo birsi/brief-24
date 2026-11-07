@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
-import { CONFIG } from './config';
 import { checkDevSecret, devSolve, openPayload, tryAnswer, type TryResult } from './crypto';
+import { notebookState, type NotebookState, type NotebookTab } from './notebook';
 import type { NotebookEntry, Payload } from './types';
 
 export const GAME_YEAR = 2026;
@@ -9,6 +9,16 @@ export const HINT_MINUTES = [3, 8, 15];
 
 const KEY = 'brief24:v1';
 const DEV_KEY = 'brief24:dev';
+/** Notebook items the player has already looked at (stamps, figure notes, tabs). */
+const SEEN_KEY = 'brief24:notebook-seen';
+
+function loadSeen(): Set<string> {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(SEEN_KEY) ?? '[]') as string[]);
+  } catch {
+    return new Set();
+  }
+}
 
 type Progress = {
   solved: Record<number, string>;
@@ -54,6 +64,13 @@ type Ctx = {
   markOpened: (num: number) => void;
   revealHint: (num: number) => void;
   notebook: Set<NotebookEntry>;
+  /** Figures, tabs and items of the notebook. */
+  book: NotebookState;
+  /** Unseen notebook items per tab, and all of them. */
+  unseen: Record<NotebookTab, string[]> & { all: string[] };
+  markSeen: (keys: string[]) => void;
+  /** True once the payloads of solved days are decrypted after loading. */
+  ready: boolean;
   // Dev mode
   enableDev: (secret: string) => Promise<boolean>;
   setDev: (patch: Partial<DevState>) => void;
@@ -68,7 +85,13 @@ export function GameProvider({ children }: { children: ReactNode }) {
   const [progress, setProgress] = useState<Progress>(() => load(KEY, { solved: {}, opened: {}, hints: {} }));
   const [dev, setDevState] = useState<DevState>(() => load(DEV_KEY, { secret: null, ignoreDate: false, ignoreOrder: false, simDate: null, showSolutions: false }));
   const [payloads, setPayloads] = useState<Record<number, Payload>>({});
+  const [ready, setReady] = useState(false);
+  const [seen, setSeen] = useState<Set<string>>(loadSeen);
   const [now, setNow] = useState(viennaToday());
+
+  useEffect(() => {
+    save(SEEN_KEY, [...seen]);
+  }, [seen]);
 
   useEffect(() => {
     save(KEY, progress);
@@ -94,6 +117,7 @@ export function GameProvider({ children }: { children: ReactNode }) {
       }
       if (!alive) return;
       setPayloads(next);
+      setReady(true);
       // Drop saved solutions that no longer decrypt (e.g. progress from an older build).
       const stale = Object.keys(progress.solved).filter((nr) => !next[Number(nr)]);
       if (stale.length) {
@@ -153,18 +177,17 @@ export function GameProvider({ children }: { children: ReactNode }) {
     setProgress((p) => ({ ...p, hints: { ...p.hints, [num]: Math.min(3, (p.hints[num] ?? 0) + 1) } }));
   }, []);
 
-  const notebook = useMemo(() => {
-    const s = new Set<NotebookEntry>();
-    for (let num = 1; num <= 24; num++) {
-      const c = CONFIG[num];
-      if (progress.opened[num]) c.unlocksOnOpen?.forEach((e) => s.add(e));
-      if (progress.solved[num]) {
-        c.unlocksOnOpen?.forEach((e) => s.add(e));
-        c.unlocksOnSolve?.forEach((e) => s.add(e));
-      }
-    }
-    return s;
-  }, [progress.opened, progress.solved]);
+  const book = useMemo(() => notebookState(progress, payloads), [progress, payloads]);
+  const notebook = book.entries;
+  const unseen = useMemo(() => {
+    const per = {} as Record<NotebookTab, string[]>;
+    for (const [tab, keys] of Object.entries(book.items) as [NotebookTab, string[]][]) per[tab] = keys.filter((k) => !seen.has(k));
+    return { ...per, all: Object.values(per).flat() };
+  }, [book, seen]);
+  const markSeen = useCallback((keys: string[]) => {
+    if (!keys.length) return;
+    setSeen((s) => (keys.every((k) => s.has(k)) ? s : new Set([...s, ...keys])));
+  }, []);
 
   const enableDev = useCallback(async (secret: string) => {
     const ok = await checkDevSecret(secret);
@@ -197,7 +220,10 @@ export function GameProvider({ children }: { children: ReactNode }) {
       return { solved, opened, hints };
     });
   }, []);
-  const resetAll = useCallback(() => setProgress({ solved: {}, opened: {}, hints: {} }), []);
+  const resetAll = useCallback(() => {
+    setProgress({ solved: {}, opened: {}, hints: {} });
+    setSeen(new Set());
+  }, []);
 
   const value: Ctx = {
     progress,
@@ -211,6 +237,10 @@ export function GameProvider({ children }: { children: ReactNode }) {
     markOpened,
     revealHint,
     notebook,
+    book,
+    unseen,
+    markSeen,
+    ready,
     enableDev,
     setDev,
     devSolveDay,

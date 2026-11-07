@@ -1,5 +1,6 @@
-import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { useGame } from '../game/store';
 import type { Stamp } from '../game/types';
 
 export const mediaPath = (num: number, name: string) => `/media/day-${String(num).padStart(2, '0')}/${name}`;
@@ -210,7 +211,18 @@ export function TopBar({ title, back = '/' }: { title: string; back?: string }) 
   );
 }
 
+/** Small golden dot for new notebook content. `label` is read by screen readers. */
+export function NewDot({ label, style }: { label: string; style?: CSSProperties }) {
+  return (
+    <span className="new-dot" style={style}>
+      <span className="sr-only">{label}</span>
+    </span>
+  );
+}
+
 export function BottomNav() {
+  const { unseen } = useGame();
+  const hasNews = unseen.all.length > 0;
   const style = ({ isActive }: { isActive: boolean }) => ({
     minHeight: 48,
     display: 'flex',
@@ -232,7 +244,10 @@ export function BottomNav() {
         KALENDER
       </NavLink>
       <NavLink to="/notebook" style={style}>
-        <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 2 H15 a1 1 0 0 1 1 1 V18 H5 a1 1 0 0 1 -1 -1 Z" fill="none" stroke="currentColor" strokeWidth="1.4" /><line x1="7" y1="6" x2="13" y2="6" stroke="currentColor" strokeWidth="1.2" /><line x1="7" y1="9" x2="13" y2="9" stroke="currentColor" strokeWidth="1.2" /></svg>
+        <span style={{ position: 'relative', display: 'flex' }}>
+          <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 2 H15 a1 1 0 0 1 1 1 V18 H5 a1 1 0 0 1 -1 -1 Z" fill="none" stroke="currentColor" strokeWidth="1.4" /><line x1="7" y1="6" x2="13" y2="6" stroke="currentColor" strokeWidth="1.2" /><line x1="7" y1="9" x2="13" y2="9" stroke="currentColor" strokeWidth="1.2" /></svg>
+          {hasNews ? <NewDot label="Neue Einträge" style={{ position: 'absolute', top: -3, right: -6, boxShadow: '0 0 0 2px var(--snow)' }} /> : null}
+        </span>
         NOTIZBUCH
       </NavLink>
     </nav>

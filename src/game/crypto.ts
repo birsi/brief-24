@@ -90,3 +90,4 @@ export function decodeHint3(s: string | null): string | null {
 }
 
 export const DAYS = data.days;
+export const FIGURES = data.figures;

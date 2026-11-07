@@ -1,7 +1,63 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import FigureList from '../components/Figures';
 import { DAYS, devSolve } from '../game/crypto';
+import { collectFigures } from '../game/figures';
 import { dayDate, useGame } from '../game/store';
+import type { Payload } from '../game/types';
+
+/** All figures with all notes up to a chosen day, decrypted with the dev secret, for proofreading. */
+function DevFigures({ secret }: { secret: string }) {
+  const [open, setOpen] = useState(false);
+  const [maxDay, setMaxDay] = useState(24);
+  const [payloads, setPayloads] = useState<Record<number, Payload> | null>(null);
+  useEffect(() => {
+    if (!open || payloads) return;
+    let alive = true;
+    (async () => {
+      const out: Record<number, Payload> = {};
+      for (const d of DAYS) {
+        const r = await devSolve(d.num, secret);
+        if (r.ok) out[d.num] = r.payload;
+      }
+      if (alive) setPayloads(out);
+    })();
+    return () => {
+      alive = false;
+    };
+  }, [open, payloads, secret]);
+  const figures = useMemo(() => (payloads ? collectFigures(() => true, payloads, maxDay) : []), [payloads, maxDay]);
+  const noteCount = figures.reduce((s, f) => s + f.notes.length, 0);
+
+  return (
+    <div style={{ padding: '16px 20px', borderTop: '1px solid #22344E', display: 'flex', flexDirection: 'column', gap: 12 }}>
+      <label style={{ minHeight: 44, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, fontSize: 15 }}>
+        Figuren prüfen
+        <input type="checkbox" checked={open} onChange={(e) => setOpen(e.target.checked)} style={{ width: 22, height: 22, accentColor: '#E8A15A' }} />
+      </label>
+      {open ? (
+        <>
+          <label style={{ minHeight: 44, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, fontSize: 15 }}>
+            Bis Tag
+            <select value={maxDay} onChange={(e) => setMaxDay(Number(e.target.value))} style={{ height: 44, minWidth: 80, background: '#0E1A2B', color: 'var(--ink)', border: '1px solid var(--line-2)', padding: '0 8px', fontFamily: 'var(--mono)', fontSize: 14 }}>
+              {DAYS.map((d) => (
+                <option key={d.num} value={d.num}>{d.num}</option>
+              ))}
+            </select>
+          </label>
+          {payloads ? (
+            <>
+              <div className="small">{figures.length} Figuren · {noteCount} Notizen</div>
+              <FigureList figures={figures} showWhen />
+            </>
+          ) : (
+            <div className="small">Entschlüssele …</div>
+          )}
+        </>
+      ) : null}
+    </div>
+  );
+}
 
 export default function Dev() {
   const g = useGame();
@@ -108,6 +164,8 @@ export default function Dev() {
           );
         })}
       </div>
+
+      <DevFigures secret={g.dev.secret!} />
 
       <div style={{ padding: '14px 20px 28px', borderTop: '1px solid #22344E', display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 10 }}>
         <button

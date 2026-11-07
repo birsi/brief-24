@@ -1,6 +1,8 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Snow, SnowBank } from '../components/Decor';
-import { BottomNav, StampCard } from '../components/ui';
+import FigureList from '../components/Figures';
+import { BottomNav, NewDot, StampCard } from '../components/ui';
+import { STAMP_DAYS, TAB_LABELS, type NotebookTab } from '../game/notebook';
 import { useGame } from '../game/store';
 import type { Stamp } from '../game/types';
 
@@ -9,25 +11,30 @@ export const MORSE: Record<string, string> = {
   N: '-.', O: '---', P: '.--.', Q: '--.-', R: '.-.', S: '...', T: '-', U: '..-', V: '...-', W: '.--', X: '-..-', Y: '-.--', Z: '--..',
 };
 
-const STAMP_DAYS = [3, 6, 9, 12, 15, 18];
-
-type Tab = 'stamps' | 'morse' | 'fraktur' | 'finds';
-
 export default function Notebook() {
-  const { payloads, notebook } = useGame();
-  const [tab, setTab] = useState<Tab>('stamps');
+  const { payloads, book, unseen, markSeen } = useGame();
+  const visible = book.tabs.filter((t) => t.on);
+  // Open on the first tab with something new.
+  const [tab, setTab] = useState<NotebookTab>(() => visible.find((t) => unseen[t.id].length)?.id ?? 'stamps');
+  const cur = visible.find((t) => t.id === tab)?.id ?? visible[0]?.id;
   const stamps = STAMP_DAYS.map((t) => ({ day: t, m: payloads[t]?.stamp as Stamp | undefined }));
   const count = stamps.filter((x) => x.m).length;
 
-  const tabs: { id: Tab; label: string; on: boolean }[] = [
-    { id: 'stamps', label: 'Briefmarken', on: count > 0 },
-    { id: 'morse', label: 'Morse', on: notebook.has('morse') },
-    { id: 'fraktur', label: 'Fraktur', on: notebook.has('fraktur') },
-    { id: 'finds', label: 'Funde', on: notebook.has('room') },
-  ];
-
-  const visible = tabs.filter((t) => t.on);
-  const cur = visible.find((t) => t.id === tab)?.id ?? visible[0]?.id;
+  // Whatever was new in the open tab counts as seen now, but keeps its golden dot while the tab stays open.
+  const [fresh, setFresh] = useState<{ tab?: NotebookTab; keys: Set<string> }>({ keys: new Set() });
+  const curUnseen = cur ? unseen[cur] : [];
+  let freshKeys = fresh.tab === cur ? fresh.keys : new Set<string>();
+  const missing = curUnseen.filter((k) => !freshKeys.has(k));
+  if (cur && (fresh.tab !== cur || missing.length)) {
+    freshKeys = new Set([...freshKeys, ...missing]);
+    setFresh({ tab: cur, keys: freshKeys });
+  }
+  const curUnseenList = curUnseen.join('|');
+  useEffect(() => {
+    markSeen(curUnseenList.split('|').filter(Boolean));
+  }, [curUnseenList, markSeen]);
+  const isFresh = (key: string) => freshKeys.has(key);
+  const freshNotes = new Set([...(cur === 'figures' ? freshKeys : [])].map((k) => k.replace(/^note:/, '')));
 
   return (
     <div className="app">
@@ -44,9 +51,10 @@ export default function Notebook() {
             role="tab"
             aria-selected={cur === t.id}
             onClick={() => setTab(t.id)}
-            style={{ minHeight: 44, padding: '0 14px', fontFamily: 'var(--sans)', fontSize: 12, letterSpacing: '0.14em', textTransform: 'uppercase', background: cur === t.id ? 'var(--gold)' : 'transparent', color: cur === t.id ? 'var(--navy)' : '#D5DAE2', border: `1px solid ${cur === t.id ? 'var(--gold)' : 'var(--line-2)'}` }}
+            style={{ minHeight: 44, padding: '0 14px', display: 'flex', alignItems: 'center', gap: 8, fontFamily: 'var(--sans)', fontSize: 12, letterSpacing: '0.14em', textTransform: 'uppercase', background: cur === t.id ? 'var(--gold)' : 'transparent', color: cur === t.id ? 'var(--navy)' : '#D5DAE2', border: `1px solid ${cur === t.id ? 'var(--gold)' : 'var(--line-2)'}` }}
           >
-            {t.label}
+            {TAB_LABELS[t.id]}
+            {cur !== t.id && unseen[t.id].length ? <NewDot label="neu" /> : null}
           </button>
         ))}
       </div>
@@ -62,7 +70,10 @@ export default function Notebook() {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 12 }}>
               {stamps.map(({ day, m }) =>
                 m ? (
-                  <StampCard key={day} m={m} small />
+                  <div key={day} style={{ position: 'relative' }}>
+                    <StampCard m={m} small />
+                    {isFresh(`stamp:${day}`) ? <NewDot label="neu" style={{ position: 'absolute', top: 0, right: 0 }} /> : null}
+                  </div>
                 ) : (
                   <div key={day} style={{ height: 150, margin: 4, border: '1px dashed var(--line-2)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 6, color: 'var(--muted-2)', fontFamily: 'var(--sans)', fontSize: 12, letterSpacing: '0.1em' }}>
                     <span style={{ fontFamily: 'var(--serif-display)', fontSize: 26 }}>?</span>
@@ -72,6 +83,17 @@ export default function Notebook() {
               )}
             </div>
             <p style={{ margin: '4px 0 0', fontSize: 16, lineHeight: 1.5, color: '#D5DAE2' }}>Jede Marke trägt einen Buchstaben und einen Poststempel.</p>
+          </div>
+        ) : null}
+
+        {cur === 'figures' ? (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+            <h2 style={{ fontSize: 22 }}>Figuren</h2>
+            {book.figures.length ? (
+              <FigureList figures={book.figures} fresh={freshNotes} />
+            ) : (
+              <p style={{ margin: 0, fontSize: 16, lineHeight: 1.5, color: '#D5DAE2' }}>Noch hat niemand einen Eintrag.</p>
+            )}
           </div>
         ) : null}
 

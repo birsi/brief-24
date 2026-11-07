@@ -1,0 +1,258 @@
+{
+  "_comment": "Notizbuch-Rubrik Figuren. Jede Notiz erscheint ab dem Tag 'day': 'open' sobald der Tag geöffnet ist, 'solve' erst nach der richtigen Antwort. Quelle: Text-Dokument.",
+  "figures": [
+    {
+      "id": "fanny",
+      "name": "Fanny",
+      "role": "Boxerhündin",
+      "notes": [
+        {
+          "day": 1,
+          "when": "open",
+          "text": "Fünf Jahre, braun gestromt, lange Rute. Hat am Brief geschnuppert, als würde sie den Geruch kennen."
+        },
+        {
+          "day": 2,
+          "when": "open",
+          "text": "Hat sich in der Lobby trockengeschüttelt. Constanzes Schuhe auch."
+        },
+        {
+          "day": 5,
+          "when": "open",
+          "text": "Sitzt im Salon im besten Sessel. Hat ihn gegen Dr. Hartl verteidigt."
+        },
+        {
+          "day": 7,
+          "when": "solve",
+          "text": "Hält Bruno für einen guten Menschen. Liegt vermutlich an der Extrawurst, die ihr niemand gegeben hat."
+        },
+        {
+          "day": 8,
+          "when": "open",
+          "text": "Bekommt von Frau Lenz die Kekse zum Tee. Den Tee trinkt ohnehin niemand."
+        },
+        {
+          "day": 13,
+          "when": "open",
+          "text": "Legt sich auf Polizeiakten wie auf deinen Lieblingspullover."
+        },
+        {
+          "day": 15,
+          "when": "open",
+          "text": "Durfte nicht in den Prunksaal. Hat dafür den Portier um Kekse erleichtert."
+        },
+        {
+          "day": 19,
+          "when": "open",
+          "text": "Kennt den Weg nach Sievering. Lässt sich nur von Schneemännern mit Karottennase kurz ablenken."
+        },
+        {
+          "day": 22,
+          "when": "open",
+          "text": "Steile Turmtreppen sind unter ihrer Würde. Lässt sich tragen und beschwert sich dabei."
+        },
+        {
+          "day": 23,
+          "when": "solve",
+          "text": "Hat dich bis vor das Fach geführt. Der Brief hatte recht: Sie kennt den Weg besser als du."
+        }
+      ]
+    },
+    {
+      "id": "albin",
+      "name": "Albin Kranz",
+      "role": "Oberportier",
+      "notes": [
+        {
+          "day": 2,
+          "when": "open",
+          "text": "Steht seit fünfzig Jahren hinter dem Empfang. Kannte deinen Namen und Fannys, bevor du sie genannt hast. Ließ den Brief zustellen, so steht es im Register der Zeitpost."
+        },
+        {
+          "day": 3,
+          "when": "open",
+          "text": "Seit dem Morgen des 3. Dezember verschwunden, zur selben Zeit wie die Kugel. Mütze und Mantel blieben zurück, im Schnee keine Spur."
+        },
+        {
+          "day": 18,
+          "when": "solve",
+          "text": "Hat einen Bruder mit einem Heurigen in Sievering. Fuhr fünfzig Jahre lang jeden Sonntag hinauf."
+        },
+        {
+          "day": 21,
+          "when": "open",
+          "text": "Seit dem 21. Dezember wieder hinter dem Empfang, als wäre er nie fort gewesen."
+        }
+      ]
+    },
+    {
+      "id": "constanze",
+      "name": "Constanze Morgenstern",
+      "role": "Eigentümerin",
+      "notes": [
+        {
+          "day": 2,
+          "when": "open",
+          "text": "Führt das Grand Hotel Morgenstern. Schmal, strenger Haarknoten. Wollte Zimmer 24 eigentlich nicht vergeben."
+        },
+        {
+          "day": 6,
+          "when": "solve",
+          "text": "Das Hotel gehört ihrer Familie seit 1873 und seit drei Jahren der Bank. Hat heimlich Weine aus dem Keller verkauft."
+        }
+      ]
+    },
+    {
+      "id": "jonas",
+      "name": "Jonas Reiter",
+      "role": "Gast, Zimmer 19",
+      "notes": [
+        {
+          "day": 2,
+          "when": "solve",
+          "text": "Schreibt ein Buch über das Morgenstern. Hilfsbereit, gutes Lächeln. Grünes Leinen-Notizbuch mit goldenem Wappen: ein Turm zwischen zwei Sternen."
+        },
+        {
+          "day": 5,
+          "when": "solve",
+          "text": "Alibi: schrieb bis nach Mitternacht in der Bibliothek. Das Nachtbuch bestätigt es."
+        },
+        {
+          "day": 16,
+          "when": "solve",
+          "text": "Wusste vom Hohlraum im Sockel, obwohl du ihm nichts davon erzählt hast."
+        },
+        {
+          "day": 20,
+          "when": "solve",
+          "text": "Hat die Registerseite herausgerissen, einen Tag bevor der Brief kam. Arbeitet mit Dornbach zusammen. Ihm geht es nicht um die Kugel, sondern um das Archiv."
+        },
+        {
+          "day": 23,
+          "when": "solve",
+          "text": "Sein Urgroßvater, Inspektor Anton Reiter, führte 1926 die Akte. Am Heiligen Abend kam die Polizei."
+        }
+      ]
+    },
+    {
+      "id": "hartl",
+      "name": "Dr. Felix Hartl",
+      "role": "Gast, Zimmer 31",
+      "notes": [
+        {
+          "day": 2,
+          "when": "solve",
+          "text": "Wohnt in Zimmer 31."
+        },
+        {
+          "day": 5,
+          "when": "solve",
+          "text": "Alibi: um halb elf ein Cognac an der Bar, danach auf dem Zimmer."
+        },
+        {
+          "day": 9,
+          "when": "open",
+          "text": "Teurer Mantel. Kennt sich mit altem Glas aus. Meinte, so eine Kugel könne man täuschend echt nachbauen lassen."
+        },
+        {
+          "day": 10,
+          "when": "solve",
+          "text": "In der Nacht nasse Stiefel unter seinem Bett und eine halb gerauchte Zigarre. Fanny hat ihn angeknurrt."
+        },
+        {
+          "day": 11,
+          "when": "open",
+          "text": "Seit dem 11. Dezember verschwunden. Bett gemacht, Koffer fort."
+        },
+        {
+          "day": 12,
+          "when": "solve",
+          "text": "Ließ in Murano eine Replik der Kugel anfertigen und wollte sie in der Nacht austauschen. Das Original sollte über das Auktionshaus Dornbach verkauft werden."
+        },
+        {
+          "day": 23,
+          "when": "solve",
+          "text": "Hat bei der Polizei ausgesagt."
+        }
+      ]
+    },
+    {
+      "id": "lenz",
+      "name": "Frau Elisabeth Lenz",
+      "role": "Gast, Zimmer 7",
+      "notes": [
+        {
+          "day": 2,
+          "when": "solve",
+          "text": "Bewohnt seit 1971 dasselbe Zimmer."
+        },
+        {
+          "day": 8,
+          "when": "open",
+          "text": "Hundertdrei Jahre alt. Verbringt jedes Weihnachten im Morgenstern, schon als Kind mit ihren Eltern. Sitzt nachmittags im Wintergarten."
+        },
+        {
+          "day": 8,
+          "when": "solve",
+          "text": "Als Kind nannte man sie Lisl. Weihnachten 1926 war sie drei Jahre alt und hat die Dame mit dem Hund gekannt."
+        }
+      ]
+    },
+    {
+      "id": "mira",
+      "name": "Mira Novak",
+      "role": "Zimmermädchen",
+      "notes": [
+        {
+          "day": 5,
+          "when": "open",
+          "text": "Arbeitet im Morgenstern. Sagt, sie sei nach Dienstschluss um zehn sofort auf ihr Zimmer gegangen."
+        },
+        {
+          "day": 5,
+          "when": "solve",
+          "text": "Hat gelogen: In der Nacht war sie nicht in ihrem Zimmer."
+        },
+        {
+          "day": 7,
+          "when": "solve",
+          "text": "Liebt Bruno. Beziehungen unter dem Personal sind verboten, darum die Lüge. Sah kurz nach eins einen Mann im langen Mantel vor der Vitrine. Er roch nach Zigarren."
+        }
+      ]
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno Kessler",
+      "role": "Küchenchef",
+      "notes": [
+        {
+          "day": 5,
+          "when": "open",
+          "text": "Breite Schultern, wenig Worte. Sagt, er habe bis Mitternacht allein die Küche geputzt."
+        },
+        {
+          "day": 7,
+          "when": "solve",
+          "text": "Miras heimliche Liebe. Hat sie gedeckt."
+        }
+      ]
+    },
+    {
+      "id": "dame",
+      "name": "Die Dame mit dem Hund",
+      "role": "Gast, Weihnachten 1926",
+      "notes": [
+        {
+          "day": 8,
+          "when": "solve",
+          "text": "Auf einem Foto von Weihnachten 1926 neben der kleinen Lisl. Ihr Gesicht ist abgeschnitten. Sie hatte einen Hund."
+        },
+        {
+          "day": 13,
+          "when": "solve",
+          "text": "Wohnte in Zimmer 24. Hinterlegte am Abend des 24. Dezember 1926 einen Brief in der Zeitpost und verschwand mit ihrem Hund. Keine Spuren im Schnee."
+        }
+      ]
+    }
+  ]
+}

@@ -44,6 +44,8 @@ The texts come from the Claude doc "Der Brief vom 24. Dezember – Texte".
 
 Taken per day: title, date line, "App – Erzählung" (plain paragraphs only, up to the first bold label), "App – Fortsetzung" (all plain paragraphs) and the three hints. Questions, puzzle widgets and special texts live in `src/game/config.ts`; answers and stamps in `content/solutions.json`.
 
+The notebook's "Figuren" section comes from `content/figures.json`. `open` notes appear once their day is opened, `solve` notes only after the day's answer. Solve notes (and figures that only have solve notes) are encrypted into that day's payload; `npm test` checks they decrypt and never appear in plain text in `src/generated/` or `dist/`. In dev mode, `/dev` → "Figuren prüfen" shows all notes up to a chosen day.
+
 ## 🖼️ Media
 
 Everything goes under `public/media/`. If a file is missing, the app shows a placeholder; if audio is missing, the browser voice reads the text aloud. That way everything can be tested before the images and ElevenLabs recordings are ready. 🔔
