@@ -56,6 +56,34 @@ public/media/day-01/narration.mp3       Narration read aloud
 public/media/day-01/continuation.mp3    Continuation read aloud
 ```
 
+### 🎙️ Audio with ElevenLabs
+
+`narration.mp3` and `continuation.mp3` for every day are generated from `content/texts.md`:
+
+1. Put your key and voice into `.env` (gitignored). The voice ID is under *Voices → ⋯ → Copy voice ID*:
+   ```
+   ELEVENLABS_API_KEY=sk_...
+   ELEVENLABS_VOICE_ID=...
+   # optional, default eleven_multilingual_v2
+   ELEVENLABS_MODEL=eleven_multilingual_v2
+   ```
+2. `npm run tts -- --dry-run` shows which files would be generated and how many characters (= credits) that costs.
+3. `npm run tts` generates them. Try one day first: `npm run tts -- --day 2`.
+
+`content/audio-manifest.json` remembers which text and voice each file was made from. After editing `texts.md`, `npm run tts` regenerates only the changed files. Files that were not made by the script (e.g. hand-made recordings) are left alone unless you pass `--force`. Model, seed and voice settings are in `content/tts-settings.json`:
+
+| Setting | Value | Meaning |
+|---|---|---|
+| `model` | `eleven_multilingual_v2` | ElevenLabs model (`ELEVENLABS_MODEL` in `.env` overrides it) |
+| `seed` | `24` | Same text + settings → same reading. Change it for a different take |
+| `stability` | `0.55` | Lower = more expressive, higher = steadier (API default 0.5) |
+| `similarity_boost` | `0.8` | How closely it sticks to the voice (default 0.75) |
+| `style` | `0.15` | Exaggerates the speaker's style (default 0) |
+| `use_speaker_boost` | `true` | Extra closeness to the speaker (default true) |
+| `speed` | `0.95` | Below 1 = slower (default 1.0) |
+
+Changing any of them regenerates all script-made files on the next `npm run tts`.
+
 Additional audio:
 
 | File | Content |

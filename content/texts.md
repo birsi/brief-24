@@ -173,7 +173,7 @@ Donnerstag, 3. Dezember · Karte + App (Audio) · ★★
 
 ### Karte – Story
 
-Der Schrei kam kurz nach sieben. In der Lobby stand Constanze Morgenstern vor der Vitrine. Das Glas war unversehrt, das Schloss verschlossen.
+Der Schrei kam kurz vor acht. In der Lobby stand Constanze Morgenstern vor der Vitrine. Das Glas war unversehrt, das Schloss verschlossen.
 
 Doch die Morgenstern-Kugel war fort.
 
@@ -181,7 +181,7 @@ Und mit ihr Albin.
 
 ### Karte – Rätsel
 
-> HSSLZ ILNPUUA PU KLY GLPAWVZA
+> ITTMA JMOQVVB QV LMZ HMQBXWAB
 >
 > Albin zählte die Stunden, bevor er ging.
 
@@ -201,11 +201,11 @@ Unter der Mütze lag ein Zettel. Die Buchstaben ergaben keinen Sinn.
 
 Und während Larissa noch darauf starrte, begann hinter ihr die alte Standuhr zu schlagen.
 
-**Audio**: Standuhr, sieben Schläge, danach Stille und leises Schneerieseln. Abspielbar beliebig oft.
+**Audio**: Standuhr mit Gong, acht Schläge (Datei gong-8.wav), danach Stille und leises Schneerieseln. Abspielbar beliebig oft.
 
 **Eingabe**: „Wohin wollte Albin dich schicken?“ → **ZEITPOST**
 
-Klartext: ALLES BEGINNT IN DER ZEITPOST (Caesar, jeder Buchstabe um 7 zurück).
+Klartext: ALLES BEGINNT IN DER ZEITPOST (Caesar, jeder Buchstabe um 8 zurück).
 
 ### App – Fortsetzung (Audio)
 
@@ -222,7 +222,7 @@ An der Klinke klemmte ein kleines Stück Papier: eine alte Briefmarke mit der Lo
 ### Hinweise
 
 1. Die Uhr schlägt eine Zahl. Zähl die Schläge.
-2. Verschiebe jeden Buchstaben um 7 Stellen im Alphabet zurück: H wird zu A.
+2. Verschiebe jeden Buchstaben um 8 Stellen im Alphabet zurück: I wird zu A.
 3. ZEITPOST
 
 ## Tag 4 – Die Zeitpost
@@ -1017,7 +1017,7 @@ Jonas hob sein Häferl. Und während er redete, spürte Larissa, dass irgendetwa
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Two Christmas market mugs on a snowy standing table, one empty, one untouched and still steaming, a folded green linen notebook lying beside them, the Gothic portal of St. Stephen's Cathedral blurred in the background
+**Bild Auflösung**: The Graben in Vienna late at night, giant glowing Christmas chandeliers hanging high above the empty snowy pedestrian street, the baroque Plague Column pale under the snowfall, a woman and a man with a scarf walking side by side but a little apart, a brown brindle boxer with a long, natural, undocked tail pressed close against the woman's leg, both faces in shadow
 
 Im Sockel. Larissa hatte niemandem vom Hohlraum erzählt. Er stand nur in einem Bestellbuch in Hernals. Und in einer Chronik im Prunksaal.
 

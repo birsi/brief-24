@@ -40,7 +40,7 @@ export type NotebookEntry = 'room' | 'morse' | 'fraktur';
 
 export type Widget =
   | { type: 'keyboard'; hooks: number[]; nameplates: string[]; sentences: string[] }
-  | { type: 'bell'; strikes: number; label: string }
+  | { type: 'bell'; strikes: number; label: string; src?: string }
   | { type: 'voices'; statements: { name: string; text: string }[] }
   | { type: 'safe'; wheels: number }
   | { type: 'album'; photos: string[]; match: number; backside: string }

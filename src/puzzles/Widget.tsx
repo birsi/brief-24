@@ -41,7 +41,7 @@ export default function Widget({ num, widget, onGate, onSubmitValue }: Props) {
     case 'hint':
       return <p style={{ margin: 0, fontStyle: 'italic', fontSize: 19, textAlign: 'center' }}>{widget.text}</p>;
     case 'bell':
-      return <Bell n={widget.strikes} label={widget.label} />;
+      return <Bell n={widget.strikes} label={widget.label} src={widget.src ? mediaPath(num, widget.src) : undefined} />;
     case 'morse':
       return <Morse pattern={widget.pattern} />;
     case 'keyboard':
@@ -74,16 +74,26 @@ export default function Widget({ num, widget, onGate, onSubmitValue }: Props) {
   }
 }
 
-function Bell({ n, label }: { n: number; label: string }) {
+function Bell({ n, label, src }: { n: number; label: string; src?: string }) {
   const [busy, setBusy] = useState(false);
+  const audio = useRef<HTMLAudioElement | null>(null);
+  useEffect(() => () => audio.current?.pause(), []);
+  const synth = () => {
+    const d = playBells(n);
+    setTimeout(() => setBusy(false), d * 1000);
+  };
   return (
     <button
       style={soundBtn}
       disabled={busy}
       onClick={() => {
         setBusy(true);
-        const d = playBells(n);
-        setTimeout(() => setBusy(false), d * 1000);
+        if (!src) return synth();
+        // Recorded gong from public/media; if the file is missing, the browser bells take over.
+        const a = new Audio(src);
+        audio.current = a;
+        a.onended = () => setBusy(false);
+        a.play().catch(synth);
       }}
     >
       <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="7.5" fill="none" stroke="var(--gold)" strokeWidth="1.3" /><path d="M9 4.5 V9 L12 11" fill="none" stroke="var(--gold)" strokeWidth="1.3" /></svg>

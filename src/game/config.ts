@@ -23,7 +23,7 @@ export const CONFIG: Record<number, DayConfig> = {
     },
     unlocksOnSolve: ['room'],
   },
-  3: { question: 'Wohin wollte Albin dich schicken?', widget: { type: 'bell', strikes: 7, label: 'Lobbyuhr anhören' } },
+  3: { question: 'Wohin wollte Albin dich schicken?', widget: { type: 'bell', strikes: 8, label: 'Lobbyuhr anhören', src: 'gong.mp3' } },
   4: { question: 'Was hat Albin unsichtbar notiert?' },
   5: {
     question: 'Wer hat gelogen?',
