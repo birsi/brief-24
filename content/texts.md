@@ -127,6 +127,8 @@ Ein Mann mit Schal und Notizbuch nahm ihr den nassen Mantel ab, bevor sie fragen
 
 Die Eigentümerin, Constanze Morgenstern, eine schmale Frau mit strengem Haarknoten, bot Larissa ein Zimmer an. Bis der Schnee nachlasse. Das Haus sei ohnehin halb leer.
 
+Fanny schüttelte sich ausgiebig. Der Schnee landete auf dem Perserteppich und auf Constanzes Schuhen. Constanze sagte nichts. Ihr Blick sagte genug.
+
 Albin trat an das Schlüsselbrett. Fünf Haken, fünf Nummern. Er hob die Hand, ließ sie wieder sinken und murmelte vor sich hin, als müsste er sich erst selbst überzeugen, wer wo wohnte.
 
 **Rätsel (nur Bildschirm)**
@@ -329,6 +331,8 @@ Zwischen den Seiten steckte ein gefaltetes Blatt. Albins Nachtbuch. Jeder Nachtp
 
 Am Nachmittag bat Constanze alle in den Salon. Draußen schneite es noch immer. Im Kamin knackte das Holz, und niemand setzte sich bequem hin.
 
+Nur Fanny. Sie hatte den besten Sessel am Kamin besetzt, den mit den Samtquasten, und gab ihn auch für Dr. Hartl nicht her.
+
 Larissa stellte allen dieselbe Frage. Wo waren Sie in der Nacht, als die Kugel verschwand?
 
 **Die sechs Aussagen (Audio, je eigene Stimme)**
@@ -487,6 +491,8 @@ Mira hatte nicht gestohlen. Aber sie hatte etwas zu verbergen. Und offenbar hatt
 
 Mira saß in der Küche, die Hände um eine Tasse geschlossen. Bruno stand hinter ihr, eine Hand auf ihrer Schulter.
 
+Unter dem Tisch kaute Fanny an einem Stück Extrawurst, das ihr angeblich niemand gegeben hatte.
+
 Beziehungen unter dem Personal waren im Morgenstern verboten, seit es das Haus gab. Wer erwischt wurde, ging. Darum hatte sie gelogen.
 
 Die Kette, sagte Mira leise, habe ihre Großmutter getragen. Sie sei ihr gerissen, als sie in der Nacht über die Treppe zurückgelaufen sei. Und dabei habe sie jemanden gesehen. Kurz nach eins, unten in der Lobby. Einen Mann in einem langen Mantel, vor der Vitrine. Sie habe sein Gesicht nicht erkannt.
@@ -524,6 +530,8 @@ Sie sind wieder da, sagte sie. Und Sie haben den Hund mitgebracht.
 **Bild Erzählung**: Very old woman with silver hair in a glass winter garden full of palms and snow outside, a teacup on a wicker table, an old leather photo album on her lap
 
 Larissa setzte sich zu ihr. Die alte Dame musterte sie lange, mit Augen, die viel heller waren als der Rest von ihr.
+
+Fanny legte ihr ohne Umschweife den Kopf auf den Schoß. Frau Lenz kraulte sie hinter den Ohren und schob ihr den Keks von der Untertasse zu. Der Tee bleibe ja ohnehin stehen, sagte sie.
 
 Hundertdrei sei sie, sagte Frau Lenz. Und jedes Jahr zu Weihnachten im Morgenstern. Schon als kleines Mädchen, mit ihren Eltern, in den Jahren, als Wien noch nach Kohle und Maronen roch.
 
@@ -1177,7 +1185,7 @@ An ihrem Halsband hing etwas, das gestern Abend noch nicht dort gewesen war.
 
 Fanny zog, und Larissa ließ sich ziehen. Durch Währing, an verschneiten Gärten vorbei, hinein in den Türkenschanzpark. Der Teich war zugefroren, die Laternen brannten schon, obwohl es erst Nachmittag war. Kinder fuhren mit Schlitten den Hang hinunter.
 
-Fanny sah nicht nach links und nicht nach rechts. Sie lief, als kenne sie den Weg seit Jahren.
+Fanny sah nicht nach links und nicht nach rechts. Sie lief, als kenne sie den Weg seit Jahren. Nur einmal blieb sie stehen, vor einem Schneemann mit Karottennase. Sie dachte ernsthaft darüber nach. Dann lief sie weiter.
 
 Hinter dem Park ging es bergauf, durch Gassen mit niedrigen Häusern, bis die ersten Weinstöcke aus dem Schnee ragten. Sievering. Vor einem Heurigen, der im Winter geschlossen hatte, blieb Fanny stehen und setzte sich.
 
