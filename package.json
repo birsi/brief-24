@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "qr": "node scripts/qr.mjs",
     "tts": "node --env-file-if-exists=.env scripts/tts.mjs",
+    "images": "node --env-file-if-exists=.env scripts/images.mjs",
     "test": "node scripts/test-answers.mjs",
     "tts:voices": "node --env-file-if-exists=.env scripts/tts-voices.mjs"
   },

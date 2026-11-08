@@ -67,7 +67,7 @@ Larissa öffnete ihn. Es war ihre Handschrift.
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: An aged envelope with a blind-embossed ex-libris stamp on a windowsill, snow falling over Vienna rooftops at dusk, the nose of a brown brindle boxer with a long, natural, undocked tail peeking into frame
+**Bild Erzählung**: Early morning in the hallway of a Viennese apartment: a woman in her late thirties in a cosy sweater, seen from behind, holds a yellowed antique envelope and a handwritten letter; on the back of the envelope a faint blind embossing breaks off at the edge of the paper; a brown brindle boxer with a long, natural, undocked tail sniffs the paper and wags, grey winter light falling through the frosted glass of the front door
 
 Larissa stand lange im Flur, den Brief in der Hand. Die Schrift war ihre, ohne jeden Zweifel. Das kleine Häkchen am L, die Art, wie sie das t durchstrich, als hätte sie es eilig. Nur dass sie diesen Brief nie geschrieben hatte.
 
@@ -85,7 +85,7 @@ Sie las den Brief ein zweites Mal, dann ein drittes. Er nannte keinen Ort, keine
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Exterior of a grand 1870s hotel on Vienna's Ringstrasse at blue hour, illuminated facade and a glowing revolving door, the very first snowflakes drifting under an old street lantern, empty tram tracks in the foreground, a woman with a brown brindle boxer with a long, natural, undocked tail small in the frame walking toward the entrance
+**Bild Auflösung**: Exterior of a grand 1870s hotel on Vienna's Ringstrasse at blue hour, stucco facade and brass details, a glowing revolving door, the very first snowflake drifting under an old street lantern; a woman in a modern winter coat with a brown brindle boxer with a long, natural, undocked tail stepping into the revolving door; through the glass, behind a polished reception desk, an elderly porter in an immaculate dark uniform looks up with a tired smile
 
 Das Grand Hotel Morgenstern stand seit 1873 am Ring, ein Haus aus Stuck, Messing und Erinnerungen. Als Larissa mit Fanny durch die Drehtür trat, fiel draußen die erste Flocke.
 
@@ -117,7 +117,7 @@ Niemand kam mehr hinein. Und niemand mehr hinaus.
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Grand hotel lobby during a snowstorm, an old concierge in front of a wooden key board with five brass hooks, a man with a scarf and notebook holding a wet coat, a woman with a brown brindle boxer with a long, natural, undocked tail seen from behind
+**Bild Erzählung**: Lobby of a grand Viennese hotel during a heavy snowstorm, snow piling against the tall windows, the Ringstrasse outside white and empty, a tram standing still. An elderly porter in an immaculate dark uniform raises a hand toward a wooden key board with five brass hooks. A man in his thirties with a scarf takes a wet coat from a woman's shoulders, a dark green linen notebook under his arm. A slim woman in her fifties with a strict hair bun watches as a brown brindle boxer with a long, natural, undocked tail shakes snow off its coat onto a Persian rug and her polished shoes
 
 Der alte Portier hieß Albin Kranz. Seit fünfzig Jahren stehe er hinter diesem Empfang, sagte er, als wäre das eine Antwort auf alles. Den Brief habe er selbst zustellen lassen. So stehe es im Register der Zeitpost, eingetragen am 24. Dezember 1926. Mehr wisse er nicht.
 
@@ -149,7 +149,7 @@ Die App merkt sich die Belegung im Notizbuch: Lenz 7, Baustelle 12, Reiter 19, L
 
 ### App – Fortsetzung (Audio)
 
-**Video Auflösung** (Vorschlag): Startbild: an antique snow globe with a miniature grand hotel inside, in a glass display case in a dark hotel lobby at night, faint gold glow. Bewegung: im Inneren beginnt es langsam zu schneien, obwohl niemand die Kugel berührt. Kamera steht still.
+**Video Auflösung** (Vorschlag): Startbild: night, seen from the gallery of a grand hotel down into the dark lobby: an antique snow globe with a miniature grand hotel inside stands on a velvet cushion in a glass display case, faint gold glow, nobody near it. Bewegung: im Inneren beginnt es langsam zu schneien, obwohl niemand die Kugel berührt. Kamera steht still.
 
 „24“, sagte Albin leise und legte einen schweren Messingschlüssel auf den Tresen.
 
@@ -189,7 +189,7 @@ Und mit ihr Albin.
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Empty glass display case in an opulent hotel lobby, a circle in the dust where a snow globe stood, a folded porter's cap on the reception desk, crystal chandelier
+**Bild Erzählung**: Morning in a grand hotel lobby: an intact, locked glass display case, empty except for a velvet cushion with a circle in the dust where a snow globe stood; beside it a slim woman in her fifties with a strict hair bun, a hand at her mouth. On the reception desk a neatly folded porter's cap with a small slip of paper under it, a porter's coat still hanging on a hook behind. Through the glass entrance doors knee-deep untouched snow without a single footprint. A tall grandfather clock in the corner
 
 Auf dem Samtkissen lag nur noch ein Kreis aus Staub, wo die Kugel gestanden hatte. „Hundert Jahre lang“, sagte Constanze, und ihre Stimme zitterte. Eine Schneekugel aus Wiener Glas, darin das Hotel als Miniatur, so fein, dass man die Fenster zählen konnte.
 
@@ -211,7 +211,7 @@ Klartext: ALLES BEGINNT IN DER ZEITPOST (Caesar, jeder Buchstabe um 8 zurück).
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: A narrow door behind a hotel reception desk standing ajar, warm light inside, an old postage stamp showing a lobby clock clamped to the brass handle
+**Bild Auflösung**: Behind a hotel reception desk a narrow door, easily mistaken for a cupboard, stands ajar, warm light and rows of small brass compartments glimpsed inside; a small old postage stamp showing a grand lobby clock is tucked into the brass door handle
 
 *Alles beginnt in der Zeitpost.*
 
@@ -255,7 +255,7 @@ Kleingedruckt unten:
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Wall of small brass post compartments engraved with dates, an open ledger with a torn-out page, a small lamp casting violet light
+**Bild Erzählung**: A hidden room behind a hotel reception: walls of hundreds of small brass compartments engraved with dates, some doors open and empty, some green with verdigris. On a lectern in the middle an old ledger lies open, one page torn out roughly, leaving a jagged stub. A woman's hand holds a small UV lamp; under its violet light angular rune-like symbols glow on the page. Beside the ledger a card with angular characters and a handwritten note
 
 Der Raum roch nach Papier, Siegellack und kaltem Messing. Die ältesten Fächer trugen Daten aus dem 19. Jahrhundert, die jüngsten reichten bis ins Jahr 2090. Hinter jedem Türchen wartete ein Brief auf seinen Tag.
 
@@ -275,7 +275,7 @@ Sie schaltete die Lampe ein. Unter dem violetten Licht tauchten auf der Register
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Wood-panelled hotel library with green banker's lamps, a man with a scarf writing at a table covered in notes, a brown brindle boxer with a long, natural, undocked tail lying motionless in front of a bookshelf
+**Bild Auflösung**: Wood-panelled hotel library on the first floor, green banker's lamps: a man in his thirties with a scarf sits at a table covered in notes, looking up with a friendly smile, a dark green linen notebook beside him; near the door a brown brindle boxer with a long, natural, undocked tail lies motionless in front of a bookshelf, staring at it
 
 Die Bibliothek des Morgenstern lag im ersten Stock, ein Raum aus dunklem Holz und grünen Leselampen.
 
@@ -323,7 +323,7 @@ Auf vergilbtem Papier, Handschrift-Font, mit Hotel-Briefkopf:
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Six people seated in a wood-panelled salon by a crackling fireplace, faces in shadow, snow outside the tall windows, a folded handwritten night log on a side table
+**Bild Erzählung**: A wood-panelled hotel salon on a snowy afternoon, fire crackling: six people sit stiffly on chairs and sofas, faces half in shadow: a slim woman with a strict hair bun, a well-groomed man in his fifties, a man in his thirties with a scarf, a very old woman with silver hair, a young maid in a black uniform with a white apron, a broad-shouldered cook in a white jacket. In the best armchair by the fire, the one with velvet tassels, a brown brindle boxer with a long, natural, undocked tail sprawls comfortably. A folded handwritten night log on a side table
 
 Die Bibliothek roch nach Leder und kaltem Kaminrauch. Larissa ging die Regale entlang, Fanny dicht an ihrer Seite, bis sie das Zeichen fand. Dasselbe, das Albin unten auf seinen Zettel gemalt hatte.
 
@@ -354,7 +354,7 @@ Logik: Um 23:40 spricht in der Küche eine Frau. Constanze ist im Büro, Frau Le
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Young maid in a 1920s-style uniform hurrying down a dim servants' corridor, a brown brindle boxer with a long, natural, undocked tail sitting in front of the corridor door, looking after her
+**Bild Auflösung**: A young maid in a black uniform with a white apron hurries out of an elegant salon through a plain staff door; a brown brindle boxer with a long, natural, undocked tail sits in front of the closing door, looking after her; in the background a broad-shouldered cook in a white jacket stares at his hands
 
 Mira Novak wurde blass, als Larissa sie ansah. „Ich war nicht in meinem Zimmer“, flüsterte sie. „Aber ich habe nichts gestohlen. Ich schwöre es.“
 
@@ -405,7 +405,7 @@ Hinter dem Schreibtisch stand ein alter Tresor. Drei Rädchen.
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Elegant office desk with stacks of bills and a wine list covered in pencil notes, an old steel safe with three brass dials behind it, snow outside the window
+**Bild Erzählung**: An elegant hotel director's office in winter: a desk piled with unpaid bills and a wine list covered in pencil notes, behind it an old heavy safe with three brass number dials. A slim woman with a strict hair bun is just leaving through the door; a woman in a modern winter coat stands alone by the desk looking at the safe, a brown brindle boxer with a long, natural, undocked tail beside her with its head tilted, snow outside the window
 
 Das Hotel gehöre ihrer Familie seit 1873, sagte Constanze. Und der Bank seit drei Jahren.
 
@@ -425,7 +425,7 @@ Logik: Gemischter Satz 1873 = Fach 4. Veltliner 1926 (Kugel und Brief stammen au
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: An open antique safe with an insurance document and an old Austrian postage stamp showing the 1873 world exhibition rotunda, warm lamplight
+**Bild Auflösung**: An open antique safe, inside an official insurance policy with a signature, and tucked between the papers a small old Austrian postage stamp showing the rotunda of the 1873 Vienna World Exhibition, warm lamplight
 
 Im Tresor lag eine Versicherungspolice für die Morgenstern-Kugel. Die Summe war im November verdreifacht worden. Unterschrieben: C. Morgenstern.
 
@@ -467,7 +467,7 @@ Am Morgen kam Fanny zurück. Mit etwas im Maul.
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: A single pearl on the worn wooden steps of a narrow servants' staircase, more pearls scattered further up, a brown brindle boxer with a long, natural, undocked tail sniffing at them, an old telegraph code chart framed on the wall
+**Bild Erzählung**: A narrow servants' staircase lit by bare bulbs, worn wooden steps. On the steps a broken pearl necklace laid out deliberately in small groups of large and small pearls, separated by tiny golden knots. On the wall behind dusty glass an old framed telegraph Morse code chart. A brown brindle boxer with a long, natural, undocked tail with a single pearl in its mouth looks back at a woman following up the stairs
 
 In Fannys Maul lag eine Perle. Eine einzige, matt und warm, als hätte sie lange auf einer Haut gelegen.
 
@@ -487,7 +487,7 @@ Mira hatte nicht gestohlen. Aber sie hatte etwas zu verbergen. Und offenbar hatt
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: A young maid and a broad-shouldered cook holding hands in a dim hotel kitchen at night, a single candle between them, copper pots on the wall
+**Bild Auflösung**: A hotel kitchen at night, copper pots on the wall: a young maid sits at a wooden table, both hands around a cup; behind her a broad-shouldered cook in a white jacket rests a hand on her shoulder. Under the table a brown brindle boxer with a long, natural, undocked tail chews contentedly on a piece of sausage
 
 Mira saß in der Küche, die Hände um eine Tasse geschlossen. Bruno stand hinter ihr, eine Hand auf ihrer Schulter.
 
@@ -527,7 +527,7 @@ Als Larissa vorbeiging, sah sie auf.
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Very old woman with silver hair in a glass winter garden full of palms and snow outside, a teacup on a wicker table, an old leather photo album on her lap
+**Bild Erzählung**: A glass winter garden in a grand hotel, palms and potted plants, snow outside the panes, afternoon light. A very old woman with silver hair and strikingly bright eyes sits in a wicker chair, an untouched cup of tea and a biscuit on a saucer beside her, an old leather photo album opening on the table. A brown brindle boxer with a long, natural, undocked tail rests its head in her lap while she scratches it behind the ears; a woman in a modern winter coat sits next to her, seen from the side
 
 Larissa setzte sich zu ihr. Die alte Dame musterte sie lange, mit Augen, die viel heller waren als der Rest von ihr.
 
@@ -585,7 +585,7 @@ Sie war seltsam verdreht.
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Small cluttered porter's lodge with a brass key board, an old desk drawer pulled open, a faded photograph of a snow globe base seen from below, a man in an expensive tweed coat leaning in the doorway
+**Bild Erzählung**: A tiny porter's lodge in a grand Viennese hotel, barely bigger than a wardrobe: a wooden chair, a narrow writing desk, an old cast-iron radiator, a faded wall calendar from 1998. The bottom drawer of the desk is pulled open, full of receipts and pencil stubs. A woman in a modern winter coat, seen from behind, holds an old photograph up to the lamp light; it shows the glass base of a snow globe from below. In the doorway a well-groomed man in his fifties in a dark three-piece suit leans against the frame, an expensive camel overcoat draped over his forearm, a thin smile
 
 Die Portierloge war kaum größer als ein Kleiderschrank. Ein Stuhl, ein Pult, ein Heizkörper, der nicht mehr heizte. An der Wand hing ein Kalender von 1998, nie abgenommen.
 
@@ -605,7 +605,7 @@ Larissa sah ihm nach. Dann wieder auf die Fotografie. Was auch immer da stand, e
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: An old Austrian postage stamp showing a grand hotel facade in falling snow, lying on a photograph of a snow globe, a magnifying glass beside it
+**Bild Auflösung**: Close-up of the back of an old photograph in a woman's hand, a small vintage Austrian postage stamp glued to it showing a grand hotel facade in falling snow, a round black postmark across one corner, the stamp just coming loose at its edge, a narrow wooden desk and an open drawer with receipts and pencil stubs blurred in the background, warm lamp light
 
 Hernals. Eine Glashütte in der Vorstadt, 1926.
 
@@ -637,7 +637,7 @@ Larissa trat hinaus auf die Galerie. Unten in der Lobby glänzte etwas auf dem M
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Dark grand hotel lobby at night seen from a gallery above, a narrow flashlight beam, wet footprints of melted snow on black and white marble leading away from a glass display case
+**Bild Erzählung**: A grand Viennese hotel lobby at three in the morning, almost dark, black-and-white checkered marble floor. A trail of small puddles of melted snow, evenly spaced footprints, leads from an empty glass display case across the lobby toward the grand staircase; some prints have already dried to faint damp rims. Behind the reception desk a young night porter in uniform sleeps with his head on his arms. In the foreground a woman in a modern winter coat holds a flashlight, its narrow beam on the footprints, a brown brindle boxer with a long, natural, undocked tail on a short leash beside her, nose raised, pulling to the left
 
 Wasser. Kleine Lachen aus geschmolzenem Schnee, in gleichmäßigem Abstand. Fußspuren.
 
@@ -657,7 +657,7 @@ Larissa kannte diesen Flur. Und sie wusste, wer hier wohnte.
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Pair of wet leather boots half hidden under a hotel bed, a crystal ashtray with a half-smoked cigar on the nightstand, dim lamp light
+**Bild Auflösung**: Night, seen from a dim hotel corridor: a room door half open, two small screw holes where the room number should be. In the doorway a well-groomed man in his fifties in a silk dressing gown, hair tousled, eyes puffy as if just woken. Behind him in dim lamp light the edge of a bed, a pair of leather boots under it glistening wet, a half-smoked cigar in a crystal ashtray on the nightstand. At the lower edge of the frame the head of a brown brindle boxer, ears back, growling quietly
 
 Larissa klopfte. Es dauerte lange, bis die Tür aufging.
 
@@ -695,7 +695,7 @@ Auf dem Teppich lag ein Streifen Papier. Vier Zeilen, in Albins Schrift.
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Narrow hidden servants' passage behind wallpaper in a grand hotel, a young maid holding a candle lamp leading the way, a brown brindle boxer with a long, natural, undocked tail sniffing along the floor, a small wooden boot room at the end
+**Bild Erzählung**: An elegant second-floor hotel corridor with numbered room doors and patterned wallpaper; a hidden door cut into the wallpaper stands open, revealing a very narrow dark servants' passage beyond. A young maid in a black uniform with a white apron leads the way in with a small flashlight, glancing back and whispering; a woman in a modern winter coat follows, shoulders drawn in; a brown brindle boxer with a long, natural, undocked tail pulls ahead, nose to the old floorboards where small crumbs of fresh snow lie
 
 Mira wusste, wo man im Morgenstern verschwinden konnte. Hinter einer Tapetentür im zweiten Stock begann ein Gang, so schmal, dass Larissa die Schultern einziehen musste. Er lief zwischen den Zimmern hindurch, über die Wäschekammer, hinunter bis zur Küche.
 
@@ -711,7 +711,7 @@ Auf dem untersten Regal lag ein zusammengefalteter Zettel. Zahlen, sonst nichts.
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Handwritten note with number triples on cream paper embossed with a gold crest of a tower between two stars, lying on a shelf in a dusty boot room next to an old shoe brush
+**Bild Auflösung**: A low old boot-cleaning room in a grand hotel: shoe brushes, tins of polish, a row of empty wooden shelves. On the lowest shelf a folded cream note with handwritten number triples, a small gold crest of a tower between two stars and a small symbol drawn in one corner; a thin wisp of cigar smoke drifting through the beam of a flashlight
 
 Die Replik ist fertig.
 
@@ -749,7 +749,7 @@ Dann öffnete sich die Tapetentür.
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: A man in a long dark coat stepping out of a hidden wallpaper door into a dim hotel corridor at night, holding a wooden box, a woman's silhouette and a brown brindle boxer with a long, natural, undocked tail blocking his way
+**Bild Erzählung**: Two o'clock at night on the gallery of a grand hotel: a door hidden in the wallpaper has just opened, and a well-groomed man in his fifties in a long dark coat steps out, carefully carrying a wooden crate under his arm, and freezes; a brown brindle boxer with a long, natural, undocked tail stands squarely in front of him, legs apart, growling; a woman in a modern winter coat, seen from behind, blocks the way; dim gallery lamps, the dark lobby below
 
 Hartl trug eine Holzkiste unter dem Arm, so vorsichtig, als wäre sie aus Eis. Als er Larissa sah, blieb er stehen. Fanny stellte sich vor ihn, breitbeinig, und knurrte.
 
@@ -769,7 +769,7 @@ Sie sah genauer hin.
 
 ### App – Fortsetzung (Audio)
 
-**Video Auflösung** (Vorschlag): Startbild: two nearly identical snow globes side by side on a dark table, one with a faint crack of gold light. Bewegung: Kamera fährt langsam an der rechten Kugel vorbei, Schnitt auf eine Hotelzimmertür, unter der ein Umschlag durchgeschoben wird, Flurlicht fällt herein.
+**Video Auflösung** (Vorschlag): Startbild: on the steps of a dimly lit hotel staircase two nearly identical antique snow globes with miniature hotels stand side by side, one still half in a wooden crate filled with wood wool, an old photograph of a snow globe held next to them. Bewegung: Kamera fährt langsam an der rechten Kugel vorbei, Schnitt auf eine Hotelzimmertür, unter der ein brauner Umschlag mit verblasstem Stempel durchgeschoben wird, Flurlicht fällt herein, ein Boxer schnuppert daran und wedelt.
 
 Hartl setzte sich auf die Stufen und lachte, ohne Freude.
 
@@ -832,7 +832,7 @@ Wiener Uhrzeiten: viertel sieben = 18:15, halb acht = 19:30, dreiviertel acht = 
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Thin yellowed police file spread on a hotel bed at night, a blurred black-and-white photo of a woman with a boxer with a long, natural, undocked tail in falling snow, red letter stamps on typed pages, a reading lamp
+**Bild Erzählung**: Night in a hotel room: a thin yellowed 1926 police file spread across the bed under a reading lamp, the cover with an eagle emblem and an illegible signature, typed witness statements each marked with a large red letter stamp; a blurred black-and-white photograph of a woman in falling snow, collar turned up, a boxer at her side, her face only a pale smudge; a brown brindle boxer with a long, natural, undocked tail lies stretched out right on top of the papers
 
 Die Akte roch nach Keller. Das Deckblatt trug den Adler der Polizeidirektion und eine Unterschrift, die niemand mehr lesen konnte. Inspektor A. R.
 
@@ -848,7 +848,7 @@ Der Inspektor hatte sie nach Zeugen geordnet. Aber eine Geschichte erzählt sich
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Margin of an old police report with a handwritten note in faded ink and a quick pencil sketch of two identical snow globes side by side, a question mark between them
+**Bild Auflösung**: Close-up of a typed page from a yellowed 1926 police report with a red letter stamp; in the margin a quick pencil sketch of two small circles side by side and a question mark; warm light from a bedside lamp, the paw of a boxer resting at the edge of the page
 
 Kugeln. Nicht eine Kugel. Zwei.
 
@@ -886,7 +886,7 @@ Larissa nahm mit Fanny die Straßenbahnlinie 43 nach Hernals. Die Glashütte gab
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Small old glassblowing workshop in a Viennese suburb, glowing furnace, rows of glass spheres on wooden shelves, an elderly craftsman opening a huge leather-bound order book, a brown brindle boxer with a long, natural, undocked tail at the door
+**Bild Erzählung**: A small old glassblowing workshop in a snowy back courtyard in a Viennese suburb, between a carpenter's shop and a former coal cellar; inside, a glowing furnace and shelves of snow globes, Christmas baubles and glass lampshades. An elderly glassblower with burn scars on his hands carries a huge leather-bound order book with both hands; a woman in a modern winter coat has just taken off her scarf; a brown brindle boxer with a long, natural, undocked tail sits by the door, eyeing the hot furnace suspiciously
 
 Die Glashütte lag in einem Hinterhof, zwischen einer Tischlerei und einem Kohlenkeller, der längst keiner mehr war. Drinnen war es so warm, dass Larissa sofort den Schal abnahm.
 
@@ -906,7 +906,7 @@ Eine Dame in Zimmer 24. Mit einem Hund.
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Close-up of an old order book entry in faded brown ink, order number 120, a pencil sketch of two identical snow globes, one with a small hollow drawn in its base
+**Bild Auflösung**: Close-up of an old order book entry in faded brown ink, order number 120, a pencil sketch of two identical snow globes, one with a small hollow drawn in its base; instead of a signature a faint blind-embossed mark pressed into the paper, a woman's fingertips touching it
 
 Nummer 120. Hotel Morgenstern. Zwei Schneekugeln, identisch, nach Fotografie des Hauses. Eine davon mit Hohlraum im Sockel, Verschluss nach Angabe der Bestellerin.
 
@@ -944,7 +944,7 @@ Das andere stand im Prunksaal der Nationalbibliothek. Und jemand hatte ein Lesez
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Vast baroque library hall with frescoed dome and marble statues, winter light through tall windows, a woman seated at a reading desk with a leather-bound hotel chronicle, a slim paper template with cut-out windows tucked between its pages
+**Bild Erzählung**: The baroque state hall of the Austrian National Library in winter light: frescoed dome with painted gods, marble statues, leather-bound books rising to the vaulted ceiling. A woman sits alone at a reading desk with a slim leather-bound hotel chronicle open in front of her; a thin cardboard template with small rectangular cut-out windows and a small gold hourglass symbol in one corner has just slipped from the book into her lap
 
 Der Prunksaal war so still, dass Larissa ihren eigenen Atem hörte. Unter der Kuppel zogen gemalte Götter über den Himmel, und an den Wänden standen Bücher bis unter das Gewölbe, in Leder gebunden, Rücken an Rücken, seit Jahrhunderten.
 
@@ -964,7 +964,7 @@ Vielleicht musste man nicht alles lesen. Nur das Richtige.
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Old Austrian postage stamp showing the Vienna Burgtheater lying on an open chronicle page next to a technical drawing of clock gears
+**Bild Auflösung**: The back of a thin cardboard template with small rectangular windows, a small old Austrian postage stamp showing the Vienna Burgtheater stuck to it, lying on an open chronicle; through a tall window behind, far away over snowy rooftops, a hotel clock tower with a large milky clock face, both hands pointing to twelve
 
 Uhrwerk.
 
@@ -1002,7 +1002,7 @@ Larissa holte ihren Mantel. Warum, hätte sie selbst nicht sagen können.
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Christmas market on Stephansplatz in Vienna at night, St. Stephen's Cathedral towering above glowing wooden stalls, light snow, a man with a scarf and a woman at a standing table holding steaming mugs, a brown brindle boxer dog with a long, natural, undocked tail at her feet
+**Bild Erzählung**: Christmas market on Stephansplatz in Vienna at night, St. Stephen's Cathedral rising black into the sky, its colourful tiled roof under a thin layer of snow, rows of glowing wooden stalls with fairy lights, steam from roasting chestnuts. At a standing table a man in his thirties with a scarf raises a Christmas market mug, talking; a woman in a modern winter coat listens, her own mug untouched. Under the table a brown brindle boxer with a long, natural, undocked tail holds a star-shaped dog biscuit, watching the man
 
 Der Dom ragte schwarz in den Himmel, das bunte Ziegeldach unter einer dünnen Schneeschicht. Darunter Hütte an Hütte, Lichterketten, der Geruch von Maroni, Zimt und heißem Wein. Jonas kaufte zwei Häferl weißen Glühwein, ohne zu fragen, und für Fanny einen Hundekeks in Sternform. Sie stellten sich an einen Stehtisch.
 
@@ -1061,7 +1061,7 @@ Larissa fuhr hinaus, an Schönbrunn vorbei. Der Grabstein war alt, verwittert, o
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Snowy old cemetery at dusk, a weathered gravestone with a single lit red grave candle, footprints in fresh snow leading to it, the silhouette of Schönbrunn Palace in the distance, a woman with a brown brindle boxer with a long, natural, undocked tail standing before the stone
+**Bild Erzählung**: Hietzing cemetery under fresh snow at dusk, crows on old crosses, a forgotten corner with weathered graves and uncleared paths. A single trail of fresh, broad men's footprints leads to one old gravestone; in front of it a red grave candle burns. A woman in a modern winter coat kneels in the snow before the stone; a brown brindle boxer with a long, natural, undocked tail sits beside her with its nose resting on the stone. Bare trees and the cemetery wall in the background
 
 Der Hietzinger Friedhof lag still unter dem Schnee. Krähen saßen auf den Kreuzen, und irgendwo hinter der Mauer läutete eine Glocke.
 
@@ -1081,7 +1081,7 @@ Fanny schnaufte, legte die Nase auf den Stein und blieb ganz still sitzen.
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Warm old Viennese coffee house at dusk, a woman's hands around a cup of melange at a window table, snow falling outside, across the street a man in a dark hat watching, half hidden behind a lamppost
+**Bild Auflösung**: Café Dommayer in Hietzing at dusk, a warm old Viennese coffee house with marble tables and bentwood chairs; a woman's hands around a cup of melange at a window table, snow falling outside; across the street a man with a hat pulled low watches her, half hidden in the snow flurries beside a street lamp
 
 Sie kommt zurück.
 
@@ -1119,7 +1119,7 @@ Oben stand die Tür von Zimmer 24 offen.
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Ransacked grand hotel room in total darkness, drawers pulled out, mattress askew, papers scattered on the floor, a narrow beam of violet light cutting across the wallpaper, a brown brindle boxer with a long, natural, undocked tail standing tense in the doorway
+**Bild Erzählung**: A grand hotel room during a power cut, almost completely dark: drawers torn out, the mattress shoved aside, the contents of a handbag scattered across the carpet. In the doorway a man in his thirties with a scarf holds a candle, looking concerned and out of breath; in front of him a brown brindle boxer with a long, natural, undocked tail stands rigid, growling low; a woman in a modern winter coat, seen from behind, in the middle of the room
 
 Im Treppenhaus war es so dunkel, dass Larissa die Hand vor Augen nicht sah. Irgendwo unten rief Constanze nach Kerzen. Fanny drückte sich an ihr Bein.
 
@@ -1141,7 +1141,7 @@ Als er gegangen war, schaltete Larissa die kleine violette Lampe ein, die sie se
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Old Austrian postage stamp showing St. Stephen's Cathedral lying on a faded wine label in candlelight, the label reading a family wine estate in Sievering
+**Bild Auflösung**: A woman's hand pulling a small old Austrian postage stamp showing St. Stephen's Cathedral out of a coat pocket, a folded handwritten letter beside it, candlelight in a dark hotel corridor; in the background a young maid in a black uniform shaking her head as the electric lights flicker back on
 
 Wein. Keller.
 
@@ -1181,7 +1181,7 @@ An ihrem Halsband hing etwas, das gestern Abend noch nicht dort gewesen war.
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: A brown brindle boxer with a long, natural, undocked tail pulling on a leash along a snowy park path at dusk, old lanterns glowing, a frozen pond, paw prints in fresh snow leading uphill toward vineyard slopes
+**Bild Erzählung**: The Türkenschanzpark in Vienna on a snowy winter afternoon, the pond frozen, old lanterns already glowing, children sledging down a slope; a brown brindle boxer with a long, natural, undocked tail pulls eagerly on the leash along the path, ignoring a snowman with a carrot nose, a woman in a modern winter coat following; beyond the park a lane of low houses leads uphill to vineyard slopes poking out of the snow
 
 Fanny zog, und Larissa ließ sich ziehen. Durch Währing, an verschneiten Gärten vorbei, hinein in den Türkenschanzpark. Der Teich war zugefroren, die Laternen brannten schon, obwohl es erst Nachmittag war. Kinder fuhren mit Schlitten den Hang hinunter.
 
@@ -1201,7 +1201,7 @@ Keine Platte. Kein Schalter. Nur Verschlüsse, Fugen, kleine Hebel. Albins Gramm
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Antique wooden gramophone with a brass horn in a candle-lit stone wine cellar, a shellac record spinning, label reading recording number 1224, wine barrels in the shadows
+**Bild Auflösung**: A deep candle-lit stone wine cellar under a closed Heuriger in Sievering, barrels and dusty bottles in the shadows; on a barrel an antique wooden gramophone with a brass horn, a shellac record on it, a candle and a small folded note beside it; a woman lowers the needle, a brown brindle boxer with a long, natural, undocked tail pressed against her legs
 
 Im Grammophon lag eine Schellackplatte. Auf dem Etikett nur eine Nummer, mit Tinte geschrieben. Aufnahme 1224.
 
@@ -1251,7 +1251,7 @@ Kartentext unten:
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: A dark green linen notebook lying open on a leather armchair by a frosted library window, a gold crest of a tower between two stars on its spine, pages full of sketches of a clock tower and lists with prices, a folded torn ledger page sticking out
+**Bild Erzählung**: A dark green linen notebook lying open on a leather armchair by a frosted library window, a small gold crest of a tower between two stars on its spine, pages full of sketches of a clock tower, a floor plan and long lists of names with numbers; a folded yellowed ledger page with a roughly torn edge slipping out from between the pages, a woman's hand reaching for it
 
 Larissa wusste, dass man fremde Notizbücher nicht öffnet. Sie öffnete es trotzdem.
 
@@ -1269,7 +1269,7 @@ Larissa kannte diesen Riss. Sie hatte die andere Hälfte gesehen, an ihrem viert
 
 ### App – Fortsetzung (Audio)
 
-**Video Auflösung** (Vorschlag): Startbild: the two halves of a torn ledger page joined on a library table, the line about Reiter now readable, a man's silhouette reflected in the dark window behind. Bewegung: Kamera hebt sich langsam vom Papier zum Fenster, die Spiegelung bekommt Schärfe.
+**Video Auflösung** (Vorschlag): Startbild: the two halves of a torn ledger page joined on a library table, the line about Reiter now readable, the silhouette of a man with a scarf reflected in the dark window behind. Bewegung: Kamera hebt sich langsam vom Papier zum Fenster, die Spiegelung bekommt Schärfe.
 
 Eingesehen am 30. November. Einen Tag bevor der Page an ihrer Tür geklingelt hatte.
 
@@ -1315,7 +1315,7 @@ Vor ihm auf dem Tresen lag ein Zylinder aus Messing, mit sechs Ringen voller Buc
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Elderly hotel concierge in an immaculate 1920s-style uniform standing behind a brass reception desk in morning light, a brass cryptex cylinder with letter rings lying in front of him, a woman with a brown brindle boxer with a long, natural, undocked tail approaching
+**Bild Erzählung**: Morning light in a grand hotel lobby: an elderly porter with white hair in an immaculate dark uniform and cap stands behind the polished reception desk as if he had never been away; on the counter in front of him a brass cryptex cylinder with six letter rings; a woman in a modern winter coat with a brown brindle boxer with a long, natural, undocked tail approaching the desk
 
 „Wo waren Sie?“, fragte Larissa. Ihre Stimme klang schärfer, als sie wollte.
 
@@ -1335,7 +1335,7 @@ Dann schob er ihr den Messingzylinder hin. „Sie haben die Marken gesammelt“,
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Old concierge placing an antique snow globe into a woman's hands, the glass base opened to reveal a tiny ornate brass key nestled inside, warm lobby lamp light
+**Bild Auflösung**: At a hotel reception desk an elderly porter has just pulled a wool cloth off an antique snow globe with a miniature grand hotel inside, snow swirling in it; its glass base is twisted open, and a tiny ornate brass key, no longer than a finger joint, lies in his palm; an opened brass cryptex cylinder and a small note beside it, warm lobby lamp light
 
 Der Zylinder glitt auseinander. Darin ein Zettel, in Albins Schrift. Das letzte Fach liegt zwischen den Büchern, die du liebst. Es öffnet sich erst am Heiligen Abend.
 
@@ -1373,7 +1373,7 @@ Zum Uhrturm, dessen Zeiger seit Jahren auf zwölf standen.
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Steep wooden stairs inside a clock tower leading up to a vast mechanism of brass gears, a translucent clock face glowing with winter light, snowy Vienna rooftops visible through it, an old man with a lantern and a woman with a brown brindle boxer with a long, natural, undocked tail climbing
+**Bild Erzählung**: Steep wooden stairs inside a clock tower: a woman carries a fully grown brown brindle boxer with a long, natural, undocked tail up the last steps in her arms, the dog clearly complaining; above them an elderly porter with a lantern. At the top a vast, frozen clockwork the size of a wardrobe, brass and iron gears with a small ornate keyhole in the middle; behind it a huge milky clock face, and through it Vienna white with snow as far as the Kahlenberg
 
 Die Treppe zum Uhrturm war so steil, dass Larissa Fanny das letzte Stück tragen musste. Ein ausgewachsener Boxer, der sich lautstark beschwerte.
 
@@ -1395,7 +1395,7 @@ Zuerst geschah nichts. Dann ein Ruck, ein Seufzen von altem Metall. Und das Uhrw
 
 ### App – Fortsetzung (Audio)
 
-**Video Auflösung** (Vorschlag): Startbild: giant brass clock gears inside a tower, a tiny ornate key in a central lock, frosted clock face with Vienna behind. Bewegung: die Zahnräder setzen sich langsam in Bewegung, die Zeiger hinter dem Zifferblatt rücken von zwölf weiter, Schneeflocken treiben vorbei.
+**Video Auflösung** (Vorschlag): Startbild: inside a clock tower, giant brass and iron gears, a tiny ornate key in a small lock at the centre, behind it a milky clock face with snowy Vienna. Bewegung: die Zahnräder setzen sich langsam in Bewegung, die Zeiger hinter dem Zifferblatt rücken von zwölf weiter, hinter dem vierten Zahnrad springt eine kleine Klappe auf und eine gravierte Messingplatte schimmert, Schneeflocken treiben vorbei.
 
 Vier.
 
@@ -1437,7 +1437,7 @@ Sie war nicht allein.
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Dark wood-panelled library at midnight lit by a single candle, a tall bookshelf beginning to swing open like a door revealing brass compartments behind it, a man with a scarf stepping out of the shadows, a brown brindle boxer with a long, natural, undocked tail bristling in front of a woman
+**Bild Erzählung**: A dark wood-panelled hotel library just before midnight, lit by a single candle: a woman sits in front of the fourth bookshelf; a man in his thirties with a scarf steps out of the shadows between the shelves, no longer smiling; a brown brindle boxer with a long, natural, undocked tail stands bristling between them; near the door a young maid, half hidden
 
 Jonas trat aus dem Schatten zwischen den Regalen. Keine Eile, kein Lächeln mehr.
 
@@ -1461,7 +1461,7 @@ Wer ALBIN eingibt, hört: „Ich habe nur einen Brief zugestellt.“ Wer BRIEF e
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Hidden archive vault of hundreds of small brass compartments engraved with dates, one compartment marked 24.12.1926 with a tiny three-ring padlock, a brown brindle boxer with a long, natural, undocked tail sitting proudly in front of it, an old concierge holding a lantern
+**Bild Auflösung**: A hidden archive vault behind a bookshelf: hundreds of small brass compartments engraved with dates; at the very back one compartment dated 24.12.1926 with a tiny padlock with three number rings; a brown brindle boxer with a long, natural, undocked tail sits proudly in front of it; beside it an elderly porter holding a lantern and a woman in a modern winter coat; in the doorway a very old woman in a dressing gown with a candle, smiling
 
 Nimm Fanny mit, sie kennt den Weg besser als du.
 
@@ -1497,7 +1497,7 @@ Das Schloss hatte drei Ringe.
 
 ### App – Erzählung (Audio)
 
-**Bild Erzählung**: Grand hotel lobby on Christmas Eve, a tall decorated tree with real candles, a small group gathered quietly: an elderly concierge, an owner with a strict bun, a young maid holding a cook's hand, a very old woman in an armchair, a woman with a brown brindle boxer with a long, natural, undocked tail walking toward a dark library door
+**Bild Erzählung**: A grand hotel lobby on Christmas Eve, quiet and warm: a tall Christmas tree decorated with real burning candles; a young maid and a broad-shouldered cook stand side by side, openly holding hands; a very old woman with silver hair sits in an armchair by the fireplace, a blanket over her knees, looking toward the library; a slim woman with a strict hair bun lights the last candle; an elderly porter in uniform walks with a woman in a modern winter coat and a brown brindle boxer with a long, natural, undocked tail toward the dark library door
 
 Am Abend war das Morgenstern still wie ein Atemzug. Constanze hatte den Christbaum in der Lobby mit echten Kerzen geschmückt, so wie früher. Mira und Bruno standen nebeneinander, zum ersten Mal ohne sich zu verstecken. Frau Lenz saß im Sessel am Kamin, eine Decke über den Knien, und sah zur Bibliothek, als warte sie auf jemanden.
 
@@ -1521,7 +1521,7 @@ In der Box: der Prägestempel, ein leerer Umschlag, Briefpapier.
 
 ### App – Fortsetzung (Audio)
 
-**Video Auflösung** (Finale): Startbild: the antique snow globe on a writing desk beside a sealed envelope with a blind-embossed mark, candlelight, a sleeping brown brindle boxer with a long, natural, undocked tail. Bewegung: in der Kugel beginnt es zu schneien, die Kamera fährt langsam zurück, durch das Fenster hinaus, bis das ganze Hotel im verschneiten Wien bei Nacht zu sehen ist.
+**Video Auflösung** (Finale): Startbild: a small writing desk in a candle-lit archive of brass compartments, a freshly written letter in an envelope whose blind-embossed mark slips off the edge of the paper, a feather pen, an embossing stamp, a brown brindle boxer with a long, natural, undocked tail resting its head on the desk. Bewegung: die Kamera fährt langsam zurück, aus dem Archiv durch die Bibliothek in die Lobby, wo in der Vitrine die Kugel von selbst zu schneien beginnt, dann durch das Fenster hinaus, bis das ganze Hotel im verschneiten Wien bei Nacht zu sehen ist.
 
 Aus der Bibliothek von Larissa Birsak.
 

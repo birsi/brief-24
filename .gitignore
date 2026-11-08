@@ -27,3 +27,6 @@ dist-ssr
 src/generated/
 qr/
 .env
+
+# Old versions of regenerated images (npm run images)
+media-backup/
