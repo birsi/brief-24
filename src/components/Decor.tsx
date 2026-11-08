@@ -45,8 +45,11 @@ export function Garland() {
   }, []);
   const lights = Array.from({ length: 16 }, (_, i) => ({ x: 12 + i * 30, y: 24 + (i % 2) * 3, warm: i % 3 === 1, delay: rnd(i, 7) * 2.4 }));
   return (
-    <div aria-hidden="true" style={{ position: 'absolute', left: 0, right: 0, top: 0, height: 44, pointerEvents: 'none', zIndex: 4, overflow: 'hidden' }}>
-      <svg width={width} height={44} viewBox={`0 0 ${width} 44`} preserveAspectRatio="xMinYMin slice" style={{ width: '100%' }}>
+    // Sticky at the top of the screen; the negative margin keeps it from taking space in the layout.
+    // In home-screen mode the status bar area above it is filled with the fir color.
+    <div aria-hidden="true" style={{ position: 'sticky', top: 0, flexShrink: 0, height: 'calc(44px + env(safe-area-inset-top))', marginBottom: 'calc(-44px - env(safe-area-inset-top))', paddingTop: 'env(safe-area-inset-top)', background: 'linear-gradient(var(--fir-2), var(--fir-2)) top / 100% env(safe-area-inset-top) no-repeat', pointerEvents: 'none', zIndex: 25, overflow: 'hidden' }}>
+      <div style={{ position: 'relative', height: 44 }}>
+      <svg width={width} height={44} viewBox={`0 0 ${width} 44`} preserveAspectRatio="xMinYMin slice" style={{ width: '100%', display: 'block' }}>
         <path d={d} fill="var(--fir-2)" />
         <path d={d2} fill="var(--fir)" />
       </svg>
@@ -57,6 +60,7 @@ export function Garland() {
           style={{ left: `${(l.x / width) * 100}%`, top: l.y, background: l.warm ? '#FFF4D6' : 'var(--gold)', boxShadow: `0 0 8px ${l.warm ? '#FFF4D6' : 'var(--gold)'}`, animationDelay: `${l.delay}s` }}
         />
       ))}
+      </div>
     </div>
   );
 }
@@ -80,9 +84,10 @@ export function Ornament({ width = 160 }: { width?: number }) {
   );
 }
 
+/** Snowy hills on top of the bottom nav; sits just above its parent (the sticky nav), so it moves with it. */
 export function SnowBank() {
   return (
-    <div aria-hidden="true" style={{ height: 34, position: 'relative', marginTop: -8, pointerEvents: 'none' }}>
+    <div aria-hidden="true" style={{ position: 'absolute', left: 0, right: 0, bottom: 'calc(100% - 1px)', height: 34, pointerEvents: 'none' }}>
       <svg viewBox="0 0 390 34" preserveAspectRatio="none" style={{ position: 'absolute', bottom: 0, left: 0, width: '100%', height: 34 }}>
         <path d="M0 18 Q 40 4 92 14 T 196 12 T 300 16 T 390 6 V34 H0 Z" fill="#DCE5EF" opacity="0.92" />
         <path d="M0 24 Q 60 14 130 22 T 260 20 T 390 18 V34 H0 Z" fill="var(--snow)" />

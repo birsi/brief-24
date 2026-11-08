@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Snow, SnowBank } from '../components/Decor';
+import { Garland, Snow } from '../components/Decor';
 import FigureList from '../components/Figures';
 import { BottomNav, NewDot, StampCard } from '../components/ui';
 import { STAMP_DAYS, TAB_LABELS, type NotebookTab } from '../game/notebook';
@@ -39,7 +39,8 @@ export default function Notebook() {
   return (
     <div className="app">
       <Snow count={28} opacity={0.7} />
-      <header style={{ padding: '56px 20px 14px', display: 'flex', flexDirection: 'column', gap: 4 }}>
+      <Garland />
+      <header style={{ padding: 'calc(56px + env(safe-area-inset-top)) 20px 14px', display: 'flex', flexDirection: 'column', gap: 4 }}>
         <div className="label">Larissas</div>
         <h1 style={{ fontSize: 34 }}>Notizbuch</h1>
       </header>
@@ -59,7 +60,7 @@ export default function Notebook() {
         ))}
       </div>
 
-      <main style={{ flexGrow: 1, padding: '0 20px 24px', position: 'relative' }}>
+      <main style={{ flexGrow: 1, padding: '0 20px 50px', position: 'relative' }}>
         {!cur ? <p style={{ margin: 0, fontSize: 16, lineHeight: 1.5, color: '#D5DAE2' }}>Noch ist nichts notiert. Das Notizbuch füllt sich, während du die Briefe löst.</p> : null}
         {cur === 'stamps' ? (
           <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
@@ -150,7 +151,6 @@ export default function Notebook() {
         ) : null}
       </main>
 
-      <SnowBank />
       <BottomNav />
     </div>
   );

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { useGame } from '../game/store';
+import { SnowBank, StarIcon } from './Decor';
 import type { Stamp } from '../game/types';
 
 export const mediaPath = (num: number, name: string) => `/media/day-${String(num).padStart(2, '0')}/${name}`;
@@ -22,29 +23,97 @@ export function StoryText({ paragraphs }: { paragraphs: string[] }) {
 
 const IMAGE_EXT = ['webp', 'jpg', 'png'];
 
+/** Christmassy loading indicator: a star above a string of fairy lights that blink one after another. */
+export function Loader({ label = 'Lädt…', out = false }: { label?: string; out?: boolean }) {
+  const colors = ['var(--gold)', 'var(--red)', '#FFF4D6', 'var(--fir)', 'var(--gold)'];
+  return (
+    <div role="status" aria-label={label} className="loader" style={{ opacity: out ? 0 : 1, transition: 'opacity .5s ease', pointerEvents: 'none', position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 14, background: 'radial-gradient(circle at 50% 40%, #22385a, var(--navy-3) 70%)' }}>
+      <StarIcon className="star" />
+      <div aria-hidden="true" className="loader-lights">
+        {colors.map((c, i) => (
+          <span key={i} style={{ background: c, color: c, animationDelay: `${i * 0.18}s` }} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
 /** Image or video from public/media, with a placeholder while the file is missing. */
 export function Media({ num, kind, video = false, label, children }: { num: number; kind: 'narration' | 'resolution'; video?: boolean; label: string; children?: ReactNode }) {
   const [videoFailed, setVideoFailed] = useState(!video);
   const [extIdx, setExtIdx] = useState(0);
   const imgFailed = extIdx >= IMAGE_EXT.length;
+  // The loader covers the frame until the file has arrived; the image/video stays invisible until then
+  // (so the browser's broken-image icon never shows, also while trying the next file extension).
+  const [ready, setReady] = useState(false);
+  const canLoad = !videoFailed || !imgFailed;
+  // Files that are already cached are ready before the first paint (or within a few ms): no loader, no fade.
+  const mediaRef = useRef<HTMLElement | null>(null);
+  const [fade, setFade] = useState(true);
+  useEffect(() => {
+    const el = mediaRef.current;
+    if (el instanceof HTMLVideoElement ? el.readyState >= 2 : el instanceof HTMLImageElement && el.complete && el.naturalWidth > 0) {
+      setFade(false);
+      setReady(true);
+      setRevealed(true);
+    }
+  }, [extIdx, videoFailed]);
+  // Loader timing: it only appears if loading takes longer than 200ms, and once it is visible it stays for at
+  // least 700ms before crossfading into the picture, so it never just blinks.
+  const [shown, setShown] = useState(false);
+  const [revealed, setRevealed] = useState(false);
+  const [gone, setGone] = useState(false);
+  const shownAt = useRef(0);
+  const readyRef = useRef(false);
+  readyRef.current = ready;
+  useEffect(() => {
+    if (!canLoad) return;
+    const t = setTimeout(() => {
+      if (!readyRef.current) {
+        shownAt.current = Date.now();
+        setShown(true);
+      }
+    }, 200);
+    return () => clearTimeout(t);
+  }, [canLoad]);
+  useEffect(() => {
+    if (!ready) return;
+    if (!shown) {
+      setRevealed(true);
+      return;
+    }
+    const t = setTimeout(() => setRevealed(true), Math.max(0, shownAt.current + 700 - Date.now()));
+    return () => clearTimeout(t);
+  }, [ready, shown]);
+  useEffect(() => {
+    if (!revealed || !shown) return;
+    const t = setTimeout(() => setGone(true), 600);
+    return () => clearTimeout(t);
+  }, [revealed, shown]);
+  const hidden: CSSProperties = { opacity: revealed ? 1 : 0, transition: fade ? 'opacity .5s ease' : 'none' };
   return (
     <div style={{ position: 'relative', overflow: 'hidden', aspectRatio: '3 / 2', margin: '0 16px', border: '1px solid var(--line)', background: 'var(--navy-3)' }}>
       {!videoFailed ? (
         <video
+          ref={(el) => { mediaRef.current = el; }}
           src={mediaPath(num, `${kind}.mp4`)}
           autoPlay
           muted
           playsInline
           loop
+          onLoadedData={() => setReady(true)}
           onError={() => setVideoFailed(true)}
-          style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+          style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block', ...hidden }}
         />
       ) : !imgFailed ? (
         <img
+          key={extIdx}
+          ref={(el) => { mediaRef.current = el; }}
           src={mediaPath(num, `${kind}.${IMAGE_EXT[extIdx]}`)}
           alt={label}
+          onLoad={() => setReady(true)}
           onError={() => setExtIdx((i) => i + 1)}
-          style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+          style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block', ...hidden }}
         />
       ) : (
         <div role="img" aria-label={label} style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 10, color: 'var(--muted)', background: 'radial-gradient(circle at 50% 40%, #22385a, var(--navy-3) 70%)' }}>
@@ -55,6 +124,7 @@ export function Media({ num, kind, video = false, label, children }: { num: numb
           <span className="small" style={{ letterSpacing: '0.14em', textTransform: 'uppercase' }}>{label}</span>
         </div>
       )}
+      {shown && !gone ? <Loader out={revealed} /> : null}
       {children}
       <div aria-hidden="true" style={{ position: 'absolute', left: 0, right: 0, bottom: 0, height: 56, background: 'linear-gradient(rgba(14,26,43,0), var(--navy))', pointerEvents: 'none' }} />
     </div>
@@ -201,12 +271,12 @@ export function StampCard({ m, small = false }: { m: Stamp; small?: boolean }) {
 
 export function TopBar({ title, back = '/' }: { title: string; back?: string }) {
   return (
-    <div style={{ padding: '52px 12px 10px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', position: 'relative', zIndex: 6 }}>
-      <Link to={back} aria-label="Zurück zum Kalender" style={{ width: 44, height: 44, display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--gold)' }}>
+    <div className="topbar" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', position: 'relative', zIndex: 6 }}>
+      <Link to={back} aria-label="Zurück zum Kalender" style={{ flexShrink: 0, width: 44, height: 44, display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--gold)' }}>
         <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M13 3 L6 10 L13 17" fill="none" stroke="currentColor" strokeWidth="1.6" /></svg>
       </Link>
       <div className="label" style={{ letterSpacing: '0.2em', textAlign: 'center' }}>{title}</div>
-      <div style={{ width: 44 }} />
+      <div style={{ width: 44, flexShrink: 0 }} />
     </div>
   );
 }
@@ -238,7 +308,12 @@ export function BottomNav() {
     letterSpacing: '0.14em',
   });
   return (
-    <nav aria-label="Hauptnavigation" style={{ position: 'sticky', bottom: 0, background: 'var(--snow)', padding: '4px 20px calc(18px + env(safe-area-inset-bottom))', display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 8, zIndex: 20 }}>
+    <>
+    {/* Spacer with the nav's height (4 + 48 + 18 padding), because the nav itself is fixed. */}
+    <div aria-hidden="true" style={{ flexShrink: 0, height: 'calc(70px + env(safe-area-inset-bottom))' }} />
+    {/* fixed, not sticky: sticky ends with its parent, which left a gap below the nav when Safari's toolbar collapsed. */}
+    <nav aria-label="Hauptnavigation" style={{ position: 'fixed', bottom: 0, left: '50%', transform: 'translateX(-50%)', width: 'min(480px, 100%)', isolation: 'isolate', background: 'var(--snow)', padding: '4px 20px calc(18px + env(safe-area-inset-bottom))', display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 8, zIndex: 20 }}>
+      <SnowBank />
       <NavLink to="/" end style={style}>
         <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><rect x="2" y="2" width="7" height="7" fill="none" stroke="currentColor" strokeWidth="1.4" /><rect x="11" y="2" width="7" height="7" fill="none" stroke="currentColor" strokeWidth="1.4" /><rect x="2" y="11" width="7" height="7" fill="none" stroke="currentColor" strokeWidth="1.4" /><rect x="11" y="11" width="7" height="7" fill="none" stroke="currentColor" strokeWidth="1.4" /></svg>
         KALENDER
@@ -251,5 +326,6 @@ export function BottomNav() {
         NOTIZBUCH
       </NavLink>
     </nav>
+    </>
   );
 }

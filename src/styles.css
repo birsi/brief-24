@@ -19,28 +19,44 @@
   --sans: 'Josefin Sans', system-ui, sans-serif;
   --mono: 'JetBrains Mono', ui-monospace, monospace;
   color-scheme: dark;
+  /* Page behind the app column. On phones the app fills the screen, so it uses the app color
+     (status bar, safe areas, overscroll); on desktop it is a darker frame. */
+  --page: #08111d;
+}
+@media (max-width: 600px) {
+  :root { --page: var(--navy); }
+  /* No rubber-band bounce: it dragged the sticky bottom nav up and showed the page behind it. */
+  html, body { overscroll-behavior-y: none; }
 }
 
 * { box-sizing: border-box; }
 html, body, #root { margin: 0; min-height: 100%; }
+html { background: var(--page); -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 body {
-  background: #08111d;
+  background: var(--page);
   color: var(--ink);
   font-family: var(--serif);
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
 }
 button, input { font: inherit; color: inherit; }
+/* No double-tap zoom delay on buttons and links. */
+a, button, input, select, label { touch-action: manipulation; }
 button { cursor: pointer; }
 a { color: var(--gold); }
 
 .app {
   position: relative;
   max-width: 480px;
-  min-height: 100dvh;
+  /* lvh = height with Safari's toolbars collapsed. It never changes while scrolling (no layout jump, unlike dvh),
+     and it is always >= the visible viewport, so the sticky bottom nav can't end above the screen edge when the toolbar shrinks.
+     (svh was shorter than the viewport after collapsing, which left a gap below the nav.) */
+  min-height: 100vh;
+  min-height: 100lvh;
   margin: 0 auto;
   background: var(--navy);
-  overflow-x: hidden;
+  /* clip, not hidden: hidden makes .app a scroll container and breaks the sticky bottom nav. */
+  overflow-x: clip;
   display: flex;
   flex-direction: column;
 }
@@ -58,7 +74,8 @@ h1, h2, h3 { font-family: var(--serif-display); font-weight: 600; margin: 0; lin
    The attribute selector catches inline styles (fontFamily: 'var(--serif-display)'). */
 h1, h2, h3, [style*="--serif-display"] { font-variant-numeric: lining-nums; }
 
-.prose { display: flex; flex-direction: column; gap: 14px; font-size: 18px; line-height: 1.62; text-wrap: pretty; hyphens: auto; }
+/* No text-wrap: pretty – Safari then breaks lines far too early to even out paragraphs. */
+.prose { display: flex; flex-direction: column; gap: 14px; font-size: 18px; line-height: 1.62; hyphens: auto; -webkit-hyphens: auto; }
 .prose p { margin: 0; }
 
 .btn {
@@ -102,6 +119,10 @@ h1, h2, h3, [style*="--serif-display"] { font-variant-numeric: lining-nums; }
 .input:focus { outline: 2px solid var(--gold); outline-offset: 1px; }
 
 .card { border: 1px solid var(--line); padding: 16px; }
+
+/* Top bar of day pages: room for the mockup's status bar on desktop; on phones only the safe area (notch in home-screen mode). */
+.topbar { padding: 52px 12px 10px; }
+@media (max-width: 600px) { .topbar { padding-top: calc(env(safe-area-inset-top) + 4px); } }
 .card-gold { border: 1px solid var(--gold); padding: 20px 18px; }
 
 /* ---------- Effekte ---------- */
@@ -116,6 +137,16 @@ h1, h2, h3, [style*="--serif-display"] { font-variant-numeric: lining-nums; }
 @keyframes burst { 0% { transform: translate(0,0) scale(.4); opacity: 0; } 15% { opacity: 1; } 100% { transform: translate(var(--dx), var(--dy)) scale(1); opacity: 0; } }
 @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
 @keyframes shake { 0%, 100% { transform: translateX(0); } 20% { transform: translateX(-8px); } 40% { transform: translateX(7px); } 60% { transform: translateX(-5px); } 80% { transform: translateX(3px); } }
+@keyframes lightblink { 0%, 100% { opacity: .25; transform: scale(.75); box-shadow: 0 0 0 transparent; } 50% { opacity: 1; transform: scale(1.15); box-shadow: 0 0 12px currentColor; } }
+/* Fades in when it appears (the component only mounts it after 200ms of loading). */
+.loader { animation: loaderin .3s ease; }
+@keyframes loaderin { from { opacity: 0; } }
+.loader-lights { display: flex; gap: 14px; }
+.loader-lights span { width: 10px; height: 10px; border-radius: 50%; animation: lightblink 1.1s ease-in-out infinite; }
+/* Album photos: card that turns over around its vertical axis. */
+.photo-flip { position: absolute; inset: 0; display: block; transform-style: preserve-3d; -webkit-transform-style: preserve-3d; transition: transform .6s cubic-bezier(.4, .1, .2, 1); }
+.photo-face { position: absolute; inset: 0; display: flex; flex-direction: column; gap: 6px; padding: 8px; background: #F3ECDD; box-shadow: 0 3px 8px rgba(0,0,0,.45); backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.photo-back { transform: rotateY(180deg); padding: 12px 10px; }
 @keyframes fadeup { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 
 .snow { position: absolute; inset: 0; pointer-events: none; overflow: hidden; z-index: 5; }
@@ -153,6 +184,8 @@ h1, h2, h3, [style*="--serif-display"] { font-variant-numeric: lining-nums; }
   .stamp-in { animation: none; transform: rotate(-8deg); }
   .spark { display: none; }
   .fadeup { animation: none; }
+  .photo-flip { transition: none; }
+  .loader-lights span { animation: none; opacity: .8; }
 }
 
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
