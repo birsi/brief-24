@@ -65,7 +65,9 @@ export function Media({ num, kind, video = false, label, children }: { num: numb
   const [gone, setGone] = useState(false);
   const shownAt = useRef(0);
   const readyRef = useRef(false);
-  readyRef.current = ready;
+  useEffect(() => {
+    readyRef.current = ready;
+  }, [ready]);
   useEffect(() => {
     if (!canLoad) return;
     const t = setTimeout(() => {

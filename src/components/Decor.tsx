@@ -130,29 +130,3 @@ export function Sparks({ n = 14, delay = 0.55 }: { n?: number; delay?: number })
     </div>
   );
 }
-
-/** Golden sparks drifting upwards – the finale of the calendar (needs position: relative). */
-export function GoldDust({ count = 28 }: { count?: number }) {
-  const sparks = useMemo(
-    () =>
-      Array.from({ length: count }, (_, i) => ({
-        left: rnd(i, 11) * 100,
-        size: 2 + rnd(i, 12) * 3,
-        dur: 7 + rnd(i, 13) * 8,
-        delay: rnd(i, 14) * 14,
-        sway: (rnd(i, 15) - 0.5) * 60,
-      })),
-    [count],
-  );
-  return (
-    <div className="snow snow-fixed" aria-hidden="true" style={{ zIndex: 29 }}>
-      {sparks.map((f, i) => (
-        <span
-          key={i}
-          className="gold-spark"
-          style={{ left: `${f.left}%`, width: f.size, height: f.size, animationDuration: `${f.dur}s`, animationDelay: `-${f.delay}s`, ['--sway' as string]: `${f.sway}px` }}
-        />
-      ))}
-    </div>
-  );
-}

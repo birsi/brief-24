@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { Garland, GoldDust, Snow, StarIcon } from '../components/Decor';
+import { Garland, Snow, StarIcon } from '../components/Decor';
 import { BottomNav } from '../components/ui';
 import { DAYS } from '../game/content';
 import { GAME_YEAR, dayDate, useGame } from '../game/store';
@@ -17,7 +17,6 @@ export default function Calendar() {
   return (
     <div className="app">
       <Snow count={finished ? 90 : 45} />
-      {finished ? <GoldDust /> : null}
       <Garland />
       <div aria-hidden="true" style={{ position: 'absolute', left: '50%', top: 20, width: 420, height: 300, marginLeft: -210, background: 'radial-gradient(closest-side, rgba(212,178,106,0.20), rgba(212,178,106,0))', pointerEvents: 'none' }} />
 
@@ -32,7 +31,7 @@ export default function Calendar() {
         </div>
       </header>
 
-      <main style={{ flexGrow: 1, padding: '6px 20px 0', display: 'grid', gridTemplateColumns: 'repeat(4, minmax(0, 1fr))', gap: 10, alignContent: 'start', position: 'relative' }}>
+      <main style={{ flexGrow: finished ? 0 : 1, padding: '6px 20px 0', display: 'grid', gridTemplateColumns: 'repeat(4, minmax(0, 1fr))', gap: 10, alignContent: 'start', position: 'relative' }}>
         {DAYS.map((d) => {
           const solved = isSolved(d.num);
           const open = isUnlocked(d.num);
@@ -72,7 +71,7 @@ export default function Calendar() {
       </main>
 
       {finished ? (
-        <section className="card-gold fadeup" style={{ margin: '22px 20px 0', textAlign: 'center', position: 'relative', background: 'linear-gradient(180deg, rgba(212,178,106,0.14), rgba(212,178,106,0.03))', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
+        <section className="card-gold fadeup" style={{ margin: '24px 20px 0', textAlign: 'center', position: 'relative', background: 'linear-gradient(180deg, rgba(212,178,106,0.14), rgba(212,178,106,0.03))', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
           <span aria-hidden="true" className="float" style={{ width: 46, height: 46, borderRadius: '50%', background: 'var(--red)', boxShadow: '0 2px 0 rgba(0,0,0,.35), inset 0 0 0 3px rgba(0,0,0,.18), 0 0 18px rgba(212,178,106,.4)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <svg width="22" height="22" viewBox="0 0 12 12"><path d="M6 0 L7 5 L12 6 L7 7 L6 12 L5 7 L0 6 L5 5 Z" fill="var(--gold)" /></svg>
           </span>
@@ -83,7 +82,7 @@ export default function Calendar() {
         </section>
       ) : null}
 
-      <div style={{ height: 28 }} />
+      <div style={{ height: finished ? 64 : 28 }} />
       <BottomNav />
     </div>
   );
