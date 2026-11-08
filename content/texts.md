@@ -85,7 +85,7 @@ Sie las den Brief ein zweites Mal, dann ein drittes. Er nannte keinen Ort, keine
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Exterior of a grand 1870s hotel on Vienna's Ringstrasse at blue hour, stucco facade and brass details, a glowing revolving door, the very first snowflake drifting under an old street lantern; a woman in a modern winter coat with a brown brindle boxer with a long, natural, undocked tail stepping into the revolving door; through the glass, behind a polished reception desk, an elderly porter in an immaculate dark uniform looks up with a tired smile
+**Bild Auflösung**: Inside the lobby of a grand 1870s hotel on Vienna's Ringstrasse, stucco, marble and polished brass: a woman in a modern winter coat with a brown brindle boxer with a long, natural, undocked tail has just stepped through the brass revolving door; behind them, through the glass, the very first snowflake drifts down under a street lantern. Behind a polished reception desk an elderly porter in an immaculate dark uniform looks up at them with a tired, knowing smile, as if he had been waiting for hours
 
 Das Grand Hotel Morgenstern stand seit 1873 am Ring, ein Haus aus Stuck, Messing und Erinnerungen. Als Larissa mit Fanny durch die Drehtür trat, fiel draußen die erste Flocke.
 
@@ -149,7 +149,7 @@ Die App merkt sich die Belegung im Notizbuch: Lenz 7, Baustelle 12, Reiter 19, L
 
 ### App – Fortsetzung (Audio)
 
-**Video Auflösung** (Vorschlag): Startbild: night, seen from the gallery of a grand hotel down into the dark lobby: an antique snow globe with a miniature grand hotel inside stands on a velvet cushion in a glass display case, faint gold glow, nobody near it. Bewegung: im Inneren beginnt es langsam zu schneien, obwohl niemand die Kugel berührt. Kamera steht still.
+**Video Auflösung** (Vorschlag): Startbild: night, over the shoulder of a woman leaning on the gallery railing of a grand hotel, looking down into the dark lobby: an antique snow globe with a miniature grand hotel inside stands on a velvet cushion in a glass display case, faint gold glow, nobody near it. Bewegung: im Inneren beginnt es langsam zu schneien, obwohl niemand die Kugel berührt. Kamera steht still.
 
 „24“, sagte Albin leise und legte einen schweren Messingschlüssel auf den Tresen.
 
@@ -211,7 +211,7 @@ Klartext: ALLES BEGINNT IN DER ZEITPOST (Caesar, jeder Buchstabe um 8 zurück).
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Behind a hotel reception desk a narrow door, easily mistaken for a cupboard, stands ajar, warm light and rows of small brass compartments glimpsed inside; a small old postage stamp showing a grand lobby clock is tucked into the brass door handle
+**Bild Auflösung**: Behind a hotel reception desk a narrow door, easily mistaken for a cupboard, stands ajar, warm light and rows of small brass compartments glimpsed inside; a small old postage stamp showing a grand lobby clock is tucked into the brass door handle, a woman's hand reaching for it, a slip of paper with scrambled letters in her other hand
 
 *Alles beginnt in der Zeitpost.*
 
@@ -275,7 +275,7 @@ Sie schaltete die Lampe ein. Unter dem violetten Licht tauchten auf der Register
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Wood-panelled hotel library on the first floor, green banker's lamps: a man in his thirties with a scarf sits at a table covered in notes, looking up with a friendly smile, a dark green linen notebook beside him; near the door a brown brindle boxer with a long, natural, undocked tail lies motionless in front of a bookshelf, staring at it
+**Bild Auflösung**: Wood-panelled hotel library on the first floor, green banker's lamps: a man in his thirties with a scarf sits at a table covered in notes, looking up with a friendly smile, a dark green linen notebook beside him; a woman in a modern winter coat stands in the doorway; right next to the door a brown brindle boxer with a long, natural, undocked tail lies motionless in front of a bookshelf, staring at it
 
 Die Bibliothek des Morgenstern lag im ersten Stock, ein Raum aus dunklem Holz und grünen Leselampen.
 
@@ -425,7 +425,7 @@ Logik: Gemischter Satz 1873 = Fach 4. Veltliner 1926 (Kugel und Brief stammen au
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: An open antique safe, inside an official insurance policy with a signature, and tucked between the papers a small old Austrian postage stamp showing the rotunda of the 1873 Vienna World Exhibition, warm lamplight
+**Bild Auflösung**: A woman's hands holding an official insurance policy taken from an open antique safe, a photograph of a snow globe clipped to it, a signature at the bottom; between the papers in the safe a small old Austrian postage stamp showing the rotunda of the 1873 Vienna World Exhibition; behind her the office door is just opening, warm lamplight
 
 Im Tresor lag eine Versicherungspolice für die Morgenstern-Kugel. Die Summe war im November verdreifacht worden. Unterschrieben: C. Morgenstern.
 
@@ -705,13 +705,13 @@ Auf dem Boden lagen frische Krümel von Schnee. Fanny schnaufte und zog. Sie fol
 
 Albin musste diesen Ort gekannt haben. Er hatte ihr den Weg aufgeschrieben, als hätte er gewusst, dass Hartl hierher fliehen würde.
 
-Auf dem untersten Regal lag ein zusammengefalteter Zettel. Zahlen, sonst nichts. Und ein kleines Zeichen in der Ecke. Larissa kannte es. Sie hatte ein Buch mit genau diesem Zeichen gesehen.
+Auf dem untersten Regal lag ein zusammengefalteter Zettel. Oben auf dem Papier ein kleines goldenes Wappen, das ihr bekannt vorkam. Sie wusste nur nicht mehr, woher. Darunter Zahlen, sonst nichts. Und ein kleines Zeichen in der Ecke. Larissa kannte es. Sie hatte ein Buch mit genau diesem Zeichen gesehen.
 
 **Eingabe**: „Was hat Hartl anfertigen lassen?“ → **REPLIK**
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: A low old boot-cleaning room in a grand hotel: shoe brushes, tins of polish, a row of empty wooden shelves. On the lowest shelf a folded cream note with handwritten number triples, a small gold crest of a tower between two stars and a small symbol drawn in one corner; a thin wisp of cigar smoke drifting through the beam of a flashlight
+**Bild Auflösung**: A very narrow, dark hidden servants' passage between hotel rooms, old floorboards, bare plaster walls; at the far end a small door in the wallpaper has just swung shut, a thin line of light still under it. A young maid in a black uniform with a white apron stands frozen, a flashlight in her hand; its beam catches a faint wisp of cigar smoke hanging in the air. A woman in a modern winter coat behind her, holding a folded cream note; a brown brindle boxer with a long, natural, undocked tail sniffing the floor toward the closed door
 
 Die Replik ist fertig.
 
@@ -769,7 +769,7 @@ Sie sah genauer hin.
 
 ### App – Fortsetzung (Audio)
 
-**Video Auflösung** (Vorschlag): Startbild: on the steps of a dimly lit hotel staircase two nearly identical antique snow globes with miniature hotels stand side by side, one still half in a wooden crate filled with wood wool, an old photograph of a snow globe held next to them. Bewegung: Kamera fährt langsam an der rechten Kugel vorbei, Schnitt auf eine Hotelzimmertür, unter der ein brauner Umschlag mit verblasstem Stempel durchgeschoben wird, Flurlicht fällt herein, ein Boxer schnuppert daran und wedelt.
+**Video Auflösung** (Vorschlag): Startbild: on the steps of a dimly lit hotel staircase two nearly identical antique snow globes with miniature hotels stand side by side, one still half in a wooden crate filled with wood wool, a woman holds an old photograph of a snow globe next to them; beside them a well-groomed man in his fifties in a long dark coat sits on the steps, head bowed, laughing joylessly. Bewegung: Kamera fährt langsam an der rechten Kugel vorbei, Schnitt auf eine Hotelzimmertür, unter der ein brauner Umschlag mit verblasstem Stempel durchgeschoben wird, Flurlicht fällt herein, ein Boxer schnuppert daran und wedelt.
 
 Hartl setzte sich auf die Stufen und lachte, ohne Freude.
 
@@ -848,7 +848,7 @@ Der Inspektor hatte sie nach Zeugen geordnet. Aber eine Geschichte erzählt sich
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: Close-up of a typed page from a yellowed 1926 police report with a red letter stamp; in the margin a quick pencil sketch of two small circles side by side and a question mark; warm light from a bedside lamp, the paw of a boxer resting at the edge of the page
+**Bild Auflösung**: Close-up of a typed page from a yellowed 1926 police report, a witness statement by a page boy with a red letter stamp; in the margin a quick pencil sketch of two small circles side by side and next to them a single handwritten pencil word: "Zwei?" (the only text that should be legible); warm light from a bedside lamp, the paw of a boxer resting at the edge of the page
 
 Kugeln. Nicht eine Kugel. Zwei.
 
@@ -1201,7 +1201,7 @@ Keine Platte. Kein Schalter. Nur Verschlüsse, Fugen, kleine Hebel. Albins Gramm
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: A deep candle-lit stone wine cellar under a closed Heuriger in Sievering, barrels and dusty bottles in the shadows; on a barrel an antique wooden gramophone with a brass horn, a shellac record on it, a candle and a small folded note beside it; a woman lowers the needle, a brown brindle boxer with a long, natural, undocked tail pressed against her legs
+**Bild Auflösung**: A deep candle-lit stone wine cellar under a closed Heuriger in Sievering, barrels and dusty bottles in the shadows; on a barrel an antique wooden gramophone with a brass horn, a shellac record on it whose paper label shows only the handwritten number "1224" (the only legible text); a candle and a small folded note beside it; a woman lowers the needle, a brown brindle boxer with a long, natural, undocked tail pressed trembling against her legs
 
 Im Grammophon lag eine Schellackplatte. Auf dem Etikett nur eine Nummer, mit Tinte geschrieben. Aufnahme 1224.
 
@@ -1335,7 +1335,7 @@ Dann schob er ihr den Messingzylinder hin. „Sie haben die Marken gesammelt“,
 
 ### App – Fortsetzung (Audio)
 
-**Bild Auflösung**: At a hotel reception desk an elderly porter has just pulled a wool cloth off an antique snow globe with a miniature grand hotel inside, snow swirling in it; its glass base is twisted open, and a tiny ornate brass key, no longer than a finger joint, lies in his palm; an opened brass cryptex cylinder and a small note beside it, warm lobby lamp light
+**Bild Auflösung**: At a hotel reception desk an elderly porter has just pulled a wool cloth off an antique snow globe with a miniature grand hotel inside, snow swirling in it; he has turned its glass base until a narrow compartment slid out, and in it lies a tiny ornate brass key, no longer than a finger joint; an opened brass cryptex cylinder and a small handwritten note beside it, a woman in a modern winter coat leaning in, warm lobby lamp light
 
 Der Zylinder glitt auseinander. Darin ein Zettel, in Albins Schrift. Das letzte Fach liegt zwischen den Büchern, die du liebst. Es öffnet sich erst am Heiligen Abend.
 
@@ -1387,7 +1387,7 @@ Zuerst geschah nichts. Dann ein Ruck, ein Seufzen von altem Metall. Und das Uhrw
 
 „Es spricht“, sagte Albin leise. „Hören Sie zu.“
 
-**Audio (Uhrwerk)**: Ticken in Morse, mit deutlichen Pausen zwischen den Buchstaben, dreimal wiederholt: ...- / .. / . / .-.
+**Audio (Uhrwerk)**: Ticken in Morse, mit deutlichen Pausen zwischen den Buchstaben, einmal abgespielt (die Spielerin kann es beliebig oft erneut antippen): ...- / .. / . / .-.
 
 **Notizbuch**: Das Morse-Alphabet aus Tag 7.
 
