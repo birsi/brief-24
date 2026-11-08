@@ -51,7 +51,7 @@ export default function Widget({ num, widget, onGate, onSubmitValue }: Props) {
     case 'safe':
       return <Safe wheels={widget.wheels} onOpen={onSubmitValue} />;
     case 'album':
-      return <Album num={num} photos={widget.photos} match={widget.match} backside={widget.backside} />;
+      return <Album num={num} photos={widget.photos} backsides={widget.backsides} />;
     case 'statements':
       return <Statements num={num} speaker={widget.speaker} question={widget.question} sentences={widget.sentences} correct={widget.correct} onGate={onGate} />;
     case 'scene':
@@ -137,17 +137,21 @@ function KeyBoard({ hooks, nameplates, sentences }: { hooks: number[]; nameplate
           <label key={h} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6 }}>
             <span style={{ width: 10, height: 10, borderRadius: '50%', background: 'var(--gold)', boxShadow: '0 1px 2px rgba(0,0,0,.6)' }} aria-hidden="true" />
             <span style={{ fontFamily: 'var(--serif-display)', fontWeight: 600, fontSize: 22, color: 'var(--gold-soft)' }}>{h}</span>
-            <select
-              value={assignment[h] ?? ''}
-              onChange={(e) => setAssignment((b) => ({ ...b, [h]: e.target.value }))}
-              aria-label={`Haken ${h}`}
-              style={{ width: '100%', minHeight: 44, background: 'var(--paper)', color: '#14233A', border: 'none', fontFamily: 'var(--sans)', fontSize: 11, padding: '0 2px' }}
-            >
-              <option value="">–</option>
-              {nameplates.map((s) => (
-                <option key={s} value={s}>{s}</option>
-              ))}
-            </select>
+            {/* The visible plate shows the name small; the transparent select on top keeps 16px text so iOS doesn't zoom on tap. */}
+            <span style={{ position: 'relative', width: '100%', height: 44, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--paper)', color: '#14233A', fontFamily: 'var(--sans)', fontSize: 11, lineHeight: 1.15, textAlign: 'center', padding: '0 2px' }}>
+              <span aria-hidden="true">{assignment[h] || '–'}</span>
+              <select
+                value={assignment[h] ?? ''}
+                onChange={(e) => setAssignment((b) => ({ ...b, [h]: e.target.value }))}
+                aria-label={`Haken ${h}`}
+                style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', opacity: 0, fontSize: 16, appearance: 'none', border: 'none', cursor: 'pointer' }}
+              >
+                <option value="">–</option>
+                {nameplates.map((s) => (
+                  <option key={s} value={s}>{s}</option>
+                ))}
+              </select>
+            </span>
           </label>
         ))}
       </div>
@@ -205,7 +209,7 @@ function Safe({ wheels, onOpen }: { wheels: number; onOpen: (v: string) => void 
   );
 }
 
-function Album({ num, photos, match, backside }: { num: number; photos: string[]; match: number; backside: string }) {
+function Album({ num, photos, backsides }: { num: number; photos: string[]; backsides: string[] }) {
   const [flipped, setFlipped] = useState<Set<number>>(new Set());
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
@@ -217,19 +221,19 @@ function Album({ num, photos, match, backside }: { num: number; photos: string[]
             <button
               key={i}
               onClick={() => setFlipped((s) => { const n = new Set(s); if (n.has(i)) n.delete(i); else n.add(i); return n; })}
-              aria-label={isFlipped ? `Rückseite von Foto ${i + 1}` : `Foto ${i + 1}: ${f}`}
-              style={{ aspectRatio: '4 / 5', padding: 8, background: '#F3ECDD', border: 'none', boxShadow: '0 3px 8px rgba(0,0,0,.45)', transform: `rotate(${(i % 2 ? 1.5 : -1.5)}deg)`, display: 'flex', flexDirection: 'column', gap: 6, color: '#2D2620' }}
+              aria-label={isFlipped ? `Rückseite von Foto ${i + 1}: ${backsides[i]}` : `Foto ${i + 1}: ${f}`}
+              style={{ position: 'relative', aspectRatio: '4 / 5', padding: 0, background: 'none', border: 'none', perspective: 700, transform: `rotate(${(i % 2 ? 1.5 : -1.5)}deg)`, color: '#2D2620' }}
             >
-              {isFlipped ? (
-                <span style={{ flexGrow: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontFamily: "'La Belle Aurore', cursive", fontSize: 16, lineHeight: 1.35, padding: 4 }}>
-                  {i === match ? backside : 'Keine Beschriftung.'}
-                </span>
-              ) : (
-                <>
+              {/* Two faces on a card that turns around its vertical axis; the hidden face is not rendered by the browser (backface-visibility). */}
+              <span className="photo-flip" style={{ transform: isFlipped ? 'rotateY(180deg)' : 'none' }}>
+                <span className="photo-face" aria-hidden={isFlipped ? 'true' : undefined}>
                   <PhotoImage num={num} i={i} description={f} />
                   <span style={{ fontFamily: 'var(--serif)', fontSize: 13, lineHeight: 1.3, textAlign: 'left' }}>{f}</span>
-                </>
-              )}
+                </span>
+                <span className="photo-face photo-back" aria-hidden={isFlipped ? undefined : 'true'} style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontFamily: "'La Belle Aurore', cursive", fontSize: 14, lineHeight: 1.4 }}>
+                  {backsides[i]}
+                </span>
+              </span>
             </button>
           );
         })}
@@ -240,9 +244,15 @@ function Album({ num, photos, match, backside }: { num: number; photos: string[]
 
 function PhotoImage({ num, i, description }: { num: number; i: number; description: string }) {
   const [failed, setFailed] = useState(false);
-  if (failed)
-    return <span aria-hidden="true" style={{ flexGrow: 1, background: 'linear-gradient(135deg, #8E8273, #5D554B)', filter: 'sepia(.6)' }} />;
-  return <img src={mediaPath(num, `photo-${i + 1}.jpg`)} alt={description} onError={() => setFailed(true)} style={{ flexGrow: 1, minHeight: 0, width: '100%', objectFit: 'cover', filter: 'sepia(.55) contrast(.95)' }} />;
+  // The wrapper (flex-basis 0, relative) and the absolutely positioned image make the photo take only the space that is
+  // left in the 4:5 card. A plain <img> would push the card taller than the flipped side, so it changed size on every tap.
+  return (
+    <span aria-hidden={failed ? 'true' : undefined} style={{ flex: '1 1 0', minHeight: 0, position: 'relative', overflow: 'hidden', background: 'linear-gradient(135deg, #8E8273, #5D554B)' }}>
+      {failed ? null : (
+        <img src={mediaPath(num, `photo-${i + 1}.jpg`)} alt={description} onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', filter: 'sepia(.55) contrast(.95)' }} />
+      )}
+    </span>
+  );
 }
 
 function Statements({ num, speaker, question, sentences, correct, onGate }: { num: number; speaker: string; question: string; sentences: string[]; correct: number; onGate: (b: boolean) => void }) {

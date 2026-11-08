@@ -41,7 +41,7 @@ Jeder Tag hat dieselben Bausteine. Rätsel und Lösungen folgen der Rätsel-Matr
 
 > Liebe Larissa,
 >
-> Mach dir keine Sorgen um mich. Ob du mir glaubst oder nicht, spielt jetzt noch keine Rolle. Richte dich auf Schnee ein, auf mehr Schnee, als Wien seit Langem gesehen hat. Geh noch heute in das Haus, in dem ich diesen Brief hinterlasse. Erschrick nicht, wenn man dich dort erwartet. Nimm Fanny mit, sie kennt den Weg besser als du. Sie wird dir zeigen, wem du trauen kannst. Trau nicht dem, der dir zuerst hilft. Eine Kugel wird verschwinden, und alle werden den Dieb suchen. Such du nicht den Dieb. Such den Brief. Nichts davon ist, wie es scheint, und doch ist alles genau so.
+> Mach dir keine Sorgen um mich. Ob du mir glaubst oder nicht, spielt jetzt noch keine Rolle. Richte dich auf Schnee ein, auf mehr Schnee, als Wien seit Langem gesehen hat. Geh noch heute in das Haus, in dem ich diesen Brief hinterlasse. Erschrick nicht, wenn man dich dort erwartet. Nimm Fanny mit, sie kennt den Weg besser als du. Sie wird dir zeigen, wem du trauen kannst. Trau nicht dem, der dir zuerst hilft. Eine Kugel wird verschwinden, und alle werden den Dieb suchen. Rätsle nicht über den Dieb. Rätsle lieber über den Brief. Nichts davon ist, wie es scheint, und doch ist alles genau so.
 >
 > Wien, am 24. Dezember 1926 L.
 
@@ -543,7 +543,7 @@ Frau Lenz legte das Album auf den Tisch und schlug es auf. Alte Fotografien, gez
 
 Larissa wollte sagen, dass sie nie hier gewesen war. Aber sie sagte nichts.
 
-**Rätsel (nur Bildschirm)**: Das Album zeigt sechs Fotos. Auf einem ist am Rand ein Boxer zu sehen. Ein Tipp auf den Hund dreht das Foto um. Rückseite: „Lisl, 3 Jahre, Weihnachten 1926, mit der Dame und ihrem Hund“.
+**Rätsel (nur Bildschirm)**: Das Album zeigt sechs Fotos. Ein Tipp dreht ein Foto um, jede Rückseite trägt eine Notiz in Handschrift. 1: „Familie Hollitzer, Christabend 1926. Unsere Mitzi, 7 Jahre, durfte bis Mitternacht aufbleiben.“ 2: „Das Morgenstern, Advent 1926. Der erste Schnee.“ 3: „Franzl und Pepi, die Pagen. Frecher als erlaubt.“ 4: „Lisl, 3 Jahre, Weihnachten 1926, mit der Dame und ihrem Hund.“ 5: „Silvesterball 1925. Mama und Papa haben bis zum Morgen getanzt.“ 6: „Der Christbaum in der Halle, 24. Dezember 1926. Hundert echte Kerzen.“ Lösungsweg: Frau Lenz ist 103, also war sie Weihnachten 1926 drei Jahre alt. Mitzi war sieben, und auf Foto 4 steht außerdem der Hund.
 
 **Eingabe**: „Wie nannte man Frau Lenz als Kind?“ → **LISL**
 
@@ -563,8 +563,8 @@ Larissa blieb noch lange sitzen. Fanny legte ihr den Kopf aufs Knie und seufzte.
 
 ### Hinweise
 
-1. Sieh dir die Fotos genau an. Wer ist am Rand zu sehen?
-2. Tippe auf den Hund.
+1. Frau Lenz ist 103. Wie alt war sie Weihnachten 1926?
+2. Sie war drei. Dreh die Fotos um und such das dreijährige Mädchen.
 3. LISL
 
 ## Tag 9 – Die Marke im Glas

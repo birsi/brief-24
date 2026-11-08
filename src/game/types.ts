@@ -46,7 +46,7 @@ export type Widget =
   | { type: 'bell'; strikes: number; label: string; src?: string }
   | { type: 'voices'; statements: { name: string; text: string }[] }
   | { type: 'safe'; wheels: number }
-  | { type: 'album'; photos: string[]; match: number; backside: string }
+  | { type: 'album'; photos: string[]; backsides: string[]; match: number }
   | { type: 'footprints' }
   | { type: 'differences' }
   | { type: 'orderbook' }
