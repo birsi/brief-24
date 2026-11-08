@@ -50,9 +50,9 @@ export type Widget =
   | { type: 'footprints' }
   | { type: 'differences' }
   | { type: 'orderbook' }
-  | { type: 'statements'; speaker: string; sentences: string[]; correct: number; question: string }
+  | { type: 'statements'; speaker: string; character?: string; sentences: string[]; correct: number; question: string }
   | { type: 'flashlight' }
-  | { type: 'morse'; pattern: string }
+  | { type: 'morse'; pattern: string; src?: string }
   | { type: 'scene' }
   | { type: 'lock' }
   | { type: 'hint'; text: string };

@@ -12,6 +12,9 @@
   "pronunciations": {
     "_comment": "Replacements applied only to the text sent to ElevenLabs (the app shows the original). Longer entries are applied first. Changing an entry regenerates the files that contain it.",
     "Fanny": "Fanni",
+    "Hernals": "Hernáls",
+    "Hietzinger": "Hitzinger",
+    "Hietzing": "Hitzing",
     "vom 2. auf den 3. Dezember": "vom zweiten auf den dritten Dezember",
     "Datum 24. Dezember": "Datum vierundzwanzigster Dezember",
     "24. Dezember": "vierundzwanzigsten Dezember",

@@ -1,0 +1,19 @@
+{
+  "_comment": "Settings for the gramophone record of day 19 (npm run tts:record → public/media/day-19/record.mp3). Voice: character in content/character-voices.json. Levels are relative to full scale; 'light' vinyl = small numbers. Changing anything regenerates the file.",
+  "character": "Larissa Birsak",
+  "text": "Trau nicht dem … der dir zuerst hilft.",
+  "voiceSettings": { "stability": 0.7, "similarity_boost": 0.8, "style": 0.05, "speed": 0.82 },
+  "leadInSeconds": 1.6,
+  "tailSeconds": 1.4,
+  "gramophone": { "highpassHz": 300, "lowpassHz": 3400, "drive": 1.5 },
+  "noise": {
+    "hiss": 0.011,
+    "crackleRate": 26,
+    "crackleLevel": 0.16,
+    "popRate": 0.7,
+    "popLevel": 0.22,
+    "revolutionTick": 0.07,
+    "rpm": 78
+  },
+  "seed": 1926
+}

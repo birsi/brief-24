@@ -12,6 +12,8 @@
     "tts": "node --env-file-if-exists=.env scripts/tts.mjs",
     "images": "node --env-file-if-exists=.env scripts/images.mjs",
     "test": "node scripts/test-answers.mjs",
+    "tts:record": "node --env-file-if-exists=.env scripts/record.mjs",
+    "tts:morse": "node --env-file-if-exists=.env scripts/morse.mjs",
     "tts:voices": "node --env-file-if-exists=.env scripts/tts-voices.mjs"
   },
   "dependencies": {
@@ -26,6 +28,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
+    "lamejs": "^1.2.1",
     "oxlint": "^1.89.0",
     "typescript": "~7.0.2",
     "vite": "^8.3.5"

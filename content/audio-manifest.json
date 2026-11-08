@@ -222,7 +222,7 @@
     "generated": "2026-11-07T21:11:28.911Z"
   },
   "day-09/continuation": {
-    "hash": "196224993061ccd3",
+    "hash": "883019fef2d7e14e",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -234,8 +234,7 @@
       "speed": 0.95
     },
     "chars": 378,
-    "generated": "2026-11-07T18:17:47.400Z",
-    "textNote": "Spoken text identical to the recording (numbers spelled out via pronunciations)"
+    "generated": "2026-11-08T18:11:10.677Z"
   },
   "day-10/narration": {
     "hash": "b6c40daa4d57111e",
@@ -268,7 +267,7 @@
     "generated": "2026-11-07T21:11:31.727Z"
   },
   "day-11/narration": {
-    "hash": "3f6bd3b6e46b605d",
+    "hash": "aa9401688616a7fe",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -279,8 +278,8 @@
       "use_speaker_boost": true,
       "speed": 0.95
     },
-    "chars": 934,
-    "generated": "2026-11-07T21:01:47.690Z"
+    "chars": 1050,
+    "generated": "2026-11-08T17:31:13.162Z"
   },
   "day-11/continuation": {
     "hash": "187faec3d937b615",
@@ -343,7 +342,7 @@
     "generated": "2026-11-07T21:01:58.941Z"
   },
   "day-13/continuation": {
-    "hash": "cbecd08319a67649",
+    "hash": "5a9b03ce5e3f3d0d",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -355,7 +354,7 @@
       "speed": 0.95
     },
     "chars": 544,
-    "generated": "2026-11-07T18:18:15.059Z"
+    "generated": "2026-11-08T18:11:38.309Z"
   },
   "day-14/narration": {
     "hash": "84f589c669f88635",
@@ -433,7 +432,7 @@
     "generated": "2026-11-07T21:02:16.402Z"
   },
   "day-16/continuation": {
-    "hash": "6cf15f93d841d8c8",
+    "hash": "98903473ea1a9734",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -445,10 +444,10 @@
       "speed": 0.95
     },
     "chars": 732,
-    "generated": "2026-11-07T21:02:19.797Z"
+    "generated": "2026-11-08T18:11:41.908Z"
   },
   "day-17/narration": {
-    "hash": "6c812eb0eef690bb",
+    "hash": "29266fe2871ea3f1",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -459,8 +458,8 @@
       "use_speaker_boost": true,
       "speed": 0.95
     },
-    "chars": 940,
-    "generated": "2026-11-07T21:02:24.000Z"
+    "chars": 939,
+    "generated": "2026-11-08T18:07:48.686Z"
   },
   "day-17/continuation": {
     "hash": "f9adb6100a788a35",
@@ -538,7 +537,7 @@
     "generated": "2026-11-07T21:02:37.550Z"
   },
   "day-20/narration": {
-    "hash": "617de1eafea570ad",
+    "hash": "0412c9a9e3c94c8d",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -550,8 +549,7 @@
       "speed": 0.95
     },
     "chars": 870,
-    "generated": "2026-11-07T18:19:05.197Z",
-    "textNote": "Spoken text identical to the recording (numbers spelled out via pronunciations)"
+    "generated": "2026-11-08T18:11:45.945Z"
   },
   "day-20/continuation": {
     "hash": "375c01da08b4a665",
@@ -784,5 +782,142 @@
     },
     "chars": 51,
     "generated": "2026-11-07T20:51:27.426Z"
+  },
+  "day-16/sentence-1": {
+    "hash": "66dc93fa0a741aa5",
+    "voice": "Yu7munSFUN8hbRW63pno",
+    "voiceName": "Mats Winter – warm, natural, early 30s",
+    "model": "eleven_multilingual_v2",
+    "seed": 24,
+    "voiceSettings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.15,
+      "use_speaker_boost": true,
+      "speed": 0.95
+    },
+    "chars": 110,
+    "generated": "2026-11-08T18:04:22.474Z"
+  },
+  "day-16/sentence-2": {
+    "hash": "13aae43d59c93687",
+    "voice": "Yu7munSFUN8hbRW63pno",
+    "voiceName": "Mats Winter – warm, natural, early 30s",
+    "model": "eleven_multilingual_v2",
+    "seed": 24,
+    "voiceSettings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.15,
+      "use_speaker_boost": true,
+      "speed": 0.95
+    },
+    "chars": 97,
+    "generated": "2026-11-08T18:04:23.068Z"
+  },
+  "day-16/sentence-3": {
+    "hash": "4b10fb479937a883",
+    "voice": "Yu7munSFUN8hbRW63pno",
+    "voiceName": "Mats Winter – warm, natural, early 30s",
+    "model": "eleven_multilingual_v2",
+    "seed": 24,
+    "voiceSettings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.15,
+      "use_speaker_boost": true,
+      "speed": 0.95
+    },
+    "chars": 92,
+    "generated": "2026-11-08T18:04:23.531Z"
+  },
+  "day-16/sentence-4": {
+    "hash": "31ae26e46dd7105a",
+    "voice": "Yu7munSFUN8hbRW63pno",
+    "voiceName": "Mats Winter – warm, natural, early 30s",
+    "model": "eleven_multilingual_v2",
+    "seed": 24,
+    "voiceSettings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.15,
+      "use_speaker_boost": true,
+      "speed": 0.95
+    },
+    "chars": 68,
+    "generated": "2026-11-08T18:04:23.871Z"
+  },
+  "day-19/record": {
+    "hash": "43c3659460bfc6b5",
+    "voice": "QR3u6NImjjOZiLeMunRk",
+    "voiceName": "Alina – calm, warm, Standard German with an Austrian touch (middle-aged female; Larissa is 36)",
+    "model": "eleven_multilingual_v2",
+    "seed": 24,
+    "voiceSettings": {
+      "stability": 0.7,
+      "similarity_boost": 0.8,
+      "style": 0.05,
+      "use_speaker_boost": true,
+      "speed": 0.82
+    },
+    "effect": {
+      "_comment": "Settings for the gramophone record of day 19 (npm run tts:record → public/media/day-19/record.mp3). Voice: character in content/character-voices.json. Levels are relative to full scale; 'light' vinyl = small numbers. Changing anything regenerates the file.",
+      "character": "Larissa Birsak",
+      "text": "Trau nicht dem … der dir zuerst hilft.",
+      "voiceSettings": {
+        "stability": 0.7,
+        "similarity_boost": 0.8,
+        "style": 0.05,
+        "speed": 0.82
+      },
+      "leadInSeconds": 1.6,
+      "tailSeconds": 1.4,
+      "gramophone": {
+        "highpassHz": 300,
+        "lowpassHz": 3400,
+        "drive": 1.5
+      },
+      "noise": {
+        "hiss": 0.011,
+        "crackleRate": 26,
+        "crackleLevel": 0.16,
+        "popRate": 0.7,
+        "popLevel": 0.22,
+        "revolutionTick": 0.07,
+        "rpm": 78
+      },
+      "seed": 1926
+    },
+    "chars": 38,
+    "generated": "2026-11-08T18:18:28.670Z"
+  },
+  "day-22/morse": {
+    "hash": "199c555b12a6aa90",
+    "pattern": "...- .. . .-.",
+    "timing": {
+      "dot": 0.15,
+      "dash": 0.45,
+      "symbolGap": 0.35,
+      "letterGap": 1.6,
+      "repeat": 1,
+      "leadIn": 0.3,
+      "tail": 0.8
+    },
+    "echo": {
+      "delay": 0.13,
+      "feedback": 0.25,
+      "wet": 0.22
+    },
+    "sounds": {
+      "tick": {
+        "file": "content/sfx/450509__abyeditsound__clockticksound_01.wav",
+        "at": 5.18
+      },
+      "long": {
+        "file": "content/sfx/171233__orbitalchiller__clock-music-box-spring-mechanism-wind-up.wav",
+        "at": 1.72
+      }
+    },
+    "generated": "2026-11-08T19:57:32.113Z"
   }
 }

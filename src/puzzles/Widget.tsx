@@ -43,7 +43,7 @@ export default function Widget({ num, widget, onGate, onSubmitValue }: Props) {
     case 'bell':
       return <Bell n={widget.strikes} label={widget.label} src={widget.src ? mediaPath(num, widget.src) : undefined} />;
     case 'morse':
-      return <Morse pattern={widget.pattern} />;
+      return <Morse pattern={widget.pattern} src={widget.src ? mediaPath(num, widget.src) : undefined} />;
     case 'keyboard':
       return <KeyBoard hooks={widget.hooks} nameplates={widget.nameplates} sentences={widget.sentences} />;
     case 'voices':
@@ -102,8 +102,14 @@ function Bell({ n, label, src }: { n: number; label: string; src?: string }) {
   );
 }
 
-function Morse({ pattern }: { pattern: string }) {
+function Morse({ pattern, src }: { pattern: string; src?: string }) {
   const [busy, setBusy] = useState(false);
+  const audio = useRef<HTMLAudioElement | null>(null);
+  useEffect(() => () => audio.current?.pause(), []);
+  const synth = () => {
+    const d = playMorse(pattern, 1);
+    setTimeout(() => setBusy(false), d * 1000);
+  };
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
       <button
@@ -111,14 +117,18 @@ function Morse({ pattern }: { pattern: string }) {
         disabled={busy}
         onClick={() => {
           setBusy(true);
-          const d = playMorse(pattern, 3);
-          setTimeout(() => setBusy(false), d * 1000);
+          if (!src) return synth();
+          // Recorded ticking from public/media; if the file is missing, the browser sound takes over.
+          const a = new Audio(src);
+          audio.current = a;
+          a.onended = () => setBusy(false);
+          a.play().catch(synth);
         }}
       >
         <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8" fill="none" stroke="var(--gold)" strokeWidth="1.3" /><circle cx="10" cy="10" r="3" fill="none" stroke="var(--gold)" strokeWidth="1.3" /><path d="M10 2 V5 M10 15 V18 M2 10 H5 M15 10 H18" stroke="var(--gold)" strokeWidth="1.3" /></svg>
         {busy ? 'Das Uhrwerk tickt …' : 'Dem Uhrwerk zuhören'}
       </button>
-      <p className="small" style={{ margin: 0, textAlign: 'center' }}>Dreimal dieselbe Folge, mit Pausen dazwischen.</p>
+      <p className="small" style={{ margin: 0, textAlign: 'center' }}>Die Folge hat Pausen zwischen den Buchstaben. Tippe noch einmal, um sie erneut zu hören.</p>
     </div>
   );
 }

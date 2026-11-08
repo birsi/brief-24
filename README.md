@@ -105,7 +105,8 @@ Additional audio:
 |---|---|
 | `day-05/voice-1.mp3` … `voice-6.mp3` | The six alibis: Constanze, Hartl, Jonas, Frau Lenz, Mira, Bruno |
 | `day-16/sentence-1.mp3` … `sentence-4.mp3` | Jonas' four sentences at the Heuriger |
-| `day-19/record.mp3` | The gramophone record of 1926: "Trau nicht dem, der dir zuerst hilft." (with crackle) |
+| `day-19/record.mp3` | The gramophone record of 1926: "Trau nicht dem, der dir zuerst hilft." (Larissa's voice with vinyl crackle, made by `npm run tts:record`; settings in `content/record-effect.json`) |
+| `day-22/morse.mp3` | The clockwork's morse ticking (dot 0.15 s, dash 0.45 s, 1 s between letters), built by `npm run tts:morse` from two Freesound recordings in `content/sfx/` (a clock tick for dots, a spring wind-up for dashes); settings in `content/morse-settings.json`. If the file is missing the browser plays a synthesized ticking instead |
 | `day-08/photo-1.jpg` … `photo-6.jpg` | Optional: photos in Frau Lenz's album (photo 4 = girl with dog) |
 
 Generated in the browser, no file needed: the Fraktur table in the notebook (UnifrakturMaguntia, from day 9), bell strikes (day 3), the clockwork's morse ticking (day 22). 🕰️

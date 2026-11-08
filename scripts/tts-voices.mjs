@@ -1,6 +1,8 @@
 // Generates the spoken statements of 'voices' widgets (e.g. day 5) with one ElevenLabs
 // voice per character: public/media/day-NN/voice-1.mp3, voice-2.mp3, … in the order of
-// the statements in src/game/config.ts. Voices: content/character-voices.json.
+// the statements in src/game/config.ts. Also the sentences of 'statements' widgets that name a
+// `character` (day 16, Jonas): public/media/day-NN/sentence-1.mp3 … in the order of `sentences`.
+// Voices: content/character-voices.json.
 //
 //   npm run tts:voices                 missing or changed files
 //   npm run tts:voices -- --dry-run    only list what would be generated
@@ -31,20 +33,25 @@ const manifestUrl = new URL('../content/audio-manifest.json', import.meta.url);
 const manifest = existsSync(manifestUrl) ? JSON.parse(readFileSync(manifestUrl, 'utf8')) : {};
 const saveManifest = () => writeFileSync(manifestUrl, JSON.stringify(manifest, null, 2) + '\n');
 
-const jobs = [];
+// One entry per spoken line: which character says it, the text and the file name (without .mp3).
+const lines = [];
 for (const [num, cfg] of Object.entries(CONFIG)) {
-  if (cfg.widget?.type !== 'voices') continue;
-  cfg.widget.statements.forEach((s, i) => {
-    const c = characters[s.name];
-    if (!c) throw new Error(`content/character-voices.json: no voice for "${s.name}"`);
-    const voiceSettings = { ...settings.voiceSettings, ...c.voiceSettings };
-    const key = `day-${String(num).padStart(2, '0')}/voice-${i + 1}`;
-    const file = new URL(`../public/media/${key}.mp3`, import.meta.url);
-    const text = speakable(s.text, settings.pronunciations);
-    const hash = createHash('sha256').update(JSON.stringify([text, c.voiceId, MODEL, voiceSettings, settings.seed, settings.outputFormat])).digest('hex').slice(0, 16);
-    if (!force && existsSync(file) && manifest[key]?.hash === hash) return;
-    jobs.push({ key, file, text, name: s.name, voice: c, voiceSettings, hash });
-  });
+  const w = cfg.widget;
+  if (w?.type === 'voices') w.statements.forEach((s, i) => lines.push({ num, name: s.name, text: s.text, file: `voice-${i + 1}` }));
+  if (w?.type === 'statements' && w.character) w.sentences.forEach((text, i) => lines.push({ num, name: w.character, text, file: `sentence-${i + 1}` }));
+}
+
+const jobs = [];
+for (const { num, name, text: raw, file: fileName } of lines) {
+  const c = characters[name];
+  if (!c) throw new Error(`content/character-voices.json: no voice for "${name}"`);
+  const voiceSettings = { ...settings.voiceSettings, ...c.voiceSettings };
+  const key = `day-${String(num).padStart(2, '0')}/${fileName}`;
+  const file = new URL(`../public/media/${key}.mp3`, import.meta.url);
+  const text = speakable(raw, settings.pronunciations);
+  const hash = createHash('sha256').update(JSON.stringify([text, c.voiceId, MODEL, voiceSettings, settings.seed, settings.outputFormat])).digest('hex').slice(0, 16);
+  if (!force && existsSync(file) && manifest[key]?.hash === hash) continue;
+  jobs.push({ key, file, text, name, voice: c, voiceSettings, hash });
 }
 
 console.log(`Model ${MODEL}, seed ${settings.seed}`);

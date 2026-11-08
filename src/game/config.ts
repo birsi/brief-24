@@ -76,6 +76,7 @@ export const CONFIG: Record<number, DayConfig> = {
     widget: {
       type: 'statements',
       speaker: 'Jonas',
+      character: 'Jonas Reiter', // voice in content/character-voices.json (npm run tts:voices)
       question: 'Welcher Satz verrät, dass Jonas mehr weiß, als er wissen dürfte?',
       sentences: [
         'Das Morgenstern wurde achtzehnhundertdreiundsiebzig eröffnet, zur Weltausstellung. Steht in jedem Reiseführer.',
@@ -91,7 +92,7 @@ export const CONFIG: Record<number, DayConfig> = {
   19: { question: 'Welche Aufnahme liegt im Grammophon?', placeholder: 'Nummer', widget: { type: 'hint', text: 'Bring Albins Grammophon zum Sprechen.' } },
   20: { question: 'Wer hat die Seite herausgerissen?', placeholder: 'Name' },
   21: { question: 'Welches Wort öffnet den Zylinder?' },
-  22: { question: 'Was sagt das Uhrwerk?', widget: { type: 'morse', pattern: '...- .. . .-.' } },
+  22: { question: 'Was sagt das Uhrwerk?', widget: { type: 'morse', pattern: '...- .. . .-.', src: 'morse.mp3' } },
   23: { question: 'Wer hat dich hergeführt?', placeholder: 'Name', widget: { type: 'scene' } },
   24: { question: 'Wessen Bibliothek?', placeholder: 'Name', widget: { type: 'lock' } },
 };
