@@ -1,31 +1,218 @@
 {
-  "_comment": "Sound effects for the narration recordings (npm run sfx → content/sfx/preview/). 'sounds': one entry per sound, generated once with ElevenLabs Sound Effects from 'prompt' ('seconds' 0.5–30, 'loop' for beds), or 'file' for your own recording. 'files': cues per recording. A cue is anchored to a phrase of the text ('at', or 'start'); 'edge' start|end picks the start or end of that phrase, 'offset' shifts it in seconds, 'gain' is the level in dB relative to the voice: every sound is first matched to the voice's average level, so 0 = as loud as the voice and -10 = clearly in the background, whatever the generated file's own loudness. 'to' (a phrase or 'end') turns the cue into a looped bed. 'repeat' plays it several times: 'every' seconds apart, 'anchor' last = the last one lands on the phrase, 'gainFrom' = level of the first one. 'trim' cuts a sound to that many seconds.",
+  "_comment": "Sound effects for the narration recordings (npm run sfx → content/sfx/preview/). 'sounds': one entry per sound, generated once with ElevenLabs Sound Effects from 'prompt' ('seconds' 0.5–30, 'loop' for beds), or 'file' for your own recording. 'files': cues per recording. A cue is anchored to a phrase of the text ('at', or 'start'); 'edge' start|end picks the start or end of that phrase, 'offset' shifts it in seconds, 'gain' is the level in dB relative to the voice: every sound is first matched to the voice's average level, so 0 = as loud as the voice and -10 = clearly in the background, whatever the generated file's own loudness. 'to' (a phrase or 'end') turns the cue into a looped bed. 'repeat' plays it several times: 'every' seconds apart, 'anchor' last = the last one lands on the phrase, 'gainFrom' = level of the first one. 'trim' cuts a sound to that many seconds. Days 3 and 22: no clock strikes or ticking in the narration, those are the puzzles.",
   "sounds": {
-    "knock": { "prompt": "Three firm knocks on a heavy wooden hotel room door in a quiet corridor at night, close, dry, no music, no voices", "seconds": 1.5 },
-    "door-open": { "prompt": "An old heavy wooden hotel room door opening slowly with a soft creak, interior, close, no music, no voices", "seconds": 2.5 },
-    "door-close": { "prompt": "A heavy wooden hotel room door closing gently, ending with a soft latch click, interior, close, no music", "seconds": 1.5 },
-    "growl": { "prompt": "A large dog growling low and quiet from deep in its chest, steady and menacing, close microphone, no barking, no music", "seconds": 3 },
-    "snow-steps": { "prompt": "Two people walking slowly side by side over fresh snow at night in a quiet, empty old-town street, soft crunching footsteps, no voices, no traffic, no music", "seconds": 12, "loop": true },
-    "pummerin": { "prompt": "A single toll of an enormous, very deep cathedral bell heard from a few streets away across a quiet snowy city at night, long resonant decay, no other bells, no music", "seconds": 8 },
-    "clock-strike": { "prompt": "A single strike of a large old tower clock bell, heard from inside the building through walls, deep and slightly muffled, resonant decay, no ticking, no music", "seconds": 4 },
-    "rumble": { "prompt": "A short deep rumble and shudder running through an old building as a heavy hidden mechanism releases, wood and stone, no music", "seconds": 2.5 },
-    "shelf-opens": { "prompt": "A heavy wooden bookshelf swinging open like a hidden door, slow deep wooden creak ending in a soft thud, interior, no music", "seconds": 3.5 }
+    "knock": {"prompt": "Three firm knocks on a heavy wooden hotel room door in a quiet corridor at night, close, dry, no music, no voices", "seconds": 1.5},
+    "door-open": {"prompt": "An old heavy wooden hotel room door opening slowly with a soft creak, interior, close, no music, no voices", "seconds": 2.5},
+    "door-close": {"prompt": "A heavy wooden hotel room door closing gently, ending with a soft latch click, interior, close, no music", "seconds": 1.5},
+    "growl": {"prompt": "A large dog growling low and quiet from deep in its chest, steady and menacing, close microphone, no barking, no music", "seconds": 3},
+    "snow-steps": {"prompt": "Two people walking slowly side by side over fresh snow at night in a quiet, empty old-town street, soft crunching footsteps, no voices, no traffic, no music", "seconds": 12, "loop": true},
+    "pummerin": {"prompt": "A single toll of an enormous, very deep cathedral bell heard from a few streets away across a quiet snowy city at night, long resonant decay, no other bells, no music", "seconds": 8},
+    "clock-strike": {"prompt": "A single strike of a large old tower clock bell, heard from inside the building through walls, deep and slightly muffled, resonant decay, no ticking, no music", "seconds": 4},
+    "rumble": {"prompt": "A short deep rumble and shudder running through an old building as a heavy hidden mechanism releases, wood and stone, no music", "seconds": 2.5},
+    "shelf-opens": {"prompt": "A heavy wooden bookshelf swinging open like a hidden door, slow deep wooden creak ending in a soft thud, interior, no music", "seconds": 3.5},
+    "paper": {"prompt": "An old sheet of letter paper being unfolded and handled, soft dry rustle, close, no music, no voices", "seconds": 2},
+    "page-turn": {"prompt": "A single thick page of an old ledger being turned slowly, close, no music, no voices", "seconds": 1.5},
+    "sniff": {"prompt": "A large dog sniffing curiously, a few short sniffs and a soft snort, close microphone, no barking, no music", "seconds": 2},
+    "dog-shake": {"prompt": "A large wet dog shaking itself off vigorously, flapping ears and a jingling collar tag, indoors, no barking, no music", "seconds": 2.5},
+    "dog-bark": {"prompt": "A single loud deep bark of a large dog indoors, one bark only, short room echo, no music", "seconds": 1.2},
+    "cup": {"prompt": "A porcelain coffee cup being set down gently on its saucer, close, no music, no voices", "seconds": 1},
+    "drawer": {"prompt": "An old wooden desk drawer being pulled open, small objects shifting inside, close, no music, no voices", "seconds": 2},
+    "lamp-click": {"prompt": "A small flashlight switch clicking on once, close, dry, no music, no voices", "seconds": 0.6},
+    "click": {"prompt": "A small precise metallic click of a hidden spring mechanism releasing, close, dry, no music, no voices", "seconds": 0.8},
+    "key-counter": {"prompt": "A heavy brass object being set down on a polished wooden counter, one solid metallic clack, close, no music, no voices", "seconds": 1},
+    "book-thud": {"prompt": "A very heavy old leather-bound book being set down on a wooden table, a single dull thud, close, no music, no voices", "seconds": 1.5},
+    "lock-rings": {"prompt": "The small brass number rings of an old combination padlock being turned, a few soft ratcheting clicks, close, no music, no voices", "seconds": 2.5},
+    "pen-writing": {"prompt": "A fountain pen writing steadily on thick paper, soft scratching strokes, close, no music, no voices", "seconds": 6},
+    "emboss": {"prompt": "A hand-held embossing press being squeezed onto thick paper, a firm crunch and release, close, no music, no voices", "seconds": 1.5},
+    "envelope-slide": {"prompt": "A paper envelope being pushed under a door and sliding across a wooden floor, short, close, no music, no voices", "seconds": 1.5},
+    "revolving-door": {"prompt": "A heavy brass and glass hotel revolving door turning slowly, soft swoosh and brush seals, interior, no music, no voices", "seconds": 3},
+    "running-steps": {"prompt": "Light quick footsteps of a young woman running out of a room across a wooden floor, fading away, then a door swinging shut, no music, no voices", "seconds": 3},
+    "steps-door-slam": {"prompt": "Quick heavy footsteps hurrying across old wooden floorboards overhead, then a door slamming shut somewhere above, muffled through the ceiling, no music, no voices", "seconds": 3.5},
+    "floor-creak": {"prompt": "An old wooden floorboard creaking slowly under a single careful step, close, no music, no voices", "seconds": 2},
+    "safe-close": {"prompt": "The heavy steel door of an old safe being pushed shut with a deep metallic clunk, close, no music, no voices", "seconds": 1.5},
+    "phone-ring": {"prompt": "An old mechanical bell telephone ringing twice in the next room of a quiet building, slightly muffled, no music, no voices", "seconds": 3.5},
+    "pearls": {"prompt": "A few pearls dropping onto wooden stairs one after another and rolling a short way, small bright taps, close, no music, no voices", "seconds": 3},
+    "crate": {"prompt": "The lid of a small wooden crate being lifted, wood creak and the dry rustle of wood wool packing, close, no music, no voices", "seconds": 2.5},
+    "lights-on": {"prompt": "Old electric lights flickering back on after a power cut, a brief electrical hum and a few soft ticks, interior, no music, no voices", "seconds": 2},
+    "metal-groan": {"prompt": "A huge old iron and brass clock mechanism jolting awake after years, one heavy jolt and a long low groan of metal, no ticking, no music, no voices", "seconds": 3},
+    "gears": {"prompt": "Large heavy brass gears of a tower clock slowly starting to turn, deep grinding and rolling, no music, no voices", "seconds": 4},
+    "globe-shimmer": {"prompt": "A delicate glassy shimmer like tiny glass chimes and fine snow swirling inside a glass globe, soft, magical, gentle, short", "seconds": 4},
+    "crows": {"prompt": "A few crows cawing in a quiet snowy cemetery on a winter afternoon, sparse, distant, no music, no voices", "seconds": 6},
+    "distant-bell": {"prompt": "A single small church bell ringing slowly a few times far away behind a wall on a quiet winter afternoon, no music, no voices", "seconds": 6},
+    "lobby": {"prompt": "Room tone of a grand old hotel lobby late in the evening, very quiet, a slow ticking clock far away, soft air, no music, no voices", "seconds": 12, "loop": true},
+    "blizzard": {"prompt": "A heavy snowstorm heard from inside a large building, wind pressing against tall old windows, soft gusts, steady, no music, no voices", "seconds": 15, "loop": true},
+    "fireplace": {"prompt": "A wood fire crackling quietly in an open fireplace in a panelled room, steady, close, no music, no voices", "seconds": 12, "loop": true},
+    "drip": {"prompt": "Water dripping slowly onto stone in a large, silent, dark hall at night, sparse single drops with a faint echo, no music, no voices", "seconds": 10, "loop": true},
+    "furnace": {"prompt": "A small glassblowing workshop, the steady low roar of a furnace, warm and enclosed, no music, no voices", "seconds": 12, "loop": true},
+    "hall-hush": {"prompt": "Room tone of a vast baroque library hall, almost silent, huge reverberant space, a faint distant footstep now and then, no music, no voices", "seconds": 12, "loop": true},
+    "market": {"prompt": "An outdoor Christmas market at night in a city square, a quiet crowd murmur, distant laughter, cups clinking, footsteps on snow, no music, no distinct words", "seconds": 15, "loop": true},
+    "cafe": {"prompt": "A quiet old Viennese coffee house in the afternoon, soft murmur of a few guests, cups and spoons, no music, no distinct words", "seconds": 15, "loop": true},
+    "sledging": {"prompt": "Children sledging and laughing in a snowy park in the distance on a winter afternoon, open air, faint, no music, no distinct words", "seconds": 12, "loop": true}
   },
   "files": {
+    "day-01/narration": [
+      {"at": "den Brief in der Hand", "sound": "paper", "gain": -10},
+      {"at": "Fanny schnupperte am Papier", "edge": "end", "sound": "sniff", "gain": -8}
+    ],
+    "day-01/continuation": [
+      {"at": "durch die Drehtür trat", "sound": "revolving-door", "gain": -9},
+      {"at": "durch die Drehtür trat", "edge": "end", "to": "end", "sound": "lobby", "gain": -16, "fadeIn": 2, "fadeOut": 2}
+    ],
+    "day-02/narration": [
+      {"at": "start", "to": "end", "sound": "blizzard", "gain": -15, "fadeIn": 2, "fadeOut": 3},
+      {"at": "Fanny schüttelte sich ausgiebig", "edge": "end", "sound": "dog-shake", "gain": -7}
+    ],
+    "day-02/continuation": [
+      {"at": "auf den Tresen", "edge": "end", "sound": "key-counter", "gain": -8},
+      {"at": "Es schneite darin", "edge": "end", "sound": "globe-shimmer", "gain": -9}
+    ],
+    "day-03/narration": [
+      {"at": "Unter der Mütze lag ein Zettel", "edge": "end", "sound": "paper", "gain": -10}
+    ],
+    "day-03/continuation": [
+      {"at": "Sie war nicht verschlossen", "edge": "end", "sound": "door-open", "gain": -9}
+    ],
+    "day-04/narration": [
+      {"at": "In der Schublade unter dem Pult", "sound": "drawer", "gain": -10},
+      {"at": "Sie schaltete die Lampe ein", "edge": "end", "sound": "lamp-click", "gain": -8}
+    ],
+    "day-05/narration": [
+      {"at": "Am Nachmittag bat Constanze", "to": "end", "sound": "fireplace", "gain": -13, "fadeIn": 2, "fadeOut": 3}
+    ],
+    "day-05/continuation": [
+      {"at": "Dann lief Mira hinaus", "edge": "end", "sound": "running-steps", "gain": -8}
+    ],
+    "day-06/narration": [
+      {"at": "Dann klingelte das Telefon", "sound": "phone-ring", "gain": -7}
+    ],
+    "day-06/continuation": [
+      {"at": "Larissa schloss den Tresor", "edge": "end", "sound": "safe-close", "gain": -8}
+    ],
+    "day-07/narration": [
+      {"at": "Schmale Stufen", "sound": "floor-creak", "gain": -10},
+      {"at": "lag die nächste Perle", "edge": "end", "sound": "pearls", "gain": -8}
+    ],
+    "day-07/continuation": [
+      {"at": "die Hände um eine Tasse geschlossen", "edge": "end", "sound": "cup", "gain": -10}
+    ],
+    "day-08/narration": [
+      {"at": "von der Untertasse zu", "edge": "end", "sound": "cup", "gain": -10},
+      {"at": "legte das Album auf den Tisch", "edge": "end", "sound": "book-thud", "gain": -9}
+    ],
+    "day-09/narration": [
+      {"at": "In der untersten Schublade", "sound": "drawer", "gain": -10}
+    ],
+    "day-09/continuation": [
+      {"at": "löste sich etwas von der Rückseite", "edge": "end", "sound": "paper", "gain": -10}
+    ],
+    "day-10/narration": [
+      {"at": "start", "to": "zur Haupttreppe", "sound": "drip", "gain": -14, "fadeIn": 1.5, "fadeOut": 3},
+      {"at": "Sie hob die Nase, schnaufte", "edge": "end", "sound": "sniff", "gain": -8}
+    ],
     "day-10/continuation": [
-      { "at": "Larissa klopfte", "edge": "end", "offset": 0.1, "sound": "knock", "gain": -5 },
-      { "at": "bis die Tür aufging", "edge": "end", "offset": 0.05, "sound": "door-open", "gain": -9 },
-      { "at": "Als die Tür sich schloss", "edge": "end", "sound": "door-close", "gain": -8 },
-      { "at": "knurrte Fanny", "edge": "end", "offset": 0.1, "sound": "growl", "gain": -3 }
+      {"at": "Larissa klopfte", "edge": "end", "offset": 0.1, "sound": "knock", "gain": -5},
+      {"at": "bis die Tür aufging", "edge": "end", "offset": 0.05, "sound": "door-open", "gain": -9},
+      {"at": "Als die Tür sich schloss", "edge": "end", "sound": "door-close", "gain": -8},
+      {"at": "knurrte Fanny", "edge": "end", "offset": 0.1, "sound": "growl", "gain": -3}
+    ],
+    "day-11/narration": [
+      {"at": "die Schultern einziehen musste", "edge": "end", "sound": "floor-creak", "gain": -9},
+      {"at": "Fanny schnaufte und zog", "edge": "end", "sound": "sniff", "gain": -8}
+    ],
+    "day-11/continuation": [
+      {"at": "knarrte eine Diele", "sound": "floor-creak", "gain": -7},
+      {"at": "Schritte, schnell", "sound": "steps-door-slam", "gain": -6}
+    ],
+    "day-12/narration": [
+      {"at": "und knurrte", "edge": "end", "offset": 0.1, "sound": "growl", "gain": -3},
+      {"at": "öffnete er die Kiste", "edge": "end", "sound": "crate", "gain": -9}
+    ],
+    "day-12/continuation": [
+      {"at": "unter der Tür durchgeschoben", "edge": "end", "sound": "envelope-slide", "gain": -8},
+      {"at": "Fanny schnupperte daran", "edge": "end", "sound": "sniff", "gain": -8}
+    ],
+    "day-13/narration": [
+      {"at": "legte die Fotografie unter die Lampe", "edge": "end", "sound": "paper", "gain": -10}
+    ],
+    "day-13/continuation": [
+      {"at": "las die Aussage des Pagen noch einmal", "sound": "page-turn", "gain": -10}
+    ],
+    "day-14/narration": [
+      {"at": "Drinnen war es so warm", "to": "end", "sound": "furnace", "gain": -14, "fadeIn": 2, "fadeOut": 3},
+      {"at": "mit beiden Händen tragen musste", "edge": "end", "sound": "book-thud", "gain": -8}
+    ],
+    "day-14/continuation": [
+      {"at": "klappte das Buch zu", "edge": "end", "sound": "book-thud", "gain": -8}
+    ],
+    "day-15/narration": [
+      {"at": "start", "to": "end", "sound": "hall-hush", "gain": -16, "fadeIn": 2, "fadeOut": 3},
+      {"at": "Larissa blätterte durch", "sound": "page-turn", "gain": -10},
+      {"at": "fiel ihr etwas in den Schoß", "edge": "end", "sound": "paper", "gain": -10}
+    ],
+    "day-16/narration": [
+      {"at": "start", "to": "end", "sound": "market", "gain": -12, "fadeIn": 2, "fadeOut": 3}
     ],
     "day-16/continuation": [
-      { "at": "Auf dem Rückweg", "to": "end", "sound": "snow-steps", "gain": -12, "fadeIn": 1.5, "fadeOut": 2.5 },
-      { "at": "die Pummerin", "sound": "pummerin", "gain": -9.5, "repeat": { "count": 3, "every": 4.5 } }
+      {"at": "Auf dem Rückweg", "to": "end", "sound": "snow-steps", "gain": -12, "fadeIn": 1.5, "fadeOut": 2.5},
+      {"at": "die Pummerin", "sound": "pummerin", "gain": -9.5, "repeat": {"count": 3, "every": 4.5}}
+    ],
+    "day-17/narration": [
+      {"at": "Krähen saßen auf den Kreuzen", "sound": "crows", "gain": -10},
+      {"at": "läutete eine Glocke", "sound": "distant-bell", "gain": -12}
+    ],
+    "day-17/continuation": [
+      {"at": "kehrte sie im Café Dommayer ein", "to": "Er sah zu ihr", "sound": "cafe", "gain": -13, "fadeIn": 2, "fadeOut": 3},
+      {"at": "hielt die Tasse mit beiden Händen", "edge": "end", "sound": "cup", "gain": -10}
+    ],
+    "day-18/narration": [
+      {"at": "Fanny knurrte", "edge": "end", "offset": 0.1, "sound": "growl", "gain": -3},
+      {"at": "die kleine violette Lampe ein", "edge": "end", "sound": "lamp-click", "gain": -8}
+    ],
+    "day-18/continuation": [
+      {"at": "als das Licht wieder anging", "sound": "lights-on", "gain": -9}
+    ],
+    "day-19/narration": [
+      {"at": "hinein in den Türkenschanzpark", "to": "Dann lief sie weiter", "sound": "sledging", "gain": -13, "fadeIn": 2, "fadeOut": 3},
+      {"at": "Der Keller ging tief", "to": "end", "sound": "drip", "gain": -15, "fadeIn": 2, "fadeOut": 3}
+    ],
+    "day-20/narration": [
+      {"at": "Die Seiten waren voll", "sound": "page-turn", "gain": -10},
+      {"at": "fiel das gefaltete Blatt heraus", "edge": "end", "sound": "paper", "gain": -10}
+    ],
+    "day-20/continuation": [
+      {"at": "Sie bellte", "edge": "end", "offset": 0.05, "sound": "dog-bark", "gain": -4}
+    ],
+    "day-21/narration": [
+      {"at": "schob er ihr den Messingzylinder hin", "edge": "end", "sound": "key-counter", "gain": -8}
+    ],
+    "day-21/continuation": [
+      {"at": "bis es leise klickte", "edge": "end", "sound": "click", "gain": -7},
+      {"at": "schneite es", "edge": "end", "sound": "globe-shimmer", "gain": -9}
+    ],
+    "day-22/narration": [
+      {"at": "Dann ein Ruck", "sound": "metal-groan", "gain": -7}
+    ],
+    "day-22/continuation": [
+      {"at": "rückten weiter", "edge": "end", "sound": "gears", "gain": -8},
+      {"at": "knarrte eine Stufe", "sound": "floor-creak", "gain": -8},
+      {"at": "knurrte in die Dunkelheit hinein", "edge": "end", "offset": 0.1, "sound": "growl", "gain": -4}
     ],
     "day-23/narration": [
-      { "at": "Bei zwölf", "sound": "clock-strike", "gain": -11.5, "repeat": { "count": 12, "every": 1.5, "anchor": "last", "gainFrom": -26.5 } },
-      { "at": "ging ein Ruck", "sound": "rumble", "gain": -8 },
-      { "at": "schwang auf", "sound": "shelf-opens", "gain": -10 }
+      {"at": "Bei zwölf", "sound": "clock-strike", "gain": -11.5, "repeat": {"count": 12, "every": 1.5, "anchor": "last", "gainFrom": -26.5}},
+      {"at": "ging ein Ruck", "sound": "rumble", "gain": -8},
+      {"at": "schwang auf", "sound": "shelf-opens", "gain": -10}
+    ],
+    "day-23/continuation": [
+      {"at": "reichte ihr etwas", "edge": "end", "sound": "paper", "gain": -10}
+    ],
+    "day-24/narration": [
+      {"at": "start", "to": "als warte sie auf jemanden", "sound": "fireplace", "gain": -13, "fadeIn": 2, "fadeOut": 3},
+      {"at": "Larissa drehte die Ringe", "edge": "end", "sound": "lock-rings", "gain": -8}
+    ],
+    "day-24/continuation": [
+      {"at": "und schrieb", "edge": "end", "sound": "pen-writing", "gain": -10},
+      {"at": "auf den Umschlag drückte", "edge": "end", "sound": "emboss", "gain": -7},
+      {"at": "Und es schneite darin", "edge": "end", "sound": "globe-shimmer", "gain": -9}
     ]
   }
 }

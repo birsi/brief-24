@@ -2,6 +2,7 @@
 //
 //   npm run sfx                              everything listed in content/sfx-cues.json
 //   npm run sfx -- --file day-10/continuation   one file
+//   npm run sfx -- --check                 only check that every cue's phrase is in the text (free)
 //   npm run sfx -- --fetch-only              only generate sounds and timings (needs ELEVENLABS_API_KEY)
 //   npm run sfx -- --mix-only                only mix from what is already there (needs ffmpeg)
 //
@@ -172,12 +173,28 @@ function mix(key, words, soundFiles) {
 }
 
 const days = parseTexts();
+const textOf = (key) => {
+  const m = key.match(/^day-(\d+)\/(narration|continuation)$/);
+  if (!m) throw new Error(`sfx-cues.json: "${key}" must look like day-10/continuation`);
+  return speakable(days[Number(m[1])][m[2]].join('\n\n'), tts.pronunciations);
+};
+// Before anything is generated: every phrase must be in its text and every sound defined.
+const problems = [];
+for (const key of Object.keys(cues.files)) {
+  const asWords = textOf(key).split(/\s+/).map((w) => ({ text: w, start: 0, end: 0 }));
+  for (const c of cues.files[key]) {
+    if (!cues.sounds[c.sound]) problems.push(`${key}: unknown sound "${c.sound}"`);
+    for (const phrase of [c.at, c.to].filter((x) => x && x !== 'end')) {
+      try { locate(asWords, phrase, key); } catch (e) { problems.push(e.message); }
+    }
+  }
+}
+if (problems.length) { console.error(problems.join('\n')); process.exit(1); }
+if (flag('check')) { console.log(`All phrases found: ${Object.keys(cues.files).length} recordings, ${Object.values(cues.files).flat().length} cues, ${Object.keys(cues.sounds).length} sounds.`); process.exit(0); }
 let waiting = 0;
 for (const key of Object.keys(cues.files)) {
   if (onlyFile && key !== onlyFile) continue;
-  const m = key.match(/^day-(\d+)\/(narration|continuation)$/);
-  if (!m) throw new Error(`sfx-cues.json: "${key}" must look like day-10/continuation`);
-  const text = speakable(days[Number(m[1])][m[2]].join('\n\n'), tts.pronunciations);
+  const text = textOf(key);
   const soundFiles = {};
   const missing = [];
   for (const name of new Set(cues.files[key].map((c) => c.sound))) {
