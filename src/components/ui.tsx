@@ -21,7 +21,8 @@ export function StoryText({ paragraphs }: { paragraphs: string[] }) {
   );
 }
 
-const IMAGE_EXT = ['webp', 'jpg', 'png'];
+/** File types tried for images in public/media, in this order. */
+export const IMAGE_EXT = ['webp', 'jpg', 'png'];
 
 /** Christmassy loading indicator: a star above a string of fairy lights that blink one after another. */
 export function Loader({ label = 'Lädt…', out = false }: { label?: string; out?: boolean }) {

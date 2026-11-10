@@ -1,5 +1,5 @@
 import { useRef, useState, type PointerEvent } from 'react';
-import { mediaPath } from '../components/ui';
+import { IMAGE_EXT, mediaPath } from '../components/ui';
 
 // Four letters on the walls of room 24, only visible in the light cone.
 const LETTERS = [
@@ -12,7 +12,9 @@ const LETTERS = [
 export default function Flashlight({ num }: { num: number }) {
   const box = useRef<HTMLDivElement>(null);
   const [pos, setPos] = useState<{ x: number; y: number } | null>(null);
-  const [bgOk, setBgOk] = useState(true);
+  // Background = the day's narration image; try .webp, .jpg, .png like the other images, then the drawn room.
+  const [extIdx, setExtIdx] = useState(0);
+  const bgOk = extIdx < IMAGE_EXT.length;
 
   const move = (e: PointerEvent<HTMLDivElement>) => {
     const r = box.current?.getBoundingClientRect();
@@ -38,7 +40,7 @@ export default function Flashlight({ num }: { num: number }) {
         style={{ position: 'relative', aspectRatio: '3 / 2', overflow: 'hidden', touchAction: 'none', background: '#1B2433', userSelect: 'none' }}
       >
         {bgOk ? (
-          <img src={mediaPath(num, 'narration.jpg')} alt="" onError={() => setBgOk(false)} draggable={false} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
+          <img key={extIdx} src={mediaPath(num, `narration.${IMAGE_EXT[extIdx]}`)} alt="" onError={() => setExtIdx((i) => i + 1)} draggable={false} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
         ) : (
           <svg viewBox="0 0 300 200" preserveAspectRatio="none" aria-hidden="true" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}>
             <rect width="300" height="200" fill="#2B3446" />
