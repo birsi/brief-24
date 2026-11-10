@@ -1,0 +1,1346 @@
+{
+  "hash": "130c5c068fb391c2",
+  "loss": 0.5807527941886825,
+  "words": [
+    {
+      "text": "Der",
+      "start": 0.1,
+      "end": 0.22
+    },
+    {
+      "text": " ",
+      "start": 0.22,
+      "end": 0.26
+    },
+    {
+      "text": "Dom",
+      "start": 0.26,
+      "end": 0.52
+    },
+    {
+      "text": " ",
+      "start": 0.52,
+      "end": 0.6
+    },
+    {
+      "text": "ragte",
+      "start": 0.6,
+      "end": 0.92
+    },
+    {
+      "text": " ",
+      "start": 0.92,
+      "end": 0.96
+    },
+    {
+      "text": "schwarz",
+      "start": 0.96,
+      "end": 1.42
+    },
+    {
+      "text": " ",
+      "start": 1.42,
+      "end": 1.46
+    },
+    {
+      "text": "in",
+      "start": 1.46,
+      "end": 1.54
+    },
+    {
+      "text": " ",
+      "start": 1.54,
+      "end": 1.56
+    },
+    {
+      "text": "den",
+      "start": 1.56,
+      "end": 1.68
+    },
+    {
+      "text": " ",
+      "start": 1.68,
+      "end": 1.72
+    },
+    {
+      "text": "Himmel,",
+      "start": 1.72,
+      "end": 2.04
+    },
+    {
+      "text": " ",
+      "start": 2.04,
+      "end": 2.041
+    },
+    {
+      "text": "das",
+      "start": 2.54,
+      "end": 2.7
+    },
+    {
+      "text": " ",
+      "start": 2.7,
+      "end": 2.8
+    },
+    {
+      "text": "bunte",
+      "start": 2.8,
+      "end": 3.14
+    },
+    {
+      "text": " ",
+      "start": 3.14,
+      "end": 3.3
+    },
+    {
+      "text": "Ziegeldach",
+      "start": 3.3,
+      "end": 3.96
+    },
+    {
+      "text": " ",
+      "start": 3.96,
+      "end": 4.18
+    },
+    {
+      "text": "unter",
+      "start": 4.18,
+      "end": 4.36
+    },
+    {
+      "text": " ",
+      "start": 4.36,
+      "end": 4.4
+    },
+    {
+      "text": "einer",
+      "start": 4.4,
+      "end": 4.6
+    },
+    {
+      "text": " ",
+      "start": 4.6,
+      "end": 4.72
+    },
+    {
+      "text": "dünnen",
+      "start": 4.72,
+      "end": 5.04
+    },
+    {
+      "text": " ",
+      "start": 5.04,
+      "end": 5.08
+    },
+    {
+      "text": "Schneeschicht.",
+      "start": 5.08,
+      "end": 5.88
+    },
+    {
+      "text": " ",
+      "start": 5.88,
+      "end": 5.881
+    },
+    {
+      "text": "Darunter",
+      "start": 6.46,
+      "end": 7.02
+    },
+    {
+      "text": " ",
+      "start": 7.02,
+      "end": 7.48
+    },
+    {
+      "text": "Hütte",
+      "start": 7.48,
+      "end": 7.78
+    },
+    {
+      "text": " ",
+      "start": 7.78,
+      "end": 7.84
+    },
+    {
+      "text": "an",
+      "start": 7.84,
+      "end": 7.96
+    },
+    {
+      "text": " ",
+      "start": 7.96,
+      "end": 8
+    },
+    {
+      "text": "Hütte,",
+      "start": 8,
+      "end": 8.34
+    },
+    {
+      "text": " ",
+      "start": 8.34,
+      "end": 8.341
+    },
+    {
+      "text": "Lichterketten,",
+      "start": 8.9,
+      "end": 9.58
+    },
+    {
+      "text": " ",
+      "start": 9.58,
+      "end": 10.06
+    },
+    {
+      "text": "der",
+      "start": 10.06,
+      "end": 10.14
+    },
+    {
+      "text": " ",
+      "start": 10.14,
+      "end": 10.18
+    },
+    {
+      "text": "Geruch",
+      "start": 10.18,
+      "end": 10.58
+    },
+    {
+      "text": " ",
+      "start": 10.58,
+      "end": 10.64
+    },
+    {
+      "text": "von",
+      "start": 10.64,
+      "end": 10.78
+    },
+    {
+      "text": " ",
+      "start": 10.78,
+      "end": 10.82
+    },
+    {
+      "text": "Maroni,",
+      "start": 10.82,
+      "end": 11.58
+    },
+    {
+      "text": " ",
+      "start": 11.58,
+      "end": 12.1
+    },
+    {
+      "text": "Zimt",
+      "start": 12.1,
+      "end": 12.56
+    },
+    {
+      "text": " ",
+      "start": 12.56,
+      "end": 12.94
+    },
+    {
+      "text": "und",
+      "start": 12.94,
+      "end": 13.04
+    },
+    {
+      "text": " ",
+      "start": 13.04,
+      "end": 13.08
+    },
+    {
+      "text": "heißem",
+      "start": 13.08,
+      "end": 13.44
+    },
+    {
+      "text": " ",
+      "start": 13.44,
+      "end": 13.5
+    },
+    {
+      "text": "Wein.",
+      "start": 13.5,
+      "end": 13.9
+    },
+    {
+      "text": " ",
+      "start": 13.9,
+      "end": 13.901
+    },
+    {
+      "text": "Jonas",
+      "start": 14.6,
+      "end": 14.98
+    },
+    {
+      "text": " ",
+      "start": 14.98,
+      "end": 15.04
+    },
+    {
+      "text": "kaufte",
+      "start": 15.04,
+      "end": 15.4
+    },
+    {
+      "text": " ",
+      "start": 15.4,
+      "end": 15.48
+    },
+    {
+      "text": "zwei",
+      "start": 15.48,
+      "end": 15.66
+    },
+    {
+      "text": " ",
+      "start": 15.66,
+      "end": 15.7
+    },
+    {
+      "text": "Häferl",
+      "start": 15.7,
+      "end": 16.12
+    },
+    {
+      "text": " ",
+      "start": 16.12,
+      "end": 16.16
+    },
+    {
+      "text": "weißen",
+      "start": 16.16,
+      "end": 16.52
+    },
+    {
+      "text": " ",
+      "start": 16.52,
+      "end": 16.58
+    },
+    {
+      "text": "Glühwein,",
+      "start": 16.58,
+      "end": 17.08
+    },
+    {
+      "text": " ",
+      "start": 17.08,
+      "end": 17.18
+    },
+    {
+      "text": "ohne",
+      "start": 17.18,
+      "end": 17.38
+    },
+    {
+      "text": " ",
+      "start": 17.38,
+      "end": 17.44
+    },
+    {
+      "text": "zu",
+      "start": 17.44,
+      "end": 17.54
+    },
+    {
+      "text": " ",
+      "start": 17.54,
+      "end": 17.58
+    },
+    {
+      "text": "fragen,",
+      "start": 17.58,
+      "end": 18.06
+    },
+    {
+      "text": " ",
+      "start": 18.06,
+      "end": 18.52
+    },
+    {
+      "text": "und",
+      "start": 18.52,
+      "end": 18.64
+    },
+    {
+      "text": " ",
+      "start": 18.64,
+      "end": 18.68
+    },
+    {
+      "text": "für",
+      "start": 18.68,
+      "end": 18.86
+    },
+    {
+      "text": " ",
+      "start": 18.86,
+      "end": 18.92
+    },
+    {
+      "text": "Fanni",
+      "start": 18.92,
+      "end": 19.3
+    },
+    {
+      "text": " ",
+      "start": 19.3,
+      "end": 19.62
+    },
+    {
+      "text": "einen",
+      "start": 19.62,
+      "end": 19.88
+    },
+    {
+      "text": " ",
+      "start": 19.88,
+      "end": 19.92
+    },
+    {
+      "text": "Hundekeks",
+      "start": 19.92,
+      "end": 20.6
+    },
+    {
+      "text": " ",
+      "start": 20.6,
+      "end": 20.66
+    },
+    {
+      "text": "in",
+      "start": 20.66,
+      "end": 20.82
+    },
+    {
+      "text": " ",
+      "start": 20.82,
+      "end": 20.88
+    },
+    {
+      "text": "Sternform.",
+      "start": 20.88,
+      "end": 21.7
+    },
+    {
+      "text": " ",
+      "start": 21.7,
+      "end": 22.12
+    },
+    {
+      "text": "Sie",
+      "start": 22.12,
+      "end": 22.28
+    },
+    {
+      "text": " ",
+      "start": 22.28,
+      "end": 22.34
+    },
+    {
+      "text": "stellten",
+      "start": 22.34,
+      "end": 22.62
+    },
+    {
+      "text": " ",
+      "start": 22.62,
+      "end": 22.66
+    },
+    {
+      "text": "sich",
+      "start": 22.66,
+      "end": 22.8
+    },
+    {
+      "text": " ",
+      "start": 22.8,
+      "end": 22.84
+    },
+    {
+      "text": "an",
+      "start": 22.84,
+      "end": 22.92
+    },
+    {
+      "text": " ",
+      "start": 22.92,
+      "end": 22.96
+    },
+    {
+      "text": "einen",
+      "start": 22.96,
+      "end": 23.18
+    },
+    {
+      "text": " ",
+      "start": 23.18,
+      "end": 23.26
+    },
+    {
+      "text": "Stehtisch.",
+      "start": 23.26,
+      "end": 23.94
+    },
+    {
+      "text": "\r",
+      "start": 23.94,
+      "end": 24.52
+    },
+    {
+      "text": "\n",
+      "start": 24.52,
+      "end": 24.521
+    },
+    {
+      "text": "\r",
+      "start": 24.52,
+      "end": 24.521
+    },
+    {
+      "text": "\n",
+      "start": 24.521,
+      "end": 24.6
+    },
+    {
+      "text": "Er",
+      "start": 24.6,
+      "end": 24.72
+    },
+    {
+      "text": " ",
+      "start": 24.72,
+      "end": 24.78
+    },
+    {
+      "text": "war",
+      "start": 24.78,
+      "end": 24.84
+    },
+    {
+      "text": " ",
+      "start": 24.84,
+      "end": 24.9
+    },
+    {
+      "text": "ein",
+      "start": 24.9,
+      "end": 25.04
+    },
+    {
+      "text": " ",
+      "start": 25.04,
+      "end": 25.1
+    },
+    {
+      "text": "guter",
+      "start": 25.1,
+      "end": 25.42
+    },
+    {
+      "text": " ",
+      "start": 25.42,
+      "end": 25.6
+    },
+    {
+      "text": "Zuhörer.",
+      "start": 25.6,
+      "end": 26.32
+    },
+    {
+      "text": " ",
+      "start": 26.32,
+      "end": 26.76
+    },
+    {
+      "text": "Er",
+      "start": 26.76,
+      "end": 26.84
+    },
+    {
+      "text": " ",
+      "start": 26.84,
+      "end": 26.88
+    },
+    {
+      "text": "fragte",
+      "start": 26.88,
+      "end": 27.18
+    },
+    {
+      "text": " ",
+      "start": 27.18,
+      "end": 27.24
+    },
+    {
+      "text": "nach,",
+      "start": 27.24,
+      "end": 27.54
+    },
+    {
+      "text": " ",
+      "start": 27.54,
+      "end": 27.98
+    },
+    {
+      "text": "er",
+      "start": 27.98,
+      "end": 28.06
+    },
+    {
+      "text": " ",
+      "start": 28.06,
+      "end": 28.12
+    },
+    {
+      "text": "lachte",
+      "start": 28.12,
+      "end": 28.4
+    },
+    {
+      "text": " ",
+      "start": 28.4,
+      "end": 28.46
+    },
+    {
+      "text": "an",
+      "start": 28.46,
+      "end": 28.52
+    },
+    {
+      "text": " ",
+      "start": 28.52,
+      "end": 28.54
+    },
+    {
+      "text": "den",
+      "start": 28.54,
+      "end": 28.66
+    },
+    {
+      "text": " ",
+      "start": 28.66,
+      "end": 28.7
+    },
+    {
+      "text": "richtigen",
+      "start": 28.72,
+      "end": 29.1
+    },
+    {
+      "text": " ",
+      "start": 29.1,
+      "end": 29.2
+    },
+    {
+      "text": "Stellen,",
+      "start": 29.2,
+      "end": 29.56
+    },
+    {
+      "text": " ",
+      "start": 29.56,
+      "end": 30.02
+    },
+    {
+      "text": "und",
+      "start": 30.02,
+      "end": 30.2
+    },
+    {
+      "text": " ",
+      "start": 30.2,
+      "end": 30.24
+    },
+    {
+      "text": "er",
+      "start": 30.24,
+      "end": 30.34
+    },
+    {
+      "text": " ",
+      "start": 30.34,
+      "end": 30.38
+    },
+    {
+      "text": "erzählte",
+      "start": 30.38,
+      "end": 30.96
+    },
+    {
+      "text": " ",
+      "start": 30.96,
+      "end": 31.04
+    },
+    {
+      "text": "selbst.",
+      "start": 31.04,
+      "end": 31.5
+    },
+    {
+      "text": " ",
+      "start": 31.5,
+      "end": 32
+    },
+    {
+      "text": "Von",
+      "start": 32,
+      "end": 32.14
+    },
+    {
+      "text": " ",
+      "start": 32.14,
+      "end": 32.2
+    },
+    {
+      "text": "seinem",
+      "start": 32.2,
+      "end": 32.42
+    },
+    {
+      "text": " ",
+      "start": 32.42,
+      "end": 32.479
+    },
+    {
+      "text": "Buch,",
+      "start": 32.479,
+      "end": 32.82
+    },
+    {
+      "text": " ",
+      "start": 32.82,
+      "end": 33.26
+    },
+    {
+      "text": "von",
+      "start": 33.26,
+      "end": 33.38
+    },
+    {
+      "text": " ",
+      "start": 33.38,
+      "end": 33.46
+    },
+    {
+      "text": "alten",
+      "start": 33.46,
+      "end": 33.7
+    },
+    {
+      "text": " ",
+      "start": 33.7,
+      "end": 33.74
+    },
+    {
+      "text": "Hotels,",
+      "start": 33.74,
+      "end": 34.32
+    },
+    {
+      "text": " ",
+      "start": 34.32,
+      "end": 34.78
+    },
+    {
+      "text": "von",
+      "start": 34.8,
+      "end": 34.96
+    },
+    {
+      "text": " ",
+      "start": 34.96,
+      "end": 35.02
+    },
+    {
+      "text": "Wien",
+      "start": 35.02,
+      "end": 35.68
+    },
+    {
+      "text": " ",
+      "start": 35.68,
+      "end": 35.76
+    },
+    {
+      "text": "vor",
+      "start": 35.76,
+      "end": 35.94
+    },
+    {
+      "text": " ",
+      "start": 35.94,
+      "end": 35.98
+    },
+    {
+      "text": "hundert",
+      "start": 35.98,
+      "end": 36.3
+    },
+    {
+      "text": " ",
+      "start": 36.3,
+      "end": 36.36
+    },
+    {
+      "text": "Jahren.",
+      "start": 36.36,
+      "end": 36.86
+    },
+    {
+      "text": " ",
+      "start": 36.86,
+      "end": 37.46
+    },
+    {
+      "text": "Fanni",
+      "start": 37.46,
+      "end": 37.82
+    },
+    {
+      "text": " ",
+      "start": 37.82,
+      "end": 37.9
+    },
+    {
+      "text": "saß",
+      "start": 37.9,
+      "end": 38.14
+    },
+    {
+      "text": " ",
+      "start": 38.14,
+      "end": 38.2
+    },
+    {
+      "text": "unter",
+      "start": 38.2,
+      "end": 38.36
+    },
+    {
+      "text": " ",
+      "start": 38.36,
+      "end": 38.4
+    },
+    {
+      "text": "dem",
+      "start": 38.4,
+      "end": 38.54
+    },
+    {
+      "text": " ",
+      "start": 38.54,
+      "end": 38.66
+    },
+    {
+      "text": "Stehtisch",
+      "start": 38.66,
+      "end": 39.58
+    },
+    {
+      "text": " ",
+      "start": 39.58,
+      "end": 39.7
+    },
+    {
+      "text": "und",
+      "start": 39.7,
+      "end": 39.86
+    },
+    {
+      "text": " ",
+      "start": 39.86,
+      "end": 39.92
+    },
+    {
+      "text": "ließ",
+      "start": 39.92,
+      "end": 40.16
+    },
+    {
+      "text": " ",
+      "start": 40.16,
+      "end": 40.2
+    },
+    {
+      "text": "ihn",
+      "start": 40.2,
+      "end": 40.34
+    },
+    {
+      "text": " ",
+      "start": 40.34,
+      "end": 40.38
+    },
+    {
+      "text": "nicht",
+      "start": 40.38,
+      "end": 40.6
+    },
+    {
+      "text": " ",
+      "start": 40.6,
+      "end": 40.66
+    },
+    {
+      "text": "aus",
+      "start": 40.66,
+      "end": 40.78
+    },
+    {
+      "text": " ",
+      "start": 40.78,
+      "end": 40.84
+    },
+    {
+      "text": "den",
+      "start": 40.84,
+      "end": 41.1
+    },
+    {
+      "text": " ",
+      "start": 41.1,
+      "end": 41.24
+    },
+    {
+      "text": "Augen.",
+      "start": 41.24,
+      "end": 41.62
+    },
+    {
+      "text": "\r",
+      "start": 41.62,
+      "end": 42.18
+    },
+    {
+      "text": "\n",
+      "start": 42.18,
+      "end": 42.181
+    },
+    {
+      "text": "\r",
+      "start": 42.181,
+      "end": 42.2
+    },
+    {
+      "text": "\n",
+      "start": 42.2,
+      "end": 42.22
+    },
+    {
+      "text": "Larissa",
+      "start": 42.24,
+      "end": 42.66
+    },
+    {
+      "text": " ",
+      "start": 42.66,
+      "end": 42.7
+    },
+    {
+      "text": "erzählte",
+      "start": 42.7,
+      "end": 43.24
+    },
+    {
+      "text": " ",
+      "start": 43.24,
+      "end": 43.28
+    },
+    {
+      "text": "ihm",
+      "start": 43.28,
+      "end": 43.42
+    },
+    {
+      "text": " ",
+      "start": 43.42,
+      "end": 43.46
+    },
+    {
+      "text": "nicht",
+      "start": 43.46,
+      "end": 43.7
+    },
+    {
+      "text": " ",
+      "start": 43.7,
+      "end": 43.8
+    },
+    {
+      "text": "alles.",
+      "start": 43.8,
+      "end": 44.16
+    },
+    {
+      "text": " ",
+      "start": 44.16,
+      "end": 44.76
+    },
+    {
+      "text": "Nicht",
+      "start": 44.76,
+      "end": 45.02
+    },
+    {
+      "text": " ",
+      "start": 45.02,
+      "end": 45.06
+    },
+    {
+      "text": "von",
+      "start": 45.06,
+      "end": 45.16
+    },
+    {
+      "text": " ",
+      "start": 45.16,
+      "end": 45.18
+    },
+    {
+      "text": "der",
+      "start": 45.18,
+      "end": 45.28
+    },
+    {
+      "text": " ",
+      "start": 45.28,
+      "end": 45.32
+    },
+    {
+      "text": "Glashütte",
+      "start": 45.32,
+      "end": 45.96
+    },
+    {
+      "text": " ",
+      "start": 45.96,
+      "end": 46.56
+    },
+    {
+      "text": "und",
+      "start": 46.56,
+      "end": 46.66
+    },
+    {
+      "text": " ",
+      "start": 46.66,
+      "end": 46.72
+    },
+    {
+      "text": "nicht",
+      "start": 46.72,
+      "end": 46.92
+    },
+    {
+      "text": " ",
+      "start": 46.92,
+      "end": 46.96
+    },
+    {
+      "text": "von",
+      "start": 46.96,
+      "end": 47.06
+    },
+    {
+      "text": " ",
+      "start": 47.06,
+      "end": 47.1
+    },
+    {
+      "text": "der",
+      "start": 47.1,
+      "end": 47.2
+    },
+    {
+      "text": " ",
+      "start": 47.2,
+      "end": 47.22
+    },
+    {
+      "text": "Chronik.",
+      "start": 47.22,
+      "end": 47.8
+    },
+    {
+      "text": " ",
+      "start": 47.8,
+      "end": 48.34
+    },
+    {
+      "text": "Nur",
+      "start": 48.34,
+      "end": 48.54
+    },
+    {
+      "text": " ",
+      "start": 48.54,
+      "end": 48.58
+    },
+    {
+      "text": "von",
+      "start": 48.58,
+      "end": 48.74
+    },
+    {
+      "text": " ",
+      "start": 48.74,
+      "end": 48.8
+    },
+    {
+      "text": "Hartl,",
+      "start": 48.8,
+      "end": 49.18
+    },
+    {
+      "text": " ",
+      "start": 49.18,
+      "end": 49.68
+    },
+    {
+      "text": "von",
+      "start": 49.68,
+      "end": 49.78
+    },
+    {
+      "text": " ",
+      "start": 49.78,
+      "end": 49.82
+    },
+    {
+      "text": "der",
+      "start": 49.82,
+      "end": 49.9
+    },
+    {
+      "text": " ",
+      "start": 49.9,
+      "end": 49.94
+    },
+    {
+      "text": "Replik",
+      "start": 49.94,
+      "end": 50.5
+    },
+    {
+      "text": " ",
+      "start": 50.5,
+      "end": 50.98
+    },
+    {
+      "text": "und",
+      "start": 50.98,
+      "end": 51.1
+    },
+    {
+      "text": " ",
+      "start": 51.1,
+      "end": 51.16
+    },
+    {
+      "text": "von",
+      "start": 51.16,
+      "end": 51.3
+    },
+    {
+      "text": " ",
+      "start": 51.3,
+      "end": 51.36
+    },
+    {
+      "text": "Frau",
+      "start": 51.36,
+      "end": 51.54
+    },
+    {
+      "text": " ",
+      "start": 51.54,
+      "end": 51.6
+    },
+    {
+      "text": "Lenz.",
+      "start": 51.6,
+      "end": 52.04
+    },
+    {
+      "text": "\r",
+      "start": 52.04,
+      "end": 52.62
+    },
+    {
+      "text": "\n",
+      "start": 52.62,
+      "end": 52.7
+    },
+    {
+      "text": "\r",
+      "start": 52.7,
+      "end": 52.701
+    },
+    {
+      "text": "\n",
+      "start": 52.7,
+      "end": 52.701
+    },
+    {
+      "text": "Jonas",
+      "start": 52.701,
+      "end": 53.08
+    },
+    {
+      "text": " ",
+      "start": 53.08,
+      "end": 53.12
+    },
+    {
+      "text": "hob",
+      "start": 53.12,
+      "end": 53.28
+    },
+    {
+      "text": " ",
+      "start": 53.28,
+      "end": 53.34
+    },
+    {
+      "text": "sein",
+      "start": 53.34,
+      "end": 53.52
+    },
+    {
+      "text": " ",
+      "start": 53.52,
+      "end": 53.56
+    },
+    {
+      "text": "Häferl.",
+      "start": 53.56,
+      "end": 54.14
+    },
+    {
+      "text": " ",
+      "start": 54.14,
+      "end": 54.54
+    },
+    {
+      "text": "Und",
+      "start": 54.54,
+      "end": 54.62
+    },
+    {
+      "text": " ",
+      "start": 54.62,
+      "end": 54.68
+    },
+    {
+      "text": "während",
+      "start": 54.68,
+      "end": 54.94
+    },
+    {
+      "text": " ",
+      "start": 54.94,
+      "end": 55
+    },
+    {
+      "text": "er",
+      "start": 55,
+      "end": 55.08
+    },
+    {
+      "text": " ",
+      "start": 55.08,
+      "end": 55.14
+    },
+    {
+      "text": "redete,",
+      "start": 55.14,
+      "end": 55.64
+    },
+    {
+      "text": " ",
+      "start": 55.64,
+      "end": 56.04
+    },
+    {
+      "text": "spürte",
+      "start": 56.04,
+      "end": 56.5
+    },
+    {
+      "text": " ",
+      "start": 56.5,
+      "end": 56.54
+    },
+    {
+      "text": "Larissa,",
+      "start": 56.54,
+      "end": 57.12
+    },
+    {
+      "text": " ",
+      "start": 57.12,
+      "end": 57.2
+    },
+    {
+      "text": "dass",
+      "start": 57.2,
+      "end": 57.48
+    },
+    {
+      "text": " ",
+      "start": 57.48,
+      "end": 57.58
+    },
+    {
+      "text": "irgendetwas",
+      "start": 57.58,
+      "end": 58.36
+    },
+    {
+      "text": " ",
+      "start": 58.36,
+      "end": 58.42
+    },
+    {
+      "text": "nicht",
+      "start": 58.42,
+      "end": 58.64
+    },
+    {
+      "text": " ",
+      "start": 58.64,
+      "end": 58.74
+    },
+    {
+      "text": "stimmte.",
+      "start": 58.74,
+      "end": 59.24
+    },
+    {
+      "text": " ",
+      "start": 59.24,
+      "end": 59.241
+    },
+    {
+      "text": "Nur",
+      "start": 59.98,
+      "end": 60.18
+    },
+    {
+      "text": " ",
+      "start": 60.18,
+      "end": 60.24
+    },
+    {
+      "text": "was?",
+      "start": 60.24,
+      "end": 60.66
+    }
+  ]
+}

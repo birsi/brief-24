@@ -1,0 +1,1516 @@
+{
+  "hash": "dafba28eef85343f",
+  "loss": 0.5925880079870826,
+  "words": [
+    {
+      "text": "Auf",
+      "start": 0.22,
+      "end": 0.32
+    },
+    {
+      "text": " ",
+      "start": 0.32,
+      "end": 0.36
+    },
+    {
+      "text": "dem",
+      "start": 0.36,
+      "end": 0.5
+    },
+    {
+      "text": " ",
+      "start": 0.5,
+      "end": 0.56
+    },
+    {
+      "text": "Samtkissen",
+      "start": 0.56,
+      "end": 1.24
+    },
+    {
+      "text": " ",
+      "start": 1.24,
+      "end": 1.3
+    },
+    {
+      "text": "lag",
+      "start": 1.3,
+      "end": 1.54
+    },
+    {
+      "text": " ",
+      "start": 1.54,
+      "end": 1.6
+    },
+    {
+      "text": "nur",
+      "start": 1.6,
+      "end": 1.74
+    },
+    {
+      "text": " ",
+      "start": 1.74,
+      "end": 1.78
+    },
+    {
+      "text": "noch",
+      "start": 1.78,
+      "end": 1.9
+    },
+    {
+      "text": " ",
+      "start": 1.9,
+      "end": 1.94
+    },
+    {
+      "text": "ein",
+      "start": 1.94,
+      "end": 2.1
+    },
+    {
+      "text": " ",
+      "start": 2.1,
+      "end": 2.16
+    },
+    {
+      "text": "Kreis",
+      "start": 2.16,
+      "end": 2.5
+    },
+    {
+      "text": " ",
+      "start": 2.5,
+      "end": 2.56
+    },
+    {
+      "text": "aus",
+      "start": 2.56,
+      "end": 2.7
+    },
+    {
+      "text": " ",
+      "start": 2.7,
+      "end": 2.76
+    },
+    {
+      "text": "Staub,",
+      "start": 2.84,
+      "end": 3.26
+    },
+    {
+      "text": " ",
+      "start": 3.26,
+      "end": 3.2609999999999997
+    },
+    {
+      "text": "wo",
+      "start": 3.74,
+      "end": 3.82
+    },
+    {
+      "text": " ",
+      "start": 3.82,
+      "end": 3.86
+    },
+    {
+      "text": "die",
+      "start": 3.86,
+      "end": 3.98
+    },
+    {
+      "text": " ",
+      "start": 3.98,
+      "end": 4.04
+    },
+    {
+      "text": "Kugel",
+      "start": 4.04,
+      "end": 4.36
+    },
+    {
+      "text": " ",
+      "start": 4.36,
+      "end": 4.38
+    },
+    {
+      "text": "gestanden",
+      "start": 4.4,
+      "end": 4.9
+    },
+    {
+      "text": " ",
+      "start": 4.9,
+      "end": 4.94
+    },
+    {
+      "text": "hatte.",
+      "start": 4.94,
+      "end": 5.22
+    },
+    {
+      "text": " ",
+      "start": 5.22,
+      "end": 5.34
+    },
+    {
+      "text": "„Hundert",
+      "start": 6.24,
+      "end": 6.62
+    },
+    {
+      "text": " ",
+      "start": 6.62,
+      "end": 6.66
+    },
+    {
+      "text": "Jahre",
+      "start": 6.66,
+      "end": 6.96
+    },
+    {
+      "text": " ",
+      "start": 6.96,
+      "end": 7.02
+    },
+    {
+      "text": "lang“,",
+      "start": 7.02,
+      "end": 7.26
+    },
+    {
+      "text": " ",
+      "start": 7.26,
+      "end": 7.36
+    },
+    {
+      "text": "sagte",
+      "start": 7.96,
+      "end": 8.22
+    },
+    {
+      "text": " ",
+      "start": 8.22,
+      "end": 8.26
+    },
+    {
+      "text": "Constanze,",
+      "start": 8.26,
+      "end": 9
+    },
+    {
+      "text": " ",
+      "start": 9,
+      "end": 9.44
+    },
+    {
+      "text": "und",
+      "start": 9.44,
+      "end": 9.54
+    },
+    {
+      "text": " ",
+      "start": 9.54,
+      "end": 9.6
+    },
+    {
+      "text": "ihre",
+      "start": 9.6,
+      "end": 9.78
+    },
+    {
+      "text": " ",
+      "start": 9.78,
+      "end": 9.82
+    },
+    {
+      "text": "Stimme",
+      "start": 9.82,
+      "end": 10.24
+    },
+    {
+      "text": " ",
+      "start": 10.24,
+      "end": 10.38
+    },
+    {
+      "text": "zitterte.",
+      "start": 10.38,
+      "end": 10.92
+    },
+    {
+      "text": " ",
+      "start": 10.92,
+      "end": 10.921
+    },
+    {
+      "text": "Eine",
+      "start": 11.8,
+      "end": 11.96
+    },
+    {
+      "text": " ",
+      "start": 11.96,
+      "end": 12
+    },
+    {
+      "text": "Schneekugel",
+      "start": 12,
+      "end": 12.62
+    },
+    {
+      "text": " ",
+      "start": 12.62,
+      "end": 12.68
+    },
+    {
+      "text": "aus",
+      "start": 12.68,
+      "end": 12.84
+    },
+    {
+      "text": " ",
+      "start": 12.84,
+      "end": 12.88
+    },
+    {
+      "text": "Wiener",
+      "start": 12.88,
+      "end": 13.18
+    },
+    {
+      "text": " ",
+      "start": 13.18,
+      "end": 13.24
+    },
+    {
+      "text": "Glas,",
+      "start": 13.24,
+      "end": 13.76
+    },
+    {
+      "text": " ",
+      "start": 13.76,
+      "end": 14.26
+    },
+    {
+      "text": "darin",
+      "start": 14.26,
+      "end": 14.6
+    },
+    {
+      "text": " ",
+      "start": 14.6,
+      "end": 14.64
+    },
+    {
+      "text": "das",
+      "start": 14.64,
+      "end": 14.78
+    },
+    {
+      "text": " ",
+      "start": 14.78,
+      "end": 14.8
+    },
+    {
+      "text": "Hotel",
+      "start": 14.8,
+      "end": 15.22
+    },
+    {
+      "text": " ",
+      "start": 15.22,
+      "end": 15.28
+    },
+    {
+      "text": "als",
+      "start": 15.28,
+      "end": 15.44
+    },
+    {
+      "text": " ",
+      "start": 15.44,
+      "end": 15.5
+    },
+    {
+      "text": "Miniatur,",
+      "start": 15.5,
+      "end": 16.28
+    },
+    {
+      "text": " ",
+      "start": 16.28,
+      "end": 16.84
+    },
+    {
+      "text": "so",
+      "start": 16.84,
+      "end": 17.16
+    },
+    {
+      "text": " ",
+      "start": 17.16,
+      "end": 17.24
+    },
+    {
+      "text": "fein,",
+      "start": 17.24,
+      "end": 17.54
+    },
+    {
+      "text": " ",
+      "start": 17.54,
+      "end": 17.6
+    },
+    {
+      "text": "dass",
+      "start": 17.6,
+      "end": 17.78
+    },
+    {
+      "text": " ",
+      "start": 17.78,
+      "end": 17.82
+    },
+    {
+      "text": "man",
+      "start": 17.82,
+      "end": 17.92
+    },
+    {
+      "text": " ",
+      "start": 17.92,
+      "end": 17.96
+    },
+    {
+      "text": "die",
+      "start": 17.96,
+      "end": 18.08
+    },
+    {
+      "text": " ",
+      "start": 18.08,
+      "end": 18.14
+    },
+    {
+      "text": "Fenster",
+      "start": 18.14,
+      "end": 18.54
+    },
+    {
+      "text": " ",
+      "start": 18.54,
+      "end": 18.66
+    },
+    {
+      "text": "zählen",
+      "start": 18.66,
+      "end": 18.98
+    },
+    {
+      "text": " ",
+      "start": 18.98,
+      "end": 19.04
+    },
+    {
+      "text": "konnte.",
+      "start": 19.04,
+      "end": 19.54
+    },
+    {
+      "text": "\r",
+      "start": 19.54,
+      "end": 20.38
+    },
+    {
+      "text": "\n",
+      "start": 20.38,
+      "end": 20.381
+    },
+    {
+      "text": "\r",
+      "start": 20.381,
+      "end": 20.4
+    },
+    {
+      "text": "\n",
+      "start": 20.4,
+      "end": 20.44
+    },
+    {
+      "text": "Albins",
+      "start": 20.44,
+      "end": 20.8
+    },
+    {
+      "text": " ",
+      "start": 20.8,
+      "end": 20.86
+    },
+    {
+      "text": "Mütze",
+      "start": 20.86,
+      "end": 21.3
+    },
+    {
+      "text": " ",
+      "start": 21.3,
+      "end": 21.86
+    },
+    {
+      "text": "lag",
+      "start": 21.86,
+      "end": 22.14
+    },
+    {
+      "text": " ",
+      "start": 22.14,
+      "end": 22.2
+    },
+    {
+      "text": "auf",
+      "start": 22.2,
+      "end": 22.3
+    },
+    {
+      "text": " ",
+      "start": 22.3,
+      "end": 22.34
+    },
+    {
+      "text": "dem",
+      "start": 22.34,
+      "end": 22.48
+    },
+    {
+      "text": " ",
+      "start": 22.48,
+      "end": 22.52
+    },
+    {
+      "text": "Empfang,",
+      "start": 22.54,
+      "end": 23.06
+    },
+    {
+      "text": " ",
+      "start": 23.06,
+      "end": 23.6
+    },
+    {
+      "text": "ordentlich",
+      "start": 23.6,
+      "end": 24.02
+    },
+    {
+      "text": " ",
+      "start": 24.02,
+      "end": 24.06
+    },
+    {
+      "text": "gefaltet,",
+      "start": 24.06,
+      "end": 24.66
+    },
+    {
+      "text": " ",
+      "start": 24.66,
+      "end": 24.78
+    },
+    {
+      "text": "als",
+      "start": 24.78,
+      "end": 25.12
+    },
+    {
+      "text": " ",
+      "start": 25.12,
+      "end": 25.16
+    },
+    {
+      "text": "hätte",
+      "start": 25.16,
+      "end": 25.44
+    },
+    {
+      "text": " ",
+      "start": 25.44,
+      "end": 25.48
+    },
+    {
+      "text": "er",
+      "start": 25.48,
+      "end": 25.6
+    },
+    {
+      "text": " ",
+      "start": 25.6,
+      "end": 25.68
+    },
+    {
+      "text": "nur",
+      "start": 25.68,
+      "end": 25.9
+    },
+    {
+      "text": " ",
+      "start": 25.9,
+      "end": 25.98
+    },
+    {
+      "text": "kurz",
+      "start": 25.98,
+      "end": 26.26
+    },
+    {
+      "text": " ",
+      "start": 26.26,
+      "end": 26.3
+    },
+    {
+      "text": "hinausgehen",
+      "start": 26.3,
+      "end": 27.08
+    },
+    {
+      "text": " ",
+      "start": 27.08,
+      "end": 27.14
+    },
+    {
+      "text": "wollen.",
+      "start": 27.14,
+      "end": 27.54
+    },
+    {
+      "text": " ",
+      "start": 27.54,
+      "end": 27.541
+    },
+    {
+      "text": "Sein",
+      "start": 28.2,
+      "end": 28.38
+    },
+    {
+      "text": " ",
+      "start": 28.38,
+      "end": 28.44
+    },
+    {
+      "text": "Mantel",
+      "start": 28.44,
+      "end": 29.12
+    },
+    {
+      "text": " ",
+      "start": 29.12,
+      "end": 29.18
+    },
+    {
+      "text": "hing",
+      "start": 29.18,
+      "end": 29.34
+    },
+    {
+      "text": " ",
+      "start": 29.34,
+      "end": 29.38
+    },
+    {
+      "text": "noch",
+      "start": 29.38,
+      "end": 29.54
+    },
+    {
+      "text": " ",
+      "start": 29.54,
+      "end": 29.6
+    },
+    {
+      "text": "am",
+      "start": 29.6,
+      "end": 29.72
+    },
+    {
+      "text": " ",
+      "start": 29.72,
+      "end": 29.76
+    },
+    {
+      "text": "Haken.",
+      "start": 29.76,
+      "end": 30.22
+    },
+    {
+      "text": " ",
+      "start": 30.22,
+      "end": 30.221
+    },
+    {
+      "text": "Draußen",
+      "start": 31,
+      "end": 31.4
+    },
+    {
+      "text": " ",
+      "start": 31.4,
+      "end": 31.46
+    },
+    {
+      "text": "lag",
+      "start": 31.46,
+      "end": 31.62
+    },
+    {
+      "text": " ",
+      "start": 31.62,
+      "end": 31.66
+    },
+    {
+      "text": "der",
+      "start": 31.66,
+      "end": 31.78
+    },
+    {
+      "text": " ",
+      "start": 31.78,
+      "end": 31.82
+    },
+    {
+      "text": "Schnee",
+      "start": 31.82,
+      "end": 32.159
+    },
+    {
+      "text": " ",
+      "start": 32.159,
+      "end": 32.24
+    },
+    {
+      "text": "kniehoch,",
+      "start": 32.24,
+      "end": 32.9
+    },
+    {
+      "text": " ",
+      "start": 32.9,
+      "end": 33.02
+    },
+    {
+      "text": "und",
+      "start": 33.02,
+      "end": 33.28
+    },
+    {
+      "text": " ",
+      "start": 33.28,
+      "end": 33.82
+    },
+    {
+      "text": "vor",
+      "start": 33.82,
+      "end": 33.92
+    },
+    {
+      "text": " ",
+      "start": 33.92,
+      "end": 33.96
+    },
+    {
+      "text": "der",
+      "start": 33.96,
+      "end": 34.12
+    },
+    {
+      "text": " ",
+      "start": 34.12,
+      "end": 34.2
+    },
+    {
+      "text": "Tür",
+      "start": 34.2,
+      "end": 34.58
+    },
+    {
+      "text": " ",
+      "start": 34.58,
+      "end": 35.22
+    },
+    {
+      "text": "gab",
+      "start": 35.22,
+      "end": 35.4
+    },
+    {
+      "text": " ",
+      "start": 35.4,
+      "end": 35.44
+    },
+    {
+      "text": "es",
+      "start": 35.44,
+      "end": 35.58
+    },
+    {
+      "text": " ",
+      "start": 35.58,
+      "end": 35.66
+    },
+    {
+      "text": "keine",
+      "start": 35.66,
+      "end": 36.04
+    },
+    {
+      "text": " ",
+      "start": 36.04,
+      "end": 36.14
+    },
+    {
+      "text": "einzige",
+      "start": 36.14,
+      "end": 36.62
+    },
+    {
+      "text": " ",
+      "start": 36.62,
+      "end": 36.72
+    },
+    {
+      "text": "Spur.",
+      "start": 36.72,
+      "end": 37.24
+    },
+    {
+      "text": "\r",
+      "start": 37.24,
+      "end": 37.9
+    },
+    {
+      "text": "\n",
+      "start": 37.9,
+      "end": 37.92
+    },
+    {
+      "text": "\r",
+      "start": 37.92,
+      "end": 37.921
+    },
+    {
+      "text": "\n",
+      "start": 37.921,
+      "end": 37.94
+    },
+    {
+      "text": "Die",
+      "start": 37.94,
+      "end": 38.04
+    },
+    {
+      "text": " ",
+      "start": 38.04,
+      "end": 38.1
+    },
+    {
+      "text": "Polizei",
+      "start": 38.1,
+      "end": 38.6
+    },
+    {
+      "text": " ",
+      "start": 38.6,
+      "end": 38.66
+    },
+    {
+      "text": "versprach",
+      "start": 38.66,
+      "end": 39.12
+    },
+    {
+      "text": " ",
+      "start": 39.12,
+      "end": 39.2
+    },
+    {
+      "text": "zu",
+      "start": 39.2,
+      "end": 39.32
+    },
+    {
+      "text": " ",
+      "start": 39.32,
+      "end": 39.38
+    },
+    {
+      "text": "kommen,",
+      "start": 39.38,
+      "end": 39.7
+    },
+    {
+      "text": " ",
+      "start": 39.7,
+      "end": 39.78
+    },
+    {
+      "text": "sobald",
+      "start": 39.78,
+      "end": 40.14
+    },
+    {
+      "text": " ",
+      "start": 40.14,
+      "end": 40.16
+    },
+    {
+      "text": "der",
+      "start": 40.16,
+      "end": 40.28
+    },
+    {
+      "text": " ",
+      "start": 40.28,
+      "end": 40.34
+    },
+    {
+      "text": "Ring",
+      "start": 40.34,
+      "end": 40.54
+    },
+    {
+      "text": " ",
+      "start": 40.54,
+      "end": 40.58
+    },
+    {
+      "text": "geräumt",
+      "start": 40.58,
+      "end": 41.1
+    },
+    {
+      "text": " ",
+      "start": 41.1,
+      "end": 41.18
+    },
+    {
+      "text": "war.",
+      "start": 41.18,
+      "end": 41.4
+    },
+    {
+      "text": " ",
+      "start": 41.4,
+      "end": 41.94
+    },
+    {
+      "text": "Niemand",
+      "start": 41.94,
+      "end": 42.38
+    },
+    {
+      "text": " ",
+      "start": 42.38,
+      "end": 42.46
+    },
+    {
+      "text": "wusste,",
+      "start": 42.46,
+      "end": 42.92
+    },
+    {
+      "text": " ",
+      "start": 42.92,
+      "end": 43.44
+    },
+    {
+      "text": "wann",
+      "start": 43.44,
+      "end": 43.66
+    },
+    {
+      "text": " ",
+      "start": 43.66,
+      "end": 43.72
+    },
+    {
+      "text": "das",
+      "start": 43.72,
+      "end": 43.94
+    },
+    {
+      "text": " ",
+      "start": 43.94,
+      "end": 44.02
+    },
+    {
+      "text": "sein",
+      "start": 44.02,
+      "end": 44.3
+    },
+    {
+      "text": " ",
+      "start": 44.3,
+      "end": 44.36
+    },
+    {
+      "text": "würde.",
+      "start": 44.36,
+      "end": 44.7
+    },
+    {
+      "text": "\r",
+      "start": 44.7,
+      "end": 45.58
+    },
+    {
+      "text": "\n",
+      "start": 45.58,
+      "end": 45.580999999999996
+    },
+    {
+      "text": "\r",
+      "start": 45.580999999999996,
+      "end": 45.6
+    },
+    {
+      "text": "\n",
+      "start": 45.6,
+      "end": 45.62
+    },
+    {
+      "text": "Constanze",
+      "start": 45.62,
+      "end": 46.16
+    },
+    {
+      "text": " ",
+      "start": 46.16,
+      "end": 46.22
+    },
+    {
+      "text": "sah",
+      "start": 46.22,
+      "end": 46.32
+    },
+    {
+      "text": " ",
+      "start": 46.32,
+      "end": 46.36
+    },
+    {
+      "text": "Larissa",
+      "start": 46.36,
+      "end": 46.84
+    },
+    {
+      "text": " ",
+      "start": 46.84,
+      "end": 46.94
+    },
+    {
+      "text": "an.",
+      "start": 46.94,
+      "end": 47.26
+    },
+    {
+      "text": " ",
+      "start": 47.26,
+      "end": 47.260999999999996
+    },
+    {
+      "text": "„Er",
+      "start": 48.12,
+      "end": 48.22
+    },
+    {
+      "text": " ",
+      "start": 48.22,
+      "end": 48.24
+    },
+    {
+      "text": "hat",
+      "start": 48.24,
+      "end": 48.38
+    },
+    {
+      "text": " ",
+      "start": 48.38,
+      "end": 48.42
+    },
+    {
+      "text": "Ihnen",
+      "start": 48.42,
+      "end": 48.62
+    },
+    {
+      "text": " ",
+      "start": 48.62,
+      "end": 48.66
+    },
+    {
+      "text": "einen",
+      "start": 48.66,
+      "end": 48.88
+    },
+    {
+      "text": " ",
+      "start": 48.88,
+      "end": 48.92
+    },
+    {
+      "text": "Brief",
+      "start": 48.92,
+      "end": 49.18
+    },
+    {
+      "text": " ",
+      "start": 49.18,
+      "end": 49.22
+    },
+    {
+      "text": "geschickt“,",
+      "start": 49.22,
+      "end": 49.78
+    },
+    {
+      "text": " ",
+      "start": 49.78,
+      "end": 50.14
+    },
+    {
+      "text": "sagte",
+      "start": 50.14,
+      "end": 50.46
+    },
+    {
+      "text": " ",
+      "start": 50.46,
+      "end": 50.52
+    },
+    {
+      "text": "sie.",
+      "start": 50.52,
+      "end": 50.8
+    },
+    {
+      "text": " ",
+      "start": 50.8,
+      "end": 50.800999999999995
+    },
+    {
+      "text": "Es",
+      "start": 51.36,
+      "end": 51.48
+    },
+    {
+      "text": " ",
+      "start": 51.48,
+      "end": 51.52
+    },
+    {
+      "text": "war",
+      "start": 51.52,
+      "end": 51.66
+    },
+    {
+      "text": " ",
+      "start": 51.66,
+      "end": 51.72
+    },
+    {
+      "text": "keine",
+      "start": 51.72,
+      "end": 51.98
+    },
+    {
+      "text": " ",
+      "start": 51.98,
+      "end": 52.06
+    },
+    {
+      "text": "Frage.",
+      "start": 52.06,
+      "end": 52.64
+    },
+    {
+      "text": " ",
+      "start": 52.64,
+      "end": 52.66
+    },
+    {
+      "text": "„Dann",
+      "start": 53.46,
+      "end": 53.64
+    },
+    {
+      "text": " ",
+      "start": 53.64,
+      "end": 53.68
+    },
+    {
+      "text": "sind",
+      "start": 53.68,
+      "end": 53.84
+    },
+    {
+      "text": " ",
+      "start": 53.84,
+      "end": 53.88
+    },
+    {
+      "text": "Sie",
+      "start": 53.88,
+      "end": 53.98
+    },
+    {
+      "text": " ",
+      "start": 53.98,
+      "end": 54.02
+    },
+    {
+      "text": "die",
+      "start": 54.02,
+      "end": 54.12
+    },
+    {
+      "text": " ",
+      "start": 54.12,
+      "end": 54.2
+    },
+    {
+      "text": "Einzige,",
+      "start": 54.2,
+      "end": 54.56
+    },
+    {
+      "text": " ",
+      "start": 54.56,
+      "end": 54.62
+    },
+    {
+      "text": "der",
+      "start": 54.62,
+      "end": 54.72
+    },
+    {
+      "text": " ",
+      "start": 54.72,
+      "end": 54.76
+    },
+    {
+      "text": "er",
+      "start": 54.76,
+      "end": 54.84
+    },
+    {
+      "text": " ",
+      "start": 54.84,
+      "end": 54.9
+    },
+    {
+      "text": "etwas",
+      "start": 54.9,
+      "end": 55.16
+    },
+    {
+      "text": " ",
+      "start": 55.16,
+      "end": 55.18
+    },
+    {
+      "text": "hinterlassen",
+      "start": 55.18,
+      "end": 55.7
+    },
+    {
+      "text": " ",
+      "start": 55.7,
+      "end": 55.74
+    },
+    {
+      "text": "hat.“",
+      "start": 55.74,
+      "end": 56.64
+    },
+    {
+      "text": "\r",
+      "start": 56.64,
+      "end": 56.641
+    },
+    {
+      "text": "\n",
+      "start": 56.64,
+      "end": 56.641
+    },
+    {
+      "text": "\r",
+      "start": 56.64,
+      "end": 56.641
+    },
+    {
+      "text": "\n",
+      "start": 56.641,
+      "end": 56.68
+    },
+    {
+      "text": "Unter",
+      "start": 56.7,
+      "end": 56.86
+    },
+    {
+      "text": " ",
+      "start": 56.86,
+      "end": 56.9
+    },
+    {
+      "text": "der",
+      "start": 56.9,
+      "end": 57.02
+    },
+    {
+      "text": " ",
+      "start": 57.02,
+      "end": 57.08
+    },
+    {
+      "text": "Mütze",
+      "start": 57.08,
+      "end": 57.54
+    },
+    {
+      "text": " ",
+      "start": 57.54,
+      "end": 58.02
+    },
+    {
+      "text": "lag",
+      "start": 58.02,
+      "end": 58.22
+    },
+    {
+      "text": " ",
+      "start": 58.22,
+      "end": 58.26
+    },
+    {
+      "text": "ein",
+      "start": 58.26,
+      "end": 58.4
+    },
+    {
+      "text": " ",
+      "start": 58.4,
+      "end": 58.56
+    },
+    {
+      "text": "Zettel.",
+      "start": 58.56,
+      "end": 58.96
+    },
+    {
+      "text": " ",
+      "start": 58.96,
+      "end": 59.06
+    },
+    {
+      "text": "Die",
+      "start": 59.58,
+      "end": 59.7
+    },
+    {
+      "text": " ",
+      "start": 59.7,
+      "end": 59.76
+    },
+    {
+      "text": "Buchstaben",
+      "start": 59.76,
+      "end": 60.48
+    },
+    {
+      "text": " ",
+      "start": 60.48,
+      "end": 60.54
+    },
+    {
+      "text": "ergaben",
+      "start": 60.54,
+      "end": 61.2
+    },
+    {
+      "text": " ",
+      "start": 61.2,
+      "end": 61.3
+    },
+    {
+      "text": "keinen",
+      "start": 61.3,
+      "end": 61.68
+    },
+    {
+      "text": " ",
+      "start": 61.68,
+      "end": 61.78
+    },
+    {
+      "text": "Sinn.",
+      "start": 61.78,
+      "end": 62.08
+    },
+    {
+      "text": "\r",
+      "start": 62.08,
+      "end": 62.66
+    },
+    {
+      "text": "\n",
+      "start": 62.66,
+      "end": 62.660999999999994
+    },
+    {
+      "text": "\r",
+      "start": 62.66,
+      "end": 62.660999999999994
+    },
+    {
+      "text": "\n",
+      "start": 62.660999999999994,
+      "end": 62.7
+    },
+    {
+      "text": "Und",
+      "start": 62.7,
+      "end": 62.78
+    },
+    {
+      "text": " ",
+      "start": 62.78,
+      "end": 62.82
+    },
+    {
+      "text": "während",
+      "start": 62.82,
+      "end": 63.08
+    },
+    {
+      "text": " ",
+      "start": 63.08,
+      "end": 63.12
+    },
+    {
+      "text": "Larissa",
+      "start": 63.12,
+      "end": 63.62
+    },
+    {
+      "text": " ",
+      "start": 63.62,
+      "end": 63.66
+    },
+    {
+      "text": "noch",
+      "start": 63.66,
+      "end": 63.8
+    },
+    {
+      "text": " ",
+      "start": 63.8,
+      "end": 63.84
+    },
+    {
+      "text": "darauf",
+      "start": 63.84,
+      "end": 64.16
+    },
+    {
+      "text": " ",
+      "start": 64.16,
+      "end": 64.22
+    },
+    {
+      "text": "starrte,",
+      "start": 64.28,
+      "end": 64.819
+    },
+    {
+      "text": " ",
+      "start": 64.819,
+      "end": 65.3
+    },
+    {
+      "text": "begann",
+      "start": 65.3,
+      "end": 65.72
+    },
+    {
+      "text": " ",
+      "start": 65.72,
+      "end": 65.78
+    },
+    {
+      "text": "hinter",
+      "start": 65.78,
+      "end": 66.14
+    },
+    {
+      "text": " ",
+      "start": 66.14,
+      "end": 66.22
+    },
+    {
+      "text": "ihr",
+      "start": 66.22,
+      "end": 66.7
+    },
+    {
+      "text": " ",
+      "start": 66.7,
+      "end": 66.76
+    },
+    {
+      "text": "die",
+      "start": 66.76,
+      "end": 67
+    },
+    {
+      "text": " ",
+      "start": 67,
+      "end": 67.1
+    },
+    {
+      "text": "alte",
+      "start": 67.1,
+      "end": 67.4
+    },
+    {
+      "text": " ",
+      "start": 67.4,
+      "end": 67.46
+    },
+    {
+      "text": "Standuhr",
+      "start": 67.46,
+      "end": 68.04
+    },
+    {
+      "text": " ",
+      "start": 68.04,
+      "end": 68.14
+    },
+    {
+      "text": "zu",
+      "start": 68.14,
+      "end": 68.26
+    },
+    {
+      "text": " ",
+      "start": 68.26,
+      "end": 68.32
+    },
+    {
+      "text": "schlagen.",
+      "start": 68.32,
+      "end": 68.84
+    }
+  ]
+}

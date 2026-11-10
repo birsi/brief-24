@@ -70,5 +70,309 @@
     "prompt_influence": 0.5,
     "loop": false,
     "generated": "2026-11-10T21:56:41.192Z"
+  },
+  "paper": {
+    "hash": "9145b530921df17e",
+    "text": "An old sheet of letter paper being unfolded and handled, soft dry rustle, close, no music, no voices",
+    "duration_seconds": 2,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:09:13.565Z"
+  },
+  "sniff": {
+    "hash": "3c20199c6eaef6ab",
+    "text": "A large dog sniffing curiously, a few short sniffs and a soft snort, close microphone, no barking, no music",
+    "duration_seconds": 2,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:09:15.558Z"
+  },
+  "revolving-door": {
+    "hash": "d557216ee5ab89f4",
+    "text": "A heavy brass and glass hotel revolving door turning slowly, soft swoosh and brush seals, interior, no music, no voices",
+    "duration_seconds": 3,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:09:18.763Z"
+  },
+  "lobby": {
+    "hash": "7fb8e92611b62de1",
+    "text": "Room tone of a grand old hotel lobby late in the evening, very quiet, a slow ticking clock far away, soft air, no music, no voices",
+    "duration_seconds": 12,
+    "prompt_influence": 0.5,
+    "loop": true,
+    "generated": "2026-11-10T22:09:22.691Z"
+  },
+  "blizzard": {
+    "hash": "0317f3178aab71b2",
+    "text": "A heavy snowstorm heard from inside a large building, wind pressing against tall old windows, soft gusts, steady, no music, no voices",
+    "duration_seconds": 15,
+    "prompt_influence": 0.5,
+    "loop": true,
+    "generated": "2026-11-10T22:09:27.500Z"
+  },
+  "dog-shake": {
+    "hash": "aed52c4e2f853553",
+    "text": "A large wet dog shaking itself off vigorously, flapping ears and a jingling collar tag, indoors, no barking, no music",
+    "duration_seconds": 2.5,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:09:29.101Z"
+  },
+  "key-counter": {
+    "hash": "018b1dd7e0bea092",
+    "text": "A heavy brass object being set down on a polished wooden counter, one solid metallic clack, close, no music, no voices",
+    "duration_seconds": 1,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:09:31.857Z"
+  },
+  "globe-shimmer": {
+    "hash": "9d2f02728e72a0df",
+    "text": "A delicate glassy shimmer like tiny glass chimes and fine snow swirling inside a glass globe, soft, magical, gentle, short",
+    "duration_seconds": 4,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:09:33.486Z"
+  },
+  "drawer": {
+    "hash": "9e4505bc8f5534b8",
+    "text": "An old wooden desk drawer being pulled open, small objects shifting inside, close, no music, no voices",
+    "duration_seconds": 2,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:09:37.962Z"
+  },
+  "lamp-click": {
+    "hash": "4cb9bab0656b4c70",
+    "text": "A small flashlight switch clicking on once, close, dry, no music, no voices",
+    "duration_seconds": 0.6,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:09:40.642Z"
+  },
+  "fireplace": {
+    "hash": "88955ab9128be032",
+    "text": "A wood fire crackling quietly in an open fireplace in a panelled room, steady, close, no music, no voices",
+    "duration_seconds": 12,
+    "prompt_influence": 0.5,
+    "loop": true,
+    "generated": "2026-11-10T22:09:45.591Z"
+  },
+  "running-steps": {
+    "hash": "3161b99477b53d7b",
+    "text": "Light quick footsteps of a young woman running out of a room across a wooden floor, fading away, then a door swinging shut, no music, no voices",
+    "duration_seconds": 3,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:09:48.406Z"
+  },
+  "phone-ring": {
+    "hash": "a2fb30cb5b87899d",
+    "text": "An old mechanical bell telephone ringing twice in the next room of a quiet building, slightly muffled, no music, no voices",
+    "duration_seconds": 3.5,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:09:50.992Z"
+  },
+  "safe-close": {
+    "hash": "d4dde75687835049",
+    "text": "The heavy steel door of an old safe being pushed shut with a deep metallic clunk, close, no music, no voices",
+    "duration_seconds": 1.5,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:09:53.358Z"
+  },
+  "floor-creak": {
+    "hash": "6ef1884f3e566b40",
+    "text": "An old wooden floorboard creaking slowly under a single careful step, close, no music, no voices",
+    "duration_seconds": 2,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:09:55.974Z"
+  },
+  "pearls": {
+    "hash": "4c0f01ce312b0343",
+    "text": "A few pearls dropping onto wooden stairs one after another and rolling a short way, small bright taps, close, no music, no voices",
+    "duration_seconds": 3,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:09:57.551Z"
+  },
+  "cup": {
+    "hash": "8a0368eaf3d77c3b",
+    "text": "A porcelain coffee cup being set down gently on its saucer, close, no music, no voices",
+    "duration_seconds": 1,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:10:00.843Z"
+  },
+  "book-thud": {
+    "hash": "020e940bfe0db82a",
+    "text": "A very heavy old leather-bound book being set down on a wooden table, a single dull thud, close, no music, no voices",
+    "duration_seconds": 1.5,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:10:03.957Z"
+  },
+  "drip": {
+    "hash": "3632dda0fec5ca54",
+    "text": "Water dripping slowly onto stone in a large, silent, dark hall at night, sparse single drops with a faint echo, no music, no voices",
+    "duration_seconds": 10,
+    "prompt_influence": 0.5,
+    "loop": true,
+    "generated": "2026-11-10T22:10:09.964Z"
+  },
+  "steps-door-slam": {
+    "hash": "928d2fbd67335cd1",
+    "text": "Quick heavy footsteps hurrying across old wooden floorboards overhead, then a door slamming shut somewhere above, muffled through the ceiling, no music, no voices",
+    "duration_seconds": 3.5,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:10:14.716Z"
+  },
+  "crate": {
+    "hash": "99e45d241d666299",
+    "text": "The lid of a small wooden crate being lifted, wood creak and the dry rustle of wood wool packing, close, no music, no voices",
+    "duration_seconds": 2.5,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:10:17.181Z"
+  },
+  "envelope-slide": {
+    "hash": "b2ae599c05c77df9",
+    "text": "A paper envelope being pushed under a door and sliding across a wooden floor, short, close, no music, no voices",
+    "duration_seconds": 1.5,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:10:19.541Z"
+  },
+  "page-turn": {
+    "hash": "4f55a7b05f49d4bc",
+    "text": "A single thick page of an old ledger being turned slowly, close, no music, no voices",
+    "duration_seconds": 1.5,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:10:23.768Z"
+  },
+  "furnace": {
+    "hash": "afe431afe38ac903",
+    "text": "A small glassblowing workshop, the steady low roar of a furnace, warm and enclosed, no music, no voices",
+    "duration_seconds": 12,
+    "prompt_influence": 0.5,
+    "loop": true,
+    "generated": "2026-11-10T22:10:28.059Z"
+  },
+  "hall-hush": {
+    "hash": "4471b35831a1f6d8",
+    "text": "Room tone of a vast baroque library hall, almost silent, huge reverberant space, a faint distant footstep now and then, no music, no voices",
+    "duration_seconds": 12,
+    "prompt_influence": 0.5,
+    "loop": true,
+    "generated": "2026-11-10T22:10:33.584Z"
+  },
+  "market": {
+    "hash": "52a3acd7f04f85bf",
+    "text": "An outdoor Christmas market at night in a city square, a quiet crowd murmur, distant laughter, cups clinking, footsteps on snow, no music, no distinct words",
+    "duration_seconds": 15,
+    "prompt_influence": 0.5,
+    "loop": true,
+    "generated": "2026-11-10T22:10:39.788Z"
+  },
+  "crows": {
+    "hash": "932d41ffbc210bbf",
+    "text": "A few crows cawing in a quiet snowy cemetery on a winter afternoon, sparse, distant, no music, no voices",
+    "duration_seconds": 6,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:10:43.797Z"
+  },
+  "distant-bell": {
+    "hash": "9834906834ed5832",
+    "text": "A single small church bell ringing slowly a few times far away behind a wall on a quiet winter afternoon, no music, no voices",
+    "duration_seconds": 6,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:10:46.171Z"
+  },
+  "cafe": {
+    "hash": "81b1a2f30720953e",
+    "text": "A quiet old Viennese coffee house in the afternoon, soft murmur of a few guests, cups and spoons, no music, no distinct words",
+    "duration_seconds": 15,
+    "prompt_influence": 0.5,
+    "loop": true,
+    "generated": "2026-11-10T22:10:54.662Z"
+  },
+  "lights-on": {
+    "hash": "a82f6f3fe8110687",
+    "text": "Old electric lights flickering back on after a power cut, a brief electrical hum and a few soft ticks, interior, no music, no voices",
+    "duration_seconds": 2,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:10:58.839Z"
+  },
+  "sledging": {
+    "hash": "2f7853d73112f0cf",
+    "text": "Children sledging and laughing in a snowy park in the distance on a winter afternoon, open air, faint, no music, no distinct words",
+    "duration_seconds": 12,
+    "prompt_influence": 0.5,
+    "loop": true,
+    "generated": "2026-11-10T22:11:03.514Z"
+  },
+  "dog-bark": {
+    "hash": "bcbdcab5233fc71d",
+    "text": "A single loud deep bark of a large dog indoors, one bark only, short room echo, no music",
+    "duration_seconds": 1.2,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:11:08.247Z"
+  },
+  "click": {
+    "hash": "d3bb3316435e8deb",
+    "text": "A small precise metallic click of a hidden spring mechanism releasing, close, dry, no music, no voices",
+    "duration_seconds": 0.8,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:11:13.029Z"
+  },
+  "metal-groan": {
+    "hash": "e54cc497dcefed40",
+    "text": "A huge old iron and brass clock mechanism jolting awake after years, one heavy jolt and a long low groan of metal, no ticking, no music, no voices",
+    "duration_seconds": 3,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:11:15.807Z"
+  },
+  "gears": {
+    "hash": "d160d8c4ce933fd9",
+    "text": "Large heavy brass gears of a tower clock slowly starting to turn, deep grinding and rolling, no music, no voices",
+    "duration_seconds": 4,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:11:18.319Z"
+  },
+  "lock-rings": {
+    "hash": "05a6e2636ed2f8ad",
+    "text": "The small brass number rings of an old combination padlock being turned, a few soft ratcheting clicks, close, no music, no voices",
+    "duration_seconds": 2.5,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:11:22.716Z"
+  },
+  "pen-writing": {
+    "hash": "8b8be495ad30d750",
+    "text": "A fountain pen writing steadily on thick paper, soft scratching strokes, close, no music, no voices",
+    "duration_seconds": 6,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:11:26.447Z"
+  },
+  "emboss": {
+    "hash": "fd1e0db59c7a695a",
+    "text": "A hand-held embossing press being squeezed onto thick paper, a firm crunch and release, close, no music, no voices",
+    "duration_seconds": 1.5,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T22:11:28.082Z"
   }
 }
