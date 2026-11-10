@@ -1,0 +1,31 @@
+{
+  "_comment": "Sound effects for the narration recordings (npm run sfx → content/sfx/preview/). 'sounds': one entry per sound, generated once with ElevenLabs Sound Effects from 'prompt' ('seconds' 0.5–30, 'loop' for beds), or 'file' for your own recording. 'files': cues per recording. A cue is anchored to a phrase of the text ('at', or 'start'); 'edge' start|end picks the start or end of that phrase, 'offset' shifts it in seconds, 'gain' is the level in dB relative to the voice: every sound is first matched to the voice's average level, so 0 = as loud as the voice and -10 = clearly in the background, whatever the generated file's own loudness. 'to' (a phrase or 'end') turns the cue into a looped bed. 'repeat' plays it several times: 'every' seconds apart, 'anchor' last = the last one lands on the phrase, 'gainFrom' = level of the first one. 'trim' cuts a sound to that many seconds.",
+  "sounds": {
+    "knock": { "prompt": "Three firm knocks on a heavy wooden hotel room door in a quiet corridor at night, close, dry, no music, no voices", "seconds": 1.5 },
+    "door-open": { "prompt": "An old heavy wooden hotel room door opening slowly with a soft creak, interior, close, no music, no voices", "seconds": 2.5 },
+    "door-close": { "prompt": "A heavy wooden hotel room door closing gently, ending with a soft latch click, interior, close, no music", "seconds": 1.5 },
+    "growl": { "prompt": "A large dog growling low and quiet from deep in its chest, steady and menacing, close microphone, no barking, no music", "seconds": 3 },
+    "snow-steps": { "prompt": "Two people walking slowly side by side over fresh snow at night in a quiet, empty old-town street, soft crunching footsteps, no voices, no traffic, no music", "seconds": 12, "loop": true },
+    "pummerin": { "prompt": "A single toll of an enormous, very deep cathedral bell heard from a few streets away across a quiet snowy city at night, long resonant decay, no other bells, no music", "seconds": 8 },
+    "clock-strike": { "prompt": "A single strike of a large old tower clock bell, heard from inside the building through walls, deep and slightly muffled, resonant decay, no ticking, no music", "seconds": 4 },
+    "rumble": { "prompt": "A short deep rumble and shudder running through an old building as a heavy hidden mechanism releases, wood and stone, no music", "seconds": 2.5 },
+    "shelf-opens": { "prompt": "A heavy wooden bookshelf swinging open like a hidden door, slow deep wooden creak ending in a soft thud, interior, no music", "seconds": 3.5 }
+  },
+  "files": {
+    "day-10/continuation": [
+      { "at": "Larissa klopfte", "edge": "end", "offset": 0.1, "sound": "knock", "gain": -5 },
+      { "at": "bis die Tür aufging", "edge": "end", "offset": 0.05, "sound": "door-open", "gain": -9 },
+      { "at": "Als die Tür sich schloss", "edge": "end", "sound": "door-close", "gain": -8 },
+      { "at": "knurrte Fanny", "edge": "end", "offset": 0.1, "sound": "growl", "gain": -3 }
+    ],
+    "day-16/continuation": [
+      { "at": "Auf dem Rückweg", "to": "end", "sound": "snow-steps", "gain": -12, "fadeIn": 1.5, "fadeOut": 2.5 },
+      { "at": "die Pummerin", "sound": "pummerin", "gain": -9.5, "repeat": { "count": 3, "every": 4.5 } }
+    ],
+    "day-23/narration": [
+      { "at": "Bei zwölf", "sound": "clock-strike", "gain": -11.5, "repeat": { "count": 12, "every": 1.5, "anchor": "last", "gainFrom": -26.5 } },
+      { "at": "ging ein Ruck", "sound": "rumble", "gain": -8 },
+      { "at": "schwang auf", "sound": "shelf-opens", "gain": -10 }
+    ]
+  }
+}

@@ -14,7 +14,8 @@
     "test": "node scripts/test-answers.mjs",
     "tts:record": "node --env-file-if-exists=.env scripts/record.mjs",
     "tts:morse": "node --env-file-if-exists=.env scripts/morse.mjs",
-    "tts:voices": "node --env-file-if-exists=.env scripts/tts-voices.mjs"
+    "tts:voices": "node --env-file-if-exists=.env scripts/tts-voices.mjs",
+    "sfx": "node --env-file-if-exists=.env scripts/sfx.mjs"
   },
   "dependencies": {
     "qrcode": "^1.5.4",

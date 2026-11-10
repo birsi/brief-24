@@ -30,3 +30,6 @@ qr/
 
 # Old versions of regenerated images (npm run images)
 media-backup/
+
+# Preview mixes with sound effects (npm run sfx)
+content/sfx/preview/

@@ -1,0 +1,74 @@
+{
+  "knock": {
+    "hash": "5891183d88097b50",
+    "text": "Three firm knocks on a heavy wooden hotel room door in a quiet corridor at night, close, dry, no music, no voices",
+    "duration_seconds": 1.5,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T21:54:35.056Z"
+  },
+  "door-open": {
+    "hash": "574f4188294f1704",
+    "text": "An old heavy wooden hotel room door opening slowly with a soft creak, interior, close, no music, no voices",
+    "duration_seconds": 2.5,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T21:54:36.650Z"
+  },
+  "door-close": {
+    "hash": "aec45bbb2c414a60",
+    "text": "A heavy wooden hotel room door closing gently, ending with a soft latch click, interior, close, no music",
+    "duration_seconds": 1.5,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T21:54:38.279Z"
+  },
+  "growl": {
+    "hash": "29d2aad2348356e5",
+    "text": "A large dog growling low and quiet from deep in its chest, steady and menacing, close microphone, no barking, no music",
+    "duration_seconds": 3,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T21:54:39.977Z"
+  },
+  "snow-steps": {
+    "hash": "a6f8a6d89665d71c",
+    "text": "Two people walking slowly side by side over fresh snow at night in a quiet, empty old-town street, soft crunching footsteps, no voices, no traffic, no music",
+    "duration_seconds": 12,
+    "prompt_influence": 0.5,
+    "loop": true,
+    "generated": "2026-11-10T21:55:33.129Z"
+  },
+  "pummerin": {
+    "hash": "1ac51b7c4fbb8e54",
+    "text": "A single toll of an enormous, very deep cathedral bell heard from a few streets away across a quiet snowy city at night, long resonant decay, no other bells, no music",
+    "duration_seconds": 8,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T21:55:36.046Z"
+  },
+  "clock-strike": {
+    "hash": "4d5344ef08723617",
+    "text": "A single strike of a large old tower clock bell, heard from inside the building through walls, deep and slightly muffled, resonant decay, no ticking, no music",
+    "duration_seconds": 4,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T21:56:37.744Z"
+  },
+  "rumble": {
+    "hash": "c4ce1935c0317e85",
+    "text": "A short deep rumble and shudder running through an old building as a heavy hidden mechanism releases, wood and stone, no music",
+    "duration_seconds": 2.5,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T21:56:39.553Z"
+  },
+  "shelf-opens": {
+    "hash": "52842bf7372e03a4",
+    "text": "A heavy wooden bookshelf swinging open like a hidden door, slow deep wooden creak ending in a soft thud, interior, no music",
+    "duration_seconds": 3.5,
+    "prompt_influence": 0.5,
+    "loop": false,
+    "generated": "2026-11-10T21:56:41.192Z"
+  }
+}
