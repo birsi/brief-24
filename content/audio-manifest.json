@@ -643,7 +643,7 @@
     "textNote": "Spoken text identical to the recording (numbers spelled out via pronunciations)"
   },
   "day-23/continuation": {
-    "hash": "b64d6e88ac7604ca",
+    "hash": "daf2498906157073",
     "voice": "5KvpaGteYkNayiswuX2h",
     "model": "eleven_multilingual_v2",
     "seed": 24,
@@ -654,8 +654,8 @@
       "use_speaker_boost": true,
       "speed": 0.95
     },
-    "chars": 658,
-    "generated": "2026-11-07T21:11:58.701Z"
+    "chars": 1143,
+    "generated": "2026-11-10T20:49:00.624Z"
   },
   "day-24/narration": {
     "hash": "4b804792e9da26c2",

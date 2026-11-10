@@ -22,7 +22,7 @@ export default function Calendar() {
 
       <header style={{ padding: 'calc(55px + env(safe-area-inset-top)) 20px 14px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6, position: 'relative' }}>
         <StarIcon className="star" />
-        <div className="label" style={{ letterSpacing: '0.24em', textAlign: 'center', marginTop: 5}}>Grand Hotel Morgenstern</div>
+        <div className="label" style={{ letterSpacing: '0.24em', textAlign: 'center', marginTop: 5}}>{isSolved(1) ? 'Grand Hotel Morgenstern' : 'Advent 2026'}</div>
         <h1 className={finished ? 'finale-title' : undefined} style={{ fontSize: 30, textAlign: 'center' }}>Der Brief vom 24. Dezember</h1>
         <div className="small" style={{ display: 'flex', gap: 18, marginTop: 4, flexWrap: 'wrap', justifyContent: 'center' }}>
           {finished ? <span>Zugestellt · alle 24 Tage gelöst</span> : beforeStart ? <span>Die erste Zustellung kommt am 1. Dezember</span> : daysLeft > 0 ? <span>Noch {daysLeft} {daysLeft === 1 ? 'Tag' : 'Tage'} bis Heiligabend</span> : <span>Heiligabend</span>}

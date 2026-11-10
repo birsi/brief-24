@@ -787,7 +787,7 @@ Fanny schnupperte daran und wedelte.
 
 **Briefmarke 4**: auf der Rückseite des Umschlags · Motiv Riesenrad · Stempel „WIEN 2 · 3. VI. 1898“ · Buchstabe **C**
 
-**Hinweis in der App**: „Sieh nach, was unter deiner Tür liegt.“
+**Hinweis in der App**: „Sieh nach, was unter deiner Tür liegt. Öffne den Umschlag erst morgen.“
 
 ### Hinweise
 
@@ -1469,9 +1469,13 @@ Larissa hatte den Satz für eine Laune gehalten, an jenem ersten Morgen. Aber Fa
 
 Und jetzt saß sie vor dem Fach, als hätte sie es schon immer gekannt.
 
+Albin griff in die Innentasche seiner Uniform und reichte ihr etwas. Den vergilbten Umschlag mit der Prägung, der aus Zimmer 24 verschwunden war. Die Polizisten hätten ihn in Jonas’ Mantel gefunden, sagte er. Sie werde ihn morgen brauchen.
+
 „Die Zahl kennen Sie“, sagte Albin. „Aber nicht heute. Morgen, am Abend. So steht es geschrieben.“
 
 In der Tür stand Frau Lenz, im Morgenmantel, eine Kerze in der Hand. Niemand wusste, wie sie die Treppe heruntergekommen war.
+
+Die zweite Kugel stehe auf ihrem Nachttisch in Zimmer 7, erklärte sie, als wäre es das Selbstverständlichste der Welt. Die Dame habe sie ihr geschenkt, an jenem Abend, beim Gutenachtsagen. Seit hundert Jahren passe sie darauf auf.
 
 „Morgen“, sagte sie und lächelte wie ein kleines Mädchen. „Morgen schreiben Sie ihn.“
 

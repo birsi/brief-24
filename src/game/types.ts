@@ -13,6 +13,8 @@ export type Payload = {
   stamp: Stamp | null;
   record: string | null;
   epilogue: string[] | null;
+  /** Something to do in the real world after solving (texts.md: "Hinweis in der App"). */
+  cue: string | null;
 };
 
 export type DayData = Payload & {

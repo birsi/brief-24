@@ -20,8 +20,6 @@ Dev mode locally: `http://localhost:5173/?dev`, then `/dev`.
 1. Import the repo into Vercel (framework: Vite, settings come from `vercel.json`).
 2. Deploy. Dev mode: `https://<your-domain>/?dev`, then `/dev`.
 
-Keep the repo **private** 🤫: `content/solutions.json` contains every solution.
-
 ## 💾 Answers and progress
 
 - Answers, continuations, stamps and hints are plain JSON in the bundle (`src/generated/days.json`). There is no encryption; anyone who opens the dev tools can read them.
@@ -39,7 +37,7 @@ The texts come from the Claude doc "Der Brief vom 24. Dezember – Texte".
 1. Export the doc as Markdown and save it as `content/texts.md`.
 2. Run `npm run content` (this also runs automatically on `dev`/`build`).
 
-Taken per day: title, date line, "App – Erzählung" (plain paragraphs only, up to the first bold label), "App – Fortsetzung" (all plain paragraphs) and the three hints. Questions, puzzle widgets and special texts live in `src/game/config.ts`; answers and stamps in `content/solutions.json`.
+Taken per day: title, date line, "App – Erzählung" (plain paragraphs only, up to the first bold label), "App – Fortsetzung" (all plain paragraphs), the three hints, and an optional `**Hinweis in der App**: „…“` line in the continuation (shown on screen after solving, not read aloud). Questions, puzzle widgets and special texts live in `src/game/config.ts`; answers and stamps in `content/solutions.json`.
 
 The notebook's "Figuren" section comes from `content/figures.json`. `open` notes appear once their day is opened, `solve` notes only after the day's answer. `npm test` checks that every note ends up in `src/generated/days.json`. In dev mode, `/dev` → "Figuren prüfen" shows all notes up to a chosen day.
 

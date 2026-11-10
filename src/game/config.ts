@@ -68,7 +68,7 @@ export const CONFIG: Record<number, DayConfig> = {
   10: { question: 'Wessen Zimmer ist das?', placeholder: 'Name', widget: { type: 'footprints' } },
   11: { question: 'Was hat Hartl anfertigen lassen?' },
   12: { question: 'Was ist Hartls Kugel?', widget: { type: 'differences' } },
-  13: { question: 'Was verraten die Stempel?' },
+  13: { question: 'Was verraten die Stempel?', widget: { type: 'hint', text: 'Öffne jetzt den Umschlag der Polizeidirektion.' } },
   14: { question: 'Welche Bestellnummer suchst du?', placeholder: 'Nummer', widget: { type: 'orderbook' } },
   15: { question: 'Wo beginnt der Weg ins Archiv?' },
   16: {

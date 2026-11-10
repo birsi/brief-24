@@ -17,13 +17,13 @@
     "14": { "answers": ["120", "HUNDERTZWANZIG"] },
     "15": { "answers": ["UHRWERK"], "stamp": { "num": 5, "letter": "R", "motif": "Burgtheater", "postmark": "WIEN 1 · 14. X. 1888", "year": 1888 } },
     "16": { "answers": ["SCHLUESSEL", "EINSCHLUESSEL", "DERSCHLUESSEL"] },
-    "17": { "answers": ["ZURUECK"] },
+    "17": { "answers": ["ZURUECK", "SIEKOMMTZURUECK", "KOMMTZURUECK", "LARISSASIEKOMMTZURUECK"] },
     "18": { "answers": ["WEINKELLER"], "stamp": { "num": 6, "letter": "I", "motif": "Stephansdom", "postmark": "WIEN 1 · 21. XI. 1916", "year": 1916 } },
     "19": { "answers": ["1224"], "record": "Trau nicht dem, der dir zuerst hilft." },
     "20": { "answers": ["REITER", "JONAS", "JONASREITER", "JREITER"], "video": true },
     "21": { "answers": ["ARCHIV"] },
     "22": { "answers": ["VIER", "4"], "video": true },
     "23": { "answers": ["FANNY"], "special": { "ALBIN": "Ich habe nur einen Brief zugestellt.", "BRIEF": "Der Brief hat dir gesagt, wen du mitnehmen sollst." } },
-    "24": { "answers": ["BIRSAK", "LARISSABIRSAK"], "video": true, "epilogue": ["Jeder Brief in der Zeitpost wartet auf seinen Tag.", "Schreib deinen eigenen. Zuzustellen am 1. Dezember 2027."] }
+    "24": { "answers": ["BIRSAK", "LARISSABIRSAK", "LARISSA", "LARISSAS", "MEINE", "MEINEBIBLIOTHEK", "VONLARISSABIRSAK", "AUSDERBIBLIOTHEKVONLARISSABIRSAK"], "video": true, "epilogue": ["Jeder Brief in der Zeitpost wartet auf seinen Tag.", "Schreib deinen eigenen. Zuzustellen am 1. Dezember 2027."] }
   }
 }

@@ -52,6 +52,7 @@ for (let num = 1; num <= 24; num++) {
     stamp: l.stamp || null,
     record: l.record || null,
     epilogue: l.epilogue || null,
+    cue: d.cue || null,
   });
 }
 

@@ -10,7 +10,7 @@ export function parseTexts(md = readFileSync(new URL('../content/texts.md', impo
     const line = raw.trimEnd();
     const dayMatch = line.match(/^## Tag (\d+) – (.+)$/);
     if (dayMatch) {
-      cur = { num: Number(dayMatch[1]), title: dayMatch[2].trim(), meta: '', card: [], narration: [], continuation: [], hints: [], imageNarration: '', imageResolution: '' };
+      cur = { num: Number(dayMatch[1]), title: dayMatch[2].trim(), meta: '', card: [], narration: [], continuation: [], hints: [], imageNarration: '', imageResolution: '', cue: '' };
       days[cur.num] = cur;
       section = 'meta';
       continue;
@@ -37,6 +37,9 @@ export function parseTexts(md = readFileSync(new URL('../content/texts.md', impo
         else cur.imageResolution = image[3];
         continue;
       }
+      // "Hinweis in der App": shown on screen after the continuation, not read aloud.
+      const cue = line.match(/^\*\*Hinweis in der App\*\*:\s*„(.+)“$/);
+      if (cue && section === 'continuation') { cur.cue = cue[1]; continue; }
       // Only keep plain narration paragraphs: no labels, lists or quotes.
       if (line.includes('**') || /^[-*>]\s|^\d+\.\s|^\|/.test(line.trim())) {
         if (section === 'narration') cur._stopNarration = true; // the narration ends at the first label

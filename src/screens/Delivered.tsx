@@ -73,6 +73,12 @@ export default function Delivered() {
         </div>
       ) : null}
 
+      {payload.cue ? (
+        <div className="card-gold" style={{ margin: '28px 16px 0', textAlign: 'center' }}>
+          <p style={{ margin: 0, fontStyle: 'italic', fontSize: 20, lineHeight: 1.5 }}>{payload.cue}</p>
+        </div>
+      ) : null}
+
       {payload.epilogue ? (
         <div className="card-gold candle" style={{ margin: '32px 16px 0', textAlign: 'center', display: 'flex', flexDirection: 'column', gap: 10 }}>
           {payload.epilogue.map((l, i) => (
