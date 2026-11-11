@@ -41,7 +41,7 @@ Jeder Tag hat dieselben Bausteine. Rätsel und Lösungen folgen der Rätsel-Matr
 
 > Liebe Larissa,
 >
-> Mach dir keine Sorgen um mich. Ob du mir glaubst oder nicht, spielt jetzt noch keine Rolle. Richte dich auf Schnee ein, auf mehr Schnee, als Wien seit Langem gesehen hat. Geh noch heute in das Haus, in dem ich diesen Brief hinterlasse. Erschrick nicht, wenn man dich dort erwartet. Nimm Fanny mit, sie kennt den Weg besser als du. Sie wird dir zeigen, wem du trauen kannst. Trau nicht dem, der dir zuerst hilft. Eine Kugel wird verschwinden, und alle werden den Dieb suchen. Rätsle nicht über den Dieb. Rätsle lieber über den Brief. Nichts davon ist, wie es scheint, und doch ist alles genau so.
+> Mach dir keine Sorgen um mich. Ob du mir glaubst oder nicht, spielt jetzt noch keine Rolle. Richte dich auf Schnee ein, auf mehr Schnee, als Wien seit Langem gesehen hat. Geh noch heute in das Haus, in dem ich diesen Brief hinterlasse. Erschrick nicht, wenn man dich dort erwartet. Nimm Fanny mit, sie kennt den Weg besser als du. Sie wird dir zeigen, wem du trauen kannst. Trau nicht dem, der dir zuerst hilft. Eine Kugel wird verschwinden, und alle werden den Dieb suchen. Rätsle nicht über den Dieb, rätsle lieber über den Brief. Nichts davon ist, wie es scheint, und doch ist alles genau so.
 >
 > Wien, am 24. Dezember 1926 L.
 
@@ -828,6 +828,8 @@ Die sechs Aussagen, **in dieser gemischten Reihenfolge** auf die Seiten verteilt
 | **U** | Page K. Brunner | „Viertel sieben bat mich die Dame, die Kugel aus ihrem Zimmer in die Lobby zu bringen, zur anderen. Ich sagte, das dürfe ich nicht.“ |
 | **G** | Oberkellner M. Steiner | „Um halb acht saß die Dame allein im Speisesaal. Sie aß nichts und sah immer wieder zur Tür.“ |
 
+**Mit Bleistift, von Hand, nach dem Druck**: am Rand neben der Aussage des Pagen (Stempel U) zwei kleine Kreise nebeneinander und das Wort „Zwei?“. Auf der Rückseite der letzten Seite: „Hietzinger Friedhof, Gruppe 13“. Auf diese Notiz verweist Karte 17.
+
 Wiener Uhrzeiten: viertel sieben = 18:15, halb acht = 19:30, dreiviertel acht = 19:45, viertel neun = 20:15. Chronologisch: K (17:45), U (18:15), G (19:30), E (19:45), L (20:15), N (21:30).
 
 ### App – Erzählung (Audio)
@@ -868,7 +870,7 @@ Aber Larissa wusste jetzt, wo sie anfangen musste. Die Kugel war in Hernals gema
 
 ### Vorbereitung
 
-Akte drucken: Deckblatt, sechs Aussagen auf zwei bis drei Seiten in der gemischten Reihenfolge oben, rote Stempelbuchstaben, verwischtes Foto. Alles in den Umschlag von Tag 12.
+Akte drucken: Deckblatt, sechs Aussagen auf zwei bis drei Seiten in der gemischten Reihenfolge oben, rote Stempelbuchstaben, verwischtes Foto. Danach mit Bleistift die beiden Notizen des Inspektors ergänzen: „Zwei?“ mit zwei Kreisen neben der Aussage des Pagen, „Hietzinger Friedhof, Gruppe 13“ auf der Rückseite der letzten Seite. Alles in den Umschlag von Tag 12.
 
 ## Tag 14 – Tauwetter
 
