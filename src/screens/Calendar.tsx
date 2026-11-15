@@ -38,11 +38,9 @@ export default function Calendar() {
           const isToday = open && !solved && today === dayDate(d.num);
           if (solved) {
             return (
-              <button key={d.num} onClick={() => nav(`/day/${d.num}`)} className={finished ? 'finale-door' : undefined} aria-label={`Tag ${d.num}, ${d.title}, gelöst`} style={{ animationDelay: finished ? `${(d.num - 1) * 0.22}s` : undefined, height: 90, border: '1px solid var(--gold)', background: 'var(--navy-3)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 4, padding: 0 }}>
-                <span style={{ fontFamily: 'var(--serif-display)', fontWeight: 600, fontSize: 24, lineHeight: 1 }}>{d.num}</span>
-                <span aria-hidden="true" style={{ width: 22, height: 22, borderRadius: '50%', background: 'var(--red)', boxShadow: '0 1px 0 rgba(0,0,0,.35), inset 0 0 0 2px rgba(0,0,0,.18)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <svg width="11" height="11" viewBox="0 0 12 12"><path d="M6 0 L7 5 L12 6 L7 7 L6 12 L5 7 L0 6 L5 5 Z" fill="var(--gold)" /></svg>
-                </span>
+              <button key={d.num} onClick={() => nav(`/day/${d.num}`)} className={finished ? 'solved-door finale-door' : 'solved-door'} aria-label={`Tag ${d.num}, ${d.title}, gelöst`} style={{ animationDelay: finished ? `${(d.num - 1) * 0.22}s` : undefined, height: 90, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 6, padding: 0 }}>
+                <span style={{ fontFamily: 'var(--serif-display)', fontWeight: 600, fontSize: 26, lineHeight: 1 }}>{d.num}</span>
+                <WaxSeal id={`seal-${d.num}`} />
               </button>
             );
           }
@@ -85,5 +83,34 @@ export default function Calendar() {
       <div style={{ height: finished ? 64 : 28 }} />
       <BottomNav />
     </div>
+  );
+}
+
+// Wax seal outline: a circle with 12 soft bumps, like pressed wax.
+const SEAL_PATH = (() => {
+  const pts: string[] = [];
+  for (let i = 0; i < 56; i++) {
+    const a = (i / 56) * Math.PI * 2;
+    const r = 13 + Math.sin(a * 12) * 0.55;
+    pts.push(`${(14 + r * Math.cos(a)).toFixed(2)},${(14 + r * Math.sin(a)).toFixed(2)}`);
+  }
+  return `M${pts.join('L')}Z`;
+})();
+
+function WaxSeal({ id }: { id: string }) {
+  return (
+    <svg className="wax-seal" aria-hidden="true" width="28" height="28" viewBox="0 0 28 28">
+      <defs>
+        <radialGradient id={id} cx="38%" cy="32%" r="75%">
+          <stop offset="0" stopColor="#c4434a" />
+          <stop offset=".6" stopColor="#9e2b32" />
+          <stop offset="1" stopColor="#6e1a20" />
+        </radialGradient>
+      </defs>
+      <path d={SEAL_PATH} fill={`url(#${id})`} />
+      <circle cx="14" cy="14" r="8.6" fill="none" stroke="rgba(0,0,0,.28)" strokeWidth="1.2" />
+      <circle cx="14" cy="14" r="8.6" fill="none" stroke="rgba(255,190,190,.18)" strokeWidth=".6" transform="translate(-.5 -.5)" />
+      <path d="M14 8.5 L15.1 12.9 L19.5 14 L15.1 15.1 L14 19.5 L12.9 15.1 L8.5 14 L12.9 12.9 Z" fill="var(--gold)" />
+    </svg>
   );
 }
