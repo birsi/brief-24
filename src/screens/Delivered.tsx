@@ -89,6 +89,12 @@ export default function Delivered() {
 
       <NotebookNews />
 
+      {num === 24 ? (
+        <h2 style={{ margin: '40px 16px 0', textAlign: 'center', color: 'var(--gold-soft)', fontSize: 34, textShadow: '0 0 18px rgba(255,214,130,.35)' }}>
+          Frohe Weihnachten, Larissa.
+        </h2>
+      ) : null}
+
       <div style={{ margin: '28px 16px 48px', display: 'flex', flexDirection: 'column', gap: 10 }}>
         <Link to="/" className="btn btn-outline-gold">Zum Kalender</Link>
         {num < 24 ? (
@@ -97,9 +103,7 @@ export default function Delivered() {
           ) : (
             <div className="small" style={{ textAlign: 'center' }}>Tag {num + 1} öffnet sich am {num + 1}. Dezember um 0:00 Uhr</div>
           )
-        ) : (
-          <div className="small" style={{ textAlign: 'center' }}>Frohe Weihnachten, Larissa.</div>
-        )}
+        ) : null}
       </div>
     </div>
   );
