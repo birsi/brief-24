@@ -27,7 +27,6 @@ The app is only half of the game. Each day starts with a printed **A5 card** tha
 
 <p align="center">
   <img src="docs/print/card-01.jpg" height="300" alt="Card for day 1: Der Brief" />
-  <img src="docs/print/card-04.jpg" height="300" alt="Card for day 4: Die Zeitpost" />
   <img src="docs/print/card-13.jpg" height="300" alt="Card for day 13: Die Akte" />
   <img src="docs/print/card-24.jpg" height="300" alt="Card for day 24: Der Brief vom 24. Dezember" />
 </p>
